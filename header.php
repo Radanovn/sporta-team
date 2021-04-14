@@ -31,10 +31,8 @@
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg p-0">
                         <div class="d-flex align-items-center">
-                            <a class="navbar-brand p-0" href="#">
-                                <img src="<?php print template_url(); ?>images/Logo.svg" class="d-inline-block align-top" alt="">
-                            </a>
-                            <span class="navbar-text p-0 d-none d-xl-inline-block">In full force for you sport club</span>
+                            <module type="logo" id="logo" template="default" class="d-inline-block align-top" default-text="Sporta"/>
+                            <span class="navbar-text edit safe-element p-0 d-none d-xl-inline-block">In full force for you sport club</span>
                         </div>
 
                         <button class="navbar-toggler d-md-none js-mobile-menu" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,20 +62,14 @@
                                     </div>
                                 </form>
                                 <div class="navbar-nav order-0">
-                                    <a class="nav-link active" href="#">News</a>
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <module type="menu" name="header_menu"template="default"/>
                                 </div>
                                 <div class="v-divider d-none d-lg-block order-lg-1"></div>
-                                <div class="order-lg-1">
-                                    <a href="#" class="btn-login">
-                                <span class="btn-login__icon">
-                                    <img src="<?php print template_url(); ?>images/user-icon.svg" class="d-inline-block align-top" alt="">
-                                </span>
-                                        <span>Log in</span>
-                                    </a>
+                                <div class="order-lg-1 edit safe-element">
+                                    <module type="btn" template="sporta" button_style="btn-link" />
                                 </div>
                                 <div class="wrap-btn text-center order-lg-1">
-                                    <a href="#" class="btn btn-animate btn-red">Join Sporta Club</a>
+                                    <module type="btn" template="sporta-btn" button_style="btn-link" />
                                 </div>
                             </div>
                         </div>
@@ -635,8 +627,7 @@
                             </li>
                         </ul>
                         <div class="navbar-nav">
-                            <a class="nav-link" href="#">Contact</a>
-                            <a class="nav-link" href="#">News</a>
+                            <module type="menu" name="header_menu"template="default"/>
                             <a href="#" class="nav-link btn-login">
                     <span class="btn-login__icon">
                         <img src="<?php print template_url(); ?>images/user-icon.svg" class="d-inline-block align-top" alt="">

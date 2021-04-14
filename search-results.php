@@ -1,0 +1,76 @@
+<?php include THIS_TEMPLATE_DIR . "header.php"; ?>
+
+            <section class="section section-search-results">
+                <div class="container position-relative">
+                    <div class="circles circles--top-left d-none d-lg-block">
+                        <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#52B392"/>
+                            <circle cx="16.828" cy="2.78745" r="2.78745" fill="#52B392"/>
+                            <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#52B392"/>
+                            <circle cx="32.0855" cy="16.578" r="2.78745" fill="#52B392"/>
+                            <circle cx="16.828" cy="16.578" r="2.78745" fill="#52B392"/>
+                            <circle cx="3.03745" cy="16.578" r="2.78745" fill="#52B392"/>
+                            <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#52B392"/>
+                            <circle cx="16.828" cy="30.3685" r="2.78745" fill="#52B392"/>
+                            <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#52B392"/>
+                        </svg>
+                    </div>
+                    <div class="circles circles--right d-none d-lg-block">
+                        <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#F6D278"/>
+                            <circle cx="16.828" cy="2.78745" r="2.78745" fill="#F6D278"/>
+                            <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#F6D278"/>
+                            <circle cx="32.0855" cy="16.578" r="2.78745" fill="#F6D278"/>
+                            <circle cx="16.828" cy="16.578" r="2.78745" fill="#F6D278"/>
+                            <circle cx="3.03745" cy="16.578" r="2.78745" fill="#F6D278"/>
+                            <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#F6D278"/>
+                            <circle cx="16.828" cy="30.3685" r="2.78745" fill="#F6D278"/>
+                            <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#F6D278"/>
+                        </svg>
+                    </div>
+                    <div class="circles circles--bottom-left d-none d-lg-block">
+                        <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#CA2F4E"/>
+                            <circle cx="16.828" cy="2.78745" r="2.78745" fill="#CA2F4E"/>
+                            <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#CA2F4E"/>
+                            <circle cx="32.0855" cy="16.578" r="2.78745" fill="#CA2F4E"/>
+                            <circle cx="16.828" cy="16.578" r="2.78745" fill="#CA2F4E"/>
+                            <circle cx="3.03745" cy="16.578" r="2.78745" fill="#CA2F4E"/>
+                            <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#CA2F4E"/>
+                            <circle cx="16.828" cy="30.3685" r="2.78745" fill="#CA2F4E"/>
+                            <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#CA2F4E"/>
+                        </svg>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-lg-9 mx-auto">
+                            <h1 class="search-results__title mb-0">6 results found for "search word"</h1>
+                            <article class="search-results__item">
+                                <h4 class="search-results__item-title"><a href="#">Titel page (clickable)</a></h4>
+                                <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
+                            </article>
+                            <article class="search-results__item">
+                                <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
+                                <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
+                            </article>
+                            <article class="search-results__item">
+                                <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
+                                <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
+                            </article>
+                            <article class="search-results__item">
+                                <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
+                                <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
+                            </article>
+                            <article class="search-results__item">
+                                <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
+                                <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
+                            </article>
+                            <article class="search-results__item">
+                                <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
+                                <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<?php include THIS_TEMPLATE_DIR . "footer.php"; ?>

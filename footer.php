@@ -1,0 +1,203 @@
+</main>
+</div>
+<footer class="footer bg-gray">
+    <div class="container">
+        <div class="row no-gutters justify-content-between">
+            <div class="col-md-3 col-xl-3 pr-xl-0 pr-lg-3">
+                <div class="text-center text-md-left">
+                    <a class="navbar-brand" href="#">
+                        <img src="<?php print template_url(); ?>images/Logo.svg" class="d-inline-block align-top" alt="">
+                    </a>
+                </div>
+                <p class="footer__small-text text-center text-md-left">The pinnacle of recreational sports is what Sporta-federatie vzw has to offer sports clubs.<br>
+                    The Sporta employees not only have the knowledge and experience, they are particularly keen to support your club activities fourfold.</p>
+                <div class="follow-us-block">
+                    <p class="follow-us-block__title">Follow us</p>
+                    <a href="#">
+                        <img src="<?php print template_url(); ?>images/logo_facebook.svg" class="d-inline-block align-top" alt="">
+                    </a>
+                </div>
+                <div class="collaboration-block text-center text-md-left">
+                    <p class="collaboration-block__title">In collaboration with</p>
+                    <div>
+                        <div class="collaboration-block__logo">
+                            <a href="#">
+                                <img src="<?php print template_url(); ?>images/logo_ethias.png" class="d-inline-block align-top" alt="">
+                            </a>
+                        </div>
+                        <div class="collaboration-block__logo">
+                            <a href="#">
+                                <img src="<?php print template_url(); ?>images/logo_sport.png" class="d-inline-block align-top" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <ul class="list-unstyled footer__menu">
+                    <li>
+                        <a href="#" class="footer__menu-link">JOIN SPORTA CLUB</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">Prices</a>
+                            </li>
+                            <li>
+                                <a href="#">Why participate</a>
+                            </li>
+                            <li>
+                                <a href="#">Onze clubs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">INSURANCE</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">Our sports insurance</a>
+                            </li>
+                            <li>
+                                <a href="#">Additional options</a>
+                            </li>
+                            <li>
+                                <a href="#">What to do in the event of an accident?</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">CLUB SUPPORT</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">Club benefits</a>
+                            </li>
+                            <li>
+                                <a href="#">Ideas and tools for your club</a>
+                            </li>
+                            <li>
+                                <a href="#">Youth sports subsidy</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">SPORT FOR ALL</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">Sport (a) for everyone</a>
+                            </li>
+                            <li>
+                                <a href="#">Social rate</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">MULTI SPORTS</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">Support for clubs</a>
+                            </li>
+                            <li>
+                                <a href="#">Methodologies “in the picture”</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">HEALTHY SPORTS</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">ETHICAL SPORTS</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">Unacceptable behavior</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">Training</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">Offer Sporta</a>
+                            </li>
+                            <li>
+                                <a href="#">Offer VTS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">SPORTS ACTIVITIES</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">Volley-ball</a>
+                            </li>
+                            <li>
+                                <a href="#">Table tennis</a>
+                            </li>
+                            <li>
+                                <a href="#">Swimming</a>
+                            </li>
+                            <li>
+                                <a href="#">Jogging</a>
+                            </li>
+                            <li>
+                                <a href="#">Gym & Dance</a>
+                            </li>
+                            <li>
+                                <a href="#">Badminton</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__menu-link">ABOUT SPORTA TEAM</a>
+                        <ul class="list-unstyled footer__submenu">
+                            <li>
+                                <a href="#">The team</a>
+                            </li>
+                            <li>
+                                <a href="#">Mission / Vision</a>
+                            </li>
+                            <li>
+                                <a href="#">Values and norms</a>
+                            </li>
+                            <li>
+                                <a href="#">Board and policy</a>
+                            </li>
+                            <li>
+                                <a href="#">House rules</a>
+                            </li>
+                            <li>
+                                <a href="#">Sporta</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="contact-block">
+                            <a href="#" class="footer__menu-link">Get in touch</a>
+                            <a href="mailto:Federatie@sporta.be" class="st-email">Federatie@sporta.be</a>
+                            <a href="tel:+32033615340" class="st-phone">+32 (0) 3 361 53 40</a>
+                            <p class="st-address">Boomgaardstraat 22 Bus 50 B-2600 Berchem</p>
+                            <a href="#" class="btn btn-animate btn-red">Contact us</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="copyright"><span class="copyright__symbol">©</span> Sporta Team</p>
+            <ul class="list-unstyled d-flex justify-content-end align-items-center footer__bottom-menu">
+                <li>
+                    <a href="#">Terms and Conditions</a>
+                </li>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+                <li>
+                    <a href="#">Disclaimer</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</div>
+<script type="text/javascript" src="<?php print template_url(); ?>js/bundle.js"></script></body>
+</html>

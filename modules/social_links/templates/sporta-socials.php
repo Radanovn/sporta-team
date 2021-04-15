@@ -10,14 +10,14 @@ description: Sporta socials
 
 */
 ?>
-<ul class="list-inline no-style mb-0">
+<ul class="list-inline no-style d-flex mb-0">
 
     <?php if ($social_links_has_enabled == false) {
         print lnotif('Social links');
     } ?>
 
     <?php if ($facebook_enabled) { ?>
-        <li class="mx-1"><a href="//facebook.com/<?php print $facebook_url; ?>" target="_blank" class="text-primary"><i class="mdi mdi-facebook mdi-24px"></i></a></li>
+        <li class="mx-1"><a href="//facebook.com/<?php print $facebook_url; ?>" target="_blank" class="text-primary"><img src="<?php print template_url(); ?>images/logo_facebook.svg" class="d-inline-block align-top" alt=""></a></li>
     <?php } ?>
 
     <?php if ($twitter_enabled) { ?>

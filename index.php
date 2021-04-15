@@ -98,7 +98,7 @@
                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    </div>
                                    <div class="card-footer bg-transparent border-0">
-                                       <module type="btn" template="sporta-links-with-icons">
+                                       <module type="btn" template="sporta-links-with-icons"/>
 
                                    </div>
                                </div>
@@ -125,7 +125,7 @@
                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    </div>
                                    <div class="card-footer bg-transparent border-0">
-                                       <module type="btn" template="sporta-links-with-icons">
+                                       <module type="btn" template="sporta-links-with-icons"/>
                                    </div>
                                </div>
                            </div>
@@ -179,14 +179,14 @@
                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    </div>
                                    <div class="card-footer bg-transparent border-0">
-                                       <module type="btn" template="sporta-links-with-icons">
+                                       <module type="btn" template="sporta-links-with-icons"/>
                                        </a>
                                    </div>
                                </div>
                            </div>
                        </div>
                        <div class="section-wrapper-btn text-center">
-                           <module type="btn" template="sporta-buttons" button_style="btn-green">
+                           <module type="btn" template="sporta-buttons" button_style="btn-green"/>
                        </div>
                    </div>
                </section>
@@ -236,7 +236,7 @@
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
-                                               <module type="btn" template="sporta-links-with-icons">
+                                               <module type="btn" template="sporta-links-with-icons"/>
                                            </div>
                                        </div>
                                    </div>
@@ -250,7 +250,7 @@
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
-                                               <module type="btn" template="sporta-links-with-icons">
+                                               <module type="btn" template="sporta-links-with-icons"/>
                                            </div>
                                        </div>
                                    </div>
@@ -264,7 +264,7 @@
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
-                                               <module type="btn" template="sporta-links-with-icons">
+                                               <module type="btn" template="sporta-links-with-icons"/>
                                            </div>
                                        </div>
                                    </div>
@@ -278,7 +278,7 @@
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
-                                               <module type="btn" template="sporta-links-with-icons">
+                                               <module type="btn" template="sporta-links-with-icons"/>
                                            </div>
                                        </div>
                                    </div>
@@ -292,7 +292,7 @@
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
-                                               <module type="btn" template="sporta-links-with-icons">
+                                               <module type="btn" template="sporta-links-with-icons"/>
                                            </div>
                                        </div>
                                    </div>
@@ -306,7 +306,7 @@
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
-                                               <module type="btn" template="sporta-links-with-icons">
+                                               <module type="btn" template="sporta-links-with-icons"/>
                                            </div>
                                        </div>
                                    </div>
@@ -320,7 +320,7 @@
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
-                                               <module type="btn" template="sporta-links-with-icons">
+                                               <module type="btn" template="sporta-links-with-icons"/>
                                            </div>
                                        </div>
                                    </div>
@@ -334,7 +334,7 @@
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
-                                               <module type="btn" template="sporta-links-with-icons">
+                                               <module type="btn" template="sporta-links-with-icons"/>
                                            </div>
                                        </div>
                                    </div>
@@ -342,7 +342,7 @@
                            </div>
                        </div>
                        <div class="section-wrapper-btn text-center">
-                           <module type="btn" template="sporta-buttons" button_style="btn-red">
+                           <module type="btn" template="sporta-buttons" button_style="btn-red"/>
 
                        </div>
                    </div>
@@ -359,7 +359,7 @@
                                    <h3 class="about-card__title">Our <span class="text-red">mission</span> and vision</h3>
                                    <p class="about-card__text  about-card__text--max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    <div class="about-card__wrap-link">
-                                       <module type="btn" template="sporta-links-with-icons" button-style="red text-decoration-none">
+                                       <module type="btn" template="sporta-links-with-icons" button-style="red text-decoration-none"/>
                                    </div>
                                </div>
                            </div>
@@ -417,7 +417,7 @@
                                    <h3 class="about-card__title">Our team <span class="text-green">support</span></h3>
                                    <p class="about-card__text  about-card__text--max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Exercitation veniam consequat sunt nostrud amet.</p>
                                    <div class="about-card__wrap-link">
-                                       <module type="btn" template="sporta-links-with-icons" button-style="green text-decoration-none">
+                                       <module type="btn" template="sporta-links-with-icons" button-style="green text-decoration-none"/>
                                    </div>
                                </div>
                            </div>
@@ -446,7 +446,7 @@
                                    <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
                                </div>
                                <div class="card-footer border-0 bg-transparent">
-                                   <module type="btn" template="sporta-card-links-with-icons" button_style="yellow">
+                                   <module type="btn" template="sporta-card-links-with-icons" button_style="yellow"/>
                                </div>
                            </div>
                            <div class="card border-0 bg-transparent">
@@ -462,7 +462,7 @@
                                    <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
                                </div>
                                <div class="card-footer border-0 bg-transparent">
-                                   <module type="btn" template="sporta-card-links-with-icons" button_style="red">
+                                   <module type="btn" template="sporta-card-links-with-icons" button_style="red"/>
                                </div>
                            </div>
                            <div class="card border-0 bg-transparent">
@@ -477,13 +477,13 @@
                                    <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
                                </div>
                                <div class="card-footer border-0 bg-transparent">
-                                   <module type="btn" template="sporta-card-links-with-icons" button_style="red">
+                                   <module type="btn" template="sporta-card-links-with-icons" button_style="red"/>
                                </div>
                            </div>
                        </div>
 
                        <div class="section-wrapper-btn text-center">
-                           <module type="btn" template="sporta-buttons" button_style="btn-green">
+                           <module type="btn" template="sporta-buttons" button_style="btn-green"/>
                        </div>
 
                    </div>
@@ -518,7 +518,7 @@
                                        <p class="lead-text">Nog niet overtuigd? Of heb je nog hulp nodig? Sed do eiusmod tempor incididunt u tempor incididun. Sed do eiusmod tempor.</p>
                                    </div>
 
-                                   <module type="contact_form" template="sporta-newsletter-form">
+                                   <module type="contact_form" template="sporta-newsletter-form"/>
                                </div>
                            </div>
                        </div>

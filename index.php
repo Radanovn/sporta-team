@@ -98,14 +98,8 @@
                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    </div>
                                    <div class="card-footer bg-transparent border-0">
-                                       <a href="#" class="card-link link">
-                                           Find out more
-                                           <span class="link__arrow">
-                                           <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                               <path d="M1.70711 0.370774C1.31658 -0.0197506 0.683417 -0.0197506 0.292893 0.370774C-0.0976315 0.761298 -0.0976314 1.39446 0.292893 1.78499L1.70711 0.370774ZM5 5.07788L5.70711 5.78499C5.89464 5.59745 6 5.3431 6 5.07788C6 4.81266 5.89464 4.55831 5.70711 4.37077L5 5.07788ZM0.292893 8.37077C-0.0976311 8.7613 -0.0976311 9.39446 0.292893 9.78499C0.683418 10.1755 1.31658 10.1755 1.70711 9.78499L0.292893 8.37077ZM0.292893 1.78499L4.29289 5.78499L5.70711 4.37077L1.70711 0.370774L0.292893 1.78499ZM4.29289 4.37077L0.292893 8.37077L1.70711 9.78499L5.70711 5.78499L4.29289 4.37077Z" fill="#000000"/>
-                                           </svg>
-                                       </span>
-                                       </a>
+                                       <module type="btn" template="sporta-links-with-icons">
+
                                    </div>
                                </div>
                            </div>
@@ -246,10 +240,10 @@
                            <div class="col-12 col-md-10 col-lg-11 mx-auto">
                                <div class="row wrapper-cards">
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-red text-center border-0 edit safe-element">
+                                       <div class="card color-red text-center border-0">
                                            <a href="#" class="full-card-link"></a>
-                                           <div class="card-header bg-transparent border-0">
-                                               <h5 class="card-title">Insurance</h5>
+                                           <div class="card-header bg-transparent border-0 edit safe-element">
+                                               <h5 class="card-title ">Insurance</h5>
                                            </div>
                                            <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
@@ -423,14 +417,14 @@
                    </div>
                </section>
 
-               <section class="section section-about">
+               <section class="section section-about edit safe-element">
                    <div class="container">
                        <div class="section__block-title text-center edit safe-element">
                            <h2>About Sporta Team</h2>
                        </div>
                        <div class="row no-gutters about-card">
                            <div class="col-12 col-lg-5 order-1">
-                               <div class="about-card-content pl-lg-1 edit safe-element">
+                               <div class="about-card-content pl-lg-1 ">
                                    <h3 class="about-card__title">Our <span class="text-red">mission</span> and vision</h3>
                                    <p class="about-card__text  about-card__text--max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    <div class="about-card__wrap-link">
@@ -494,7 +488,7 @@
                                    </picture>
                                </div>
                            </div>
-                           <div class="col-12 col-lg-5 offset-lg-1 edit safe-element">
+                           <div class="col-12 col-lg-5 offset-lg-1">
                                <div class="about-card-content">
                                    <h3 class="about-card__title">Our team <span class="text-green">support</span></h3>
                                    <p class="about-card__text  about-card__text--max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Exercitation veniam consequat sunt nostrud amet.</p>
@@ -603,7 +597,7 @@
                    <div class="container">
                        <div class="row no-gutters">
                            <div class="d-none d-lg-block col-lg-6">
-                               <div class="section-contact__wrap-img">
+                               <div class="section-contact__wrap-img edit safe-mode">
                                    <div class="rect rect--bottom-left rect--yellow d-none d-lg-block"></div>
                                    <div class="circles circles--bottom-left d-none d-lg-block">
                                        <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -623,7 +617,7 @@
                            </div>
                            <div class="col-12 col-lg-6">
                                <div class="section-contact__content mx-auto ml-lg-0">
-                                   <div class="section__block-title text-center text-lg-left mx-auto ml-lg-0">
+                                   <div class="section__block-title text-center text-lg-left mx-auto ml-lg-0 edit safe-mode">
                                        <h2>Request <span class="d-none d-lg-inline"><br></span>a free price-offer</h2>
                                        <p class="lead-text">Nog niet overtuigd? Of heb je nog hulp nodig? Sed do eiusmod tempor incididunt u tempor incididun. Sed do eiusmod tempor.</p>
                                    </div>

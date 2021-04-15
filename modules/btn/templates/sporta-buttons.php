@@ -12,7 +12,7 @@ description: sporta buttons
 ?>
  
 <?php if($action == 'submit'): ?>
-<button type="submit" id="<?php print $btn_id ?>" class="btn <?php print $style . ' ' . $size; ?>" <?php print $attributes ?>>
+<button type="submit" id="<?php print $btn_id ?>" class="<?php print $style ?>">
     <?php print $text; ?>
 </button>
 <?php else: ?>

@@ -430,15 +430,11 @@
                        <div class="section__block-title text-center edit safe-element">
                            <h2>News</h2>
                        </div>
-
                         <!--MODULE POSTLIST-->
-
-
-
+                       <module type="posts" template="default"/>
                        <div class="section-wrapper-btn text-center">
                            <module type="btn" template="sporta-buttons" button_style="btn-green"/>
                        </div>
-
                    </div>
                </section>
 

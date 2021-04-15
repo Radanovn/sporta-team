@@ -18,7 +18,7 @@ description: sporta buttons
 <?php else: ?>
 <a id="<?php print $btn_id ?>" href="<?php print $url; ?>" <?php if ($blank) {
     print ' target="_blank" ';
-} ?> class="btn btn-animate <?php print $style ?>">
+} ?> class="<?php print $style ?>">
 
     <?php print $text; ?>
 </a>

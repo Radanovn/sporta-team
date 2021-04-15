@@ -66,10 +66,10 @@
                                 </div>
                                 <div class="v-divider d-none d-lg-block order-lg-1"></div>
                                 <div class="order-lg-1 edit safe-element">
-                                    <module type="btn" template="sporta" button_style="btn-link" />
+                                    <module type="btn" template="sporta-login" button_style="btn-link" />
                                 </div>
                                 <div class="wrap-btn text-center order-lg-1">
-                                    <module type="btn" template="sporta-btn-red" button_style="btn-link" />
+                                    <module type="btn" template="sporta-buttons" button_style="btn-red">
                                 </div>
                             </div>
                         </div>

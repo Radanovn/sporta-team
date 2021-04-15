@@ -4,7 +4,7 @@
 
 type: layout
 
-name: Sporta link
+name: Sporta login
 
 description: Sporta template for link buttons
 
@@ -16,11 +16,9 @@ description: Sporta template for link buttons
 <?php else: ?>
     <a id="<?php print $btn_id ?>" href="<?php print $url; ?>" <?php if ($blank) {
         print ' target="_blank" ';
-    } ?>class="st-phone">
+    } ?> class="btn-login">
+        <span class="btn-login__icon"><img src="<?php print template_url(); ?>images/user-icon.svg" class="d-inline-block align-top" alt=""></span>
         <span><?php print $text; ?></span>
     </a>
 <?php endif; ?>
-
-
-
 

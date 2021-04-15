@@ -15,9 +15,11 @@ $url_blank = get_option('url_blank', $params['id']);
             <label class="control-label d-block"><?php _e("Color"); ?></label>
             <small class="text-muted d-block mb-3"><?php _e('Choose your button color from the dropdown.');?></small>
             <select class="mw_option_field selectpicker" data-width="100%" name="button_style">
-                <option <?php if ($style == 'btn-login'): ?>selected<?php endif; ?> value="btn-login"><?php _e("Login"); ?></option>
-                <option <?php if ($style == 'sporta-btn-red'): ?>selected<?php endif; ?> value="sporta-btn-red"><?php _e("Red"); ?></option>
-                <option <?php if ($style == 'sporta-btn-green'): ?>selected<?php endif; ?> value="sporta-btn-red"><?php _e("Green"); ?></option>
+                <option <?php if ($style == 'footer__menu-link'): ?>selected<?php endif; ?> value="footer__menu-link"><?php _e("footer menu link"); ?></option>
+                <option <?php if ($style == 'st-email'): ?>selected<?php endif; ?> value="st-email"><?php _e("footer link email"); ?></option>
+                <option <?php if ($style == 'st-phone'): ?>selected<?php endif; ?> value="st-phone"><?php _e("footer link phone"); ?></option>
+                <option <?php if ($style == 'btn btn-animate btn-red'): ?>selected<?php endif; ?> value="btn btn-animate btn-red"><?php _e("Red"); ?></option>
+                <option <?php if ($style == 'btn btn-animate btn-green'): ?>selected<?php endif; ?> value="btn btn-animate btn-green"><?php _e("Green"); ?></option>
             </select>
         </div>
     </div>

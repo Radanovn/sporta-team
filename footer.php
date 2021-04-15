@@ -34,52 +34,52 @@
             <div class="col-md-8">
                 <ul class="list-unstyled footer__menu">
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_1" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_2" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_3" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_4" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_5" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_6" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_7" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_8" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_9" template="footer"/>
                     </li>
                     <li>
-                        <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
+                        <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
                         <module type="menu" name="footer_menu_10" template="footer"/>
                     </li>
                     <li>
                         <div class="contact-block">
-                            <module type="btn" template="sporta-btn-footer-menu-link" button_style="btn-link" />
-                            <module type="btn" template="sporta-btn-link-email" button_style="btn-link" />
-                            <module type="btn" template="sporta-btn-link-phone" class="st-phone" button_style="btn-link" />
-                            <module type="btn" template="sporta-btn-link-p" class="st-address" button_style="btn-link" />
-                            <module type="btn" template="sporta-btn-red" button_style="btn-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="st-email" />
+                            <module type="btn" template="sporta-buttons" button_style="st-phone" />
+                            <module type="btn" template="sporta-btn-link-p" />
+                            <module type="btn" template="sporta-buttons" button_style="btn-red" />
                         </div>
                     </li>
                 </ul>

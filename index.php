@@ -205,7 +205,7 @@
                            </div>
                        </div>
                        <div class="section-wrapper-btn text-center">
-                           <module type="btn" template="sporta-buttons" button_style="sporta-btn-green">
+                           <module type="btn" template="sporta-buttons" button_style="btn-green">
                        </div>
                    </div>
                </section>
@@ -238,7 +238,7 @@
                                <circle cx="31.8355" cy="30.7904" r="2.78745" fill="#F6D278"/>
                            </svg>
                        </div>
-                       <div class="section__block-title text-center">
+                       <div class="section__block-title text-center edit safe-element">
                            <h2>Already a member?</h2>
                            <p class="lead-text">Get all advanteges of your membership</p>
                        </div>
@@ -246,12 +246,12 @@
                            <div class="col-12 col-md-10 col-lg-11 mx-auto">
                                <div class="row wrapper-cards">
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-red text-center border-0">
+                                       <div class="card color-red text-center border-0 edit safe-element">
                                            <a href="#" class="full-card-link"></a>
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Insurance</h5>
                                            </div>
-                                           <div class="card-body">
+                                           <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
@@ -267,12 +267,12 @@
                                        </div>
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-yellow text-center border-0">
+                                       <div class="card color-yellow text-center border-0 edit safe-element">
                                            <a href="#" class="full-card-link"></a>
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Club support</h5>
                                            </div>
-                                           <div class="card-body">
+                                           <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
@@ -288,12 +288,12 @@
                                        </div>
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-green text-center border-0">
+                                       <div class="card color-green text-center border-0 edit safe-element">
                                            <a href="#" class="full-card-link"></a>
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Sport for all</h5>
                                            </div>
-                                           <div class="card-body">
+                                           <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
@@ -309,12 +309,12 @@
                                        </div>
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-red text-center border-0">
+                                       <div class="card color-red text-center border-0 edit safe-element">
                                            <a href="#" class="full-card-link"></a>
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Multisports</h5>
                                            </div>
-                                           <div class="card-body">
+                                           <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
@@ -330,12 +330,12 @@
                                        </div>
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-yellow text-center border-0">
+                                       <div class="card color-yellow text-center border-0 edit safe-element">
                                            <a href="#" class="full-card-link"></a>
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Healthy sports</h5>
                                            </div>
-                                           <div class="card-body">
+                                           <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
@@ -351,12 +351,12 @@
                                        </div>
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-green text-center border-0">
+                                       <div class="card color-green text-center border-0 edit safe-element">
                                            <a href="#" class="full-card-link"></a>
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Ethical sporta</h5>
                                            </div>
-                                           <div class="card-body">
+                                           <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
@@ -372,12 +372,12 @@
                                        </div>
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-red text-center border-0">
+                                       <div class="card color-red text-center border-0 edit safe-element">
                                            <a href="#" class="full-card-link"></a>
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Training</h5>
                                            </div>
-                                           <div class="card-body">
+                                           <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
@@ -393,12 +393,12 @@
                                        </div>
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                                       <div class="card color-green text-center border-0">
+                                       <div class="card color-green text-center border-0 edit safe-element">
                                            <a href="#" class="full-card-link"></a>
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Sport activities</h5>
                                            </div>
-                                           <div class="card-body">
+                                           <div class="card-body edit safe-element">
                                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                                            </div>
                                            <div class="card-footer bg-transparent border-top-0">
@@ -417,19 +417,20 @@
                            </div>
                        </div>
                        <div class="section-wrapper-btn text-center">
-                           <a href="#" class="btn btn-animate btn-red">Sign in</a>
+                           <module type="btn" template="sporta-buttons" button_style="btn-red">
+
                        </div>
                    </div>
                </section>
 
                <section class="section section-about">
                    <div class="container">
-                       <div class="section__block-title text-center">
+                       <div class="section__block-title text-center edit safe-element">
                            <h2>About Sporta Team</h2>
                        </div>
                        <div class="row no-gutters about-card">
                            <div class="col-12 col-lg-5 order-1">
-                               <div class="about-card-content pl-lg-1">
+                               <div class="about-card-content pl-lg-1 edit safe-element">
                                    <h3 class="about-card__title">Our <span class="text-red">mission</span> and vision</h3>
                                    <p class="about-card__text  about-card__text--max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    <div class="about-card__wrap-link">
@@ -493,7 +494,7 @@
                                    </picture>
                                </div>
                            </div>
-                           <div class="col-12 col-lg-5 offset-lg-1">
+                           <div class="col-12 col-lg-5 offset-lg-1 edit safe-element">
                                <div class="about-card-content">
                                    <h3 class="about-card__title">Our team <span class="text-green">support</span></h3>
                                    <p class="about-card__text  about-card__text--max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Exercitation veniam consequat sunt nostrud amet.</p>
@@ -515,9 +516,11 @@
 
                <section class="section section-news bg-gray">
                    <div class="container">
-                       <div class="section__block-title text-center">
+                       <div class="section__block-title text-center edit safe-element">
                            <h2>News</h2>
                        </div>
+
+                        <!--MODULE POSTLIST-->
 
                        <div class="card-deck justify-content-between">
                            <div class="card border-0 bg-transparent">
@@ -590,7 +593,7 @@
                        </div>
 
                        <div class="section-wrapper-btn text-center">
-                           <a href="#" class="btn btn-animate btn-red">Read all news</a>
+                           <module type="btn" template="sporta-buttons" button_style="btn-red">
                        </div>
 
                    </div>
@@ -625,46 +628,7 @@
                                        <p class="lead-text">Nog niet overtuigd? Of heb je nog hulp nodig? Sed do eiusmod tempor incididunt u tempor incididun. Sed do eiusmod tempor.</p>
                                    </div>
 
-                                   <form class="form-newsletter needs-validation" novalidate>
-                                       <div class="form-row">
-                                           <div class="form-group col-sm-6">
-                                               <input type="text" class="form-control" placeholder="Your name" required>
-                                               <div class="invalid-feedback">Error text</div>
-                                           </div>
-                                           <div class="form-group col-sm-6">
-                                               <input type="text" class="form-control" placeholder="Voornaam*">
-                                           </div>
-                                       </div>
-                                       <div class="form-row">
-                                           <div class="form-group col-sm-6">
-                                               <input type="email" class="form-control" placeholder="Your.email@domain.com" required>
-                                               <div class="invalid-feedback">Error text</div>
-                                           </div>
-                                           <div class="form-group col-sm-6">
-                                               <input type="tel" class="form-control" placeholder="Telefoonnummer">
-                                           </div>
-                                       </div>
-                                       <div class="form-row">
-                                           <div class="form-group col-sm-6">
-                                               <input type="text" class="form-control" placeholder="Naam club">
-                                           </div>
-                                           <div class="form-group col-sm-6">
-                                               <input type="number" class="form-control" placeholder="Aantal leden">
-                                           </div>
-                                       </div>
-                                       <div class="form-group">
-                                           <textarea class="form-control" rows="1" placeholder="Beoefende sporttakken"></textarea>
-                                       </div>
-                                       <div class="form-group checkbox-wrap">
-                                           <div class="custom-control custom-checkbox">
-                                               <input type="checkbox" class="custom-control-input" id="check-newsletter">
-                                               <label class="custom-control-label" for="check-newsletter">Ja, ik wil op de hoogte gehouden worden via de nieuwsbrief</label>
-                                           </div>
-                                       </div>
-                                       <div class="text-center text-lg-left">
-                                           <button type="submit" class="btn btn-animate btn-red">Versturen</button>
-                                       </div>
-                                   </form>
+                                   <module type="contact_form" template="sporta-newsletter-form">
                                </div>
                            </div>
                        </div>

@@ -69,7 +69,7 @@
                                     <module type="btn" template="sporta" button_style="btn-link" />
                                 </div>
                                 <div class="wrap-btn text-center order-lg-1">
-                                    <module type="btn" template="sporta-btn" button_style="btn-link" />
+                                    <module type="btn" template="sporta-btn-red" button_style="btn-link" />
                                 </div>
                             </div>
                         </div>

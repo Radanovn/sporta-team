@@ -75,14 +75,14 @@
 </section>
                <section class="section section-participate">
                    <div class="container">
-                       <div class="section__block-title text-sm-center">
+                       <div class="section__block-title text-sm-center edit safe-element">
                            <h2>Why participate in Sporta Club?</h2>
                            <p class="lead-text">Some text about advantages of joining the Sporta club</p>
                        </div>
                        <div class="wrap-cards">
                            <div class="wrap-card__item">
                                <div class="card border-0 color-red">
-                                   <div class="card-header bg-transparent border-0">
+                                   <div class="card-header bg-transparent border-0 edit safe-element">
                                        <h5 class="card-title m-0 h-100">
                                        <span class="card-header__icon">
                                            <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +94,7 @@
                                            <span>Insurance</span>
                                        </h5>
                                    </div>
-                                   <div class="card-body">
+                                   <div class="card-body edit safe-element">
                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    </div>
                                    <div class="card-footer bg-transparent border-0">
@@ -111,7 +111,7 @@
                            </div>
                            <div class="wrap-card__item">
                                <div class="card border-0 color-green">
-                                   <div class="card-header bg-transparent border-0">
+                                   <div class="card-header bg-transparent border-0 edit safe-element">
                                        <h5 class="card-title m-0 h-100">
                                        <span class="card-header__icon">
                                            <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +127,7 @@
                                            <span>Club support</span>
                                        </h5>
                                    </div>
-                                   <div class="card-body">
+                                   <div class="card-body edit safe-element">
                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    </div>
                                    <div class="card-footer bg-transparent border-0">
@@ -144,7 +144,7 @@
                            </div>
                            <div class="wrap-card__item">
                                <div class="card border-0 color-yellow">
-                                   <div class="card-header bg-transparent border-0">
+                                   <div class="card-header bg-transparent border-0 edit safe-element">
                                        <h5 class="card-title m-0 h-100">
                                        <span class="card-header__icon">
                                            <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -160,7 +160,7 @@
                                            <span>Members’ Administration</span>
                                        </h5>
                                    </div>
-                                   <div class="card-body">
+                                   <div class="card-body edit safe-element">
                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    </div>
                                    <div class="card-footer bg-transparent border-0">
@@ -177,7 +177,7 @@
                            </div>
                            <div class="wrap-card__item">
                                <div class="card border-0 color-red">
-                                   <div class="card-header bg-transparent border-0">
+                                   <div class="card-header bg-transparent border-0 edit safe-element">
                                        <h5 class="card-title m-0 h-100">
                                        <span class="card-header__icon">
                                            <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -188,7 +188,7 @@
                                            <span>Easy all-in price formula</span>
                                        </h5>
                                    </div>
-                                   <div class="card-body">
+                                   <div class="card-body edit safe-element">
                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                                    </div>
                                    <div class="card-footer bg-transparent border-0">
@@ -205,7 +205,7 @@
                            </div>
                        </div>
                        <div class="section-wrapper-btn text-center">
-                           <a href="#" class="btn btn-animate btn-green">Join Sporta club</a>
+                           <module type="btn" template="sporta-buttons" button_style="sporta-btn-green">
                        </div>
                    </div>
                </section>

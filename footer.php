@@ -79,7 +79,7 @@
                             <module type="btn" template="sporta-btn-link-email" button_style="btn-link" />
                             <module type="btn" template="sporta-btn-link-phone" class="st-phone" button_style="btn-link" />
                             <module type="btn" template="sporta-btn-link-p" class="st-address" button_style="btn-link" />
-                            <module type="btn" template="sporta-btn" button_style="btn-link" />
+                            <module type="btn" template="sporta-btn-red" button_style="btn-link" />
                         </div>
                     </li>
                 </ul>

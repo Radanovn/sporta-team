@@ -228,7 +228,7 @@
                                <div class="row wrapper-cards">
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                        <div class="card color-red text-center border-0">
-                                           <a href="#" class="full-card-link"></a>
+<!--                                           <a href="#" class="full-card-link"></a>-->
                                            <div class="card-header bg-transparent border-0 edit safe-element">
                                                <h5 class="card-title ">Insurance</h5>
                                            </div>
@@ -242,7 +242,7 @@
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                        <div class="card color-yellow text-center border-0 edit safe-element">
-                                           <a href="#" class="full-card-link"></a>
+<!--                                           <a href="#" class="full-card-link"></a>-->
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Club support</h5>
                                            </div>
@@ -256,7 +256,7 @@
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                        <div class="card color-green text-center border-0 edit safe-element">
-                                           <a href="#" class="full-card-link"></a>
+<!--                                           <a href="#" class="full-card-link"></a>-->
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Sport for all</h5>
                                            </div>
@@ -270,7 +270,7 @@
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                        <div class="card color-red text-center border-0 edit safe-element">
-                                           <a href="#" class="full-card-link"></a>
+<!--                                           <a href="#" class="full-card-link"></a>-->
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Multisports</h5>
                                            </div>
@@ -284,7 +284,7 @@
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                        <div class="card color-yellow text-center border-0 edit safe-element">
-                                           <a href="#" class="full-card-link"></a>
+<!--                                           <a href="#" class="full-card-link"></a>-->
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Healthy sports</h5>
                                            </div>
@@ -298,7 +298,7 @@
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                        <div class="card color-green text-center border-0 edit safe-element">
-                                           <a href="#" class="full-card-link"></a>
+<!--                                           <a href="#" class="full-card-link"></a>-->
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Ethical sporta</h5>
                                            </div>
@@ -312,7 +312,7 @@
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                        <div class="card color-red text-center border-0 edit safe-element">
-                                           <a href="#" class="full-card-link"></a>
+<!--                                           <a href="#" class="full-card-link"></a>-->
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Training</h5>
                                            </div>
@@ -326,7 +326,7 @@
                                    </div>
                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                        <div class="card color-green text-center border-0 edit safe-element">
-                                           <a href="#" class="full-card-link"></a>
+<!--                                           <a href="#" class="full-card-link"></a>-->
                                            <div class="card-header bg-transparent border-0">
                                                <h5 class="card-title">Sport activities</h5>
                                            </div>
@@ -433,54 +433,7 @@
 
                         <!--MODULE POSTLIST-->
 
-                       <div class="card-deck justify-content-between">
-                           <div class="card border-0 bg-transparent">
-                               <a href="#" class="link-img card-img-top">
-                                   <img src="<?php print template_url(); ?>images/news-1.jpg" class="img-cover" alt="">
-                               </a>
-                               <div class="card-body">
-                                   <p class="card-date">October 12, 2020</p>
-                                   <h5 class="card-title">
-                                       <a href="#">Materiele ondersteuning van clubs die multimove aanbieden</a>
-                                   </h5>
-                                   <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
-                               </div>
-                               <div class="card-footer border-0 bg-transparent">
-                                   <module type="btn" template="sporta-card-links-with-icons" button_style="yellow"/>
-                               </div>
-                           </div>
-                           <div class="card border-0 bg-transparent">
-                               <a href="#" class="link-img card-img-top">
-                                   <img src="<?php print template_url(); ?>images/news-2.jpg" class="img-cover" alt="">
-                               </a>
 
-                               <div class="card-body">
-                                   <p class="card-date">October 12, 2020</p>
-                                   <h5 class="card-title">
-                                       <a href="#">Materiele ondersteuning van clubs die multimove aanbieden</a>
-                                   </h5>
-                                   <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
-                               </div>
-                               <div class="card-footer border-0 bg-transparent">
-                                   <module type="btn" template="sporta-card-links-with-icons" button_style="red"/>
-                               </div>
-                           </div>
-                           <div class="card border-0 bg-transparent">
-                               <a href="#" class="link-img card-img-top">
-                                   <img src="<?php print template_url(); ?>images/news-3.jpg" class="img-cover" alt="">
-                               </a>
-                               <div class="card-body">
-                                   <p class="card-date">October 12, 2020</p>
-                                   <h5 class="card-title">
-                                       <a href="#">Materiele ondersteuning van clubs die multimove aanbieden</a>
-                                   </h5>
-                                   <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
-                               </div>
-                               <div class="card-footer border-0 bg-transparent">
-                                   <module type="btn" template="sporta-card-links-with-icons" button_style="red"/>
-                               </div>
-                           </div>
-                       </div>
 
                        <div class="section-wrapper-btn text-center">
                            <module type="btn" template="sporta-buttons" button_style="btn-green"/>

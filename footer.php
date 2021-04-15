@@ -15,17 +15,17 @@
                     <p class="follow-us-block__title edit safe-mode">Follow us</p>
                     <module type="social_links" template="sporta-socials"/>
                 </div>
-                <div class="collaboration-block text-center text-md-left">
+                <div class="collaboration-block text-center text-md-left edit safe-element">
                     <p class="collaboration-block__title edit safe-mode">In collaboration with</p>
                     <div>
-                        <div class="collaboration-block__logo">
+                        <div class="collaboration-block__logo cloneable">
                             <a href="#">
-                                <module type="logo" id="logo_footer_1" template="default" class="d-inline-block align-top" default-text="Sporta"/>
+                                <img src="<?php print template_url(); ?>images/logo_ethias.png" class="d-inline-block align-top" alt="">
                             </a>
                         </div>
-                        <div class="collaboration-block__logo">
+                        <div class="collaboration-block__logo cloneable">
                             <a href="#">
-                                <module type="logo" id="logo_footer_2" template="default" class="d-inline-block align-top" default-text="Sporta"/>
+                                <img src="<?php print template_url(); ?>images/logo_sport.png" class="d-inline-block align-top" alt="">
                             </a>
                         </div>
                     </div>

@@ -65,7 +65,7 @@
                                     <module type="menu" name="header_menu"template="default"/>
                                 </div>
                                 <div class="v-divider d-none d-lg-block order-lg-1"></div>
-                                <div class="order-lg-1 edit safe-element">
+                                <div class="order-lg-1">
                                     <module type="btn" template="sporta-login" button_style="btn-link" />
                                 </div>
                                 <div class="wrap-btn text-center order-lg-1">

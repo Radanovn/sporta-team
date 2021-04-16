@@ -10,14 +10,14 @@
                             <module type="logo" id="logo" template="default" class="d-inline-block align-top" default-text="Sporta"/>
                         </a>
                     </div>
-                    <p class="footer__small-text text-center text-md-left edit safe-mode">The pinnacle of recreational sports is what Sporta-federatie vzw has to offer sports clubs.<br>
+                    <p class="footer__small-text text-center text-md-left">The pinnacle of recreational sports is what Sporta-federatie vzw has to offer sports clubs.<br>
                         The Sporta employees not only have the knowledge and experience, they are particularly keen to support your club activities fourfold.</p>
                     <div class="follow-us-block">
-                        <p class="follow-us-block__title edit safe-mode">Follow us</p>
+                        <p class="follow-us-block__title">Follow us</p>
                         <module type="social_links" template="sporta-socials"/>
                     </div>
-                    <div class="collaboration-block text-center text-md-left edit safe-element">
-                        <p class="collaboration-block__title edit safe-mode">In collaboration with</p>
+                    <div class="collaboration-block text-center text-md-left">
+                        <p class="collaboration-block__title">In collaboration with</p>
                         <div>
                             <div class="collaboration-block__logo cloneable">
                                 <a href="#">
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="footer__bottom">
-                <p class="copyright edit safe-mode"><span class="copyright__symbol">©</span> Sporta Team</p>
+                <p class="copyright"><span class="copyright__symbol">©</span> Sporta Team</p>
                 <ul class="list-unstyled d-flex justify-content-end align-items-center footer__bottom-menu">
                     <module type="menu" name="footer_menu_11" template="footer_bottom"/>
                 </ul>

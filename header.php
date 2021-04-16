@@ -32,7 +32,7 @@
                     <nav class="navbar navbar-expand-lg p-0">
                         <div class="d-flex align-items-center">
                             <module type="logo" id="logo" template="default" class="d-inline-block align-top" default-text="Sporta"/>
-                            <span class="navbar-text edit safe-element p-0 d-none d-xl-inline-block">In full force for you sport club</span>
+                            <span class="navbar-text p-0 d-none d-xl-inline-block">In full force for you sport club</span>
                         </div>
 
                         <button class="navbar-toggler d-md-none js-mobile-menu" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">

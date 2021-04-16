@@ -25,7 +25,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
 
 <section class="section section-about<?php print $layout_classes; ?> nodrop edit" field="layout-skin-5-<?php print $params['id'] ?>" rel="module">
     <div class="container">
-        <div class="section__block-title text-center edit safe-element">
+        <div class="section__block-title text-center">
             <h2>About Sporta Team</h2>
         </div>
         <div class="row no-gutters about-card">

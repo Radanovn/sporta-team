@@ -12,18 +12,7 @@ position: 7
 
 ?>
 
-<?php
-if (!$classes['padding_top']) {
-    $classes['padding_top'] = 'p-t-100';
-}
-if (!$classes['padding_bottom']) {
-    $classes['padding_bottom'] = 'p-b-100';
-}
-
-$layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
-?>
-
-<section class="section section-contact <?php print $layout_classes; ?> nodrop edit" field="layout-skin-7-<?php print $params['id'] ?>" rel="module">
+<section class="section section-contact nodrop edit" field="layout-skin-7-<?php print $params['id'] ?>" rel="module">
     <div class="container">
         <div class="row no-gutters">
             <div class="d-none d-lg-block col-lg-6">

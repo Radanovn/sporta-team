@@ -12,18 +12,7 @@ position: 2
 
 ?>
 
-<?php
-if (!$classes['padding_top']) {
-    $classes['padding_top'] = 'p-t-100';
-}
-if (!$classes['padding_bottom']) {
-    $classes['padding_bottom'] = 'p-b-100';
-}
-
-$layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
-?>
-
-<section class="section <?php print $layout_classes; ?> section-participate nodrop edit" field="layout-skin-2-<?php print $params['id'] ?>" rel="module">
+<section class="section section-participate nodrop edit" field="layout-skin-2-<?php print $params['id'] ?>" rel="module">
     <div class="container">
         <div class="section__block-title text-sm-center">
             <h2>Why participate in Sporta Club?</h2>
@@ -108,3 +97,4 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
         </div>
     </div>
 </section>
+

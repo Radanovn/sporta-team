@@ -12,18 +12,7 @@ position: 5
 
 ?>
 
-<?php
-if (!$classes['padding_top']) {
-    $classes['padding_top'] = 'p-t-100';
-}
-if (!$classes['padding_bottom']) {
-    $classes['padding_bottom'] = 'p-b-100';
-}
-
-$layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
-?>
-
-<section class="section section-about<?php print $layout_classes; ?> nodrop edit" field="layout-skin-5-<?php print $params['id'] ?>" rel="module">
+<section class="section section-about nodrop edit" field="layout-skin-5-<?php print $params['id'] ?>" rel="module">
     <div class="container">
         <div class="section__block-title text-center">
             <h2>About Sporta Team</h2>

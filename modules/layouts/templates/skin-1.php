@@ -11,19 +11,7 @@ position: 1
 */
 
 ?>
-
-<?php
-if (!$classes['padding_top']) {
-    $classes['padding_top'] = 'p-t-100';
-}
-if (!$classes['padding_bottom']) {
-    $classes['padding_bottom'] = 'p-b-100';
-}
-
-$layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
-?>
-
-<section class="section <?php print $layout_classes; ?> hero-section nodrop edit" field="layout-skin-1-<?php print $params['id'] ?>" rel="module">
+<section class="hero-section nodrop edit" field="layout-skin-1-<?php print $params['id'] ?>" rel="module">
     <div id="heroSlider" class="carousel slide" data-ride="carousel" data-interval="false">
         <ol class="carousel-indicators">
             <li data-target="#heroSlider" data-slide-to="0" class="active"></li>

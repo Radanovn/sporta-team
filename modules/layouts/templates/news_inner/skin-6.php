@@ -3,7 +3,7 @@
 
   type: layout
 
-  name: News - 6
+  name: News article - 6
 
   position: 6
 

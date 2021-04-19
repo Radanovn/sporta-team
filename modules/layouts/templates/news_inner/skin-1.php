@@ -9,15 +9,26 @@
 
  */
 ?>
-
-<section class="edit safe-mode nodrop" field="layout-news-article-skin-1-<?php print $params['id'] ?>" rel="module">
-    <div class="row no-gutters position-relative decor-block">
-        <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-1.svg">
-        </div>
-        <div class="col-lg-8 mx-auto text-center">
-            <div class="single-post__date"><?php echo date('d M Y', strtotime($post['created_at'])); ?></div>
-            <h1 class="single-post__title"><?php echo $post['title']; ?></h1>
+<div class="row no-gutters quote-card edit safe-mode nodrop" field="layout-news-article-skin-1-<?php print $params['id'] ?>" rel="content">
+    <div class="col-lg-6">
+        <div class="quote-card-content">
+            <blockquote>
+                <p>The Sporta manager contributed to the items that were requested from our club. Opportunities were offered that were appropriate for our club. There was a constructive atmosphere.</p>
+                <div class="author-wrap">
+                    <div class="author__img">
+                        <img src="<?php print template_url(); ?>images/photo.jpg" class="d-block" alt="">
+                    </div>
+                    <div class="author__info">
+                        <div class="author__name">jan janssens</div>
+                        <div class="author__location">volleyclub westerlo</div>
+                    </div>
+                </div>
+            </blockquote>
         </div>
     </div>
-</section>
+    <div class="col-lg-5 offset-lg-1 d-none d-lg-block">
+        <div class="quote-card__img">
+            <img src="<?php print template_url(); ?>images/vizit-img-2.jpg" class="d-block ml-auto" alt="">
+        </div>
+    </div>
+</div>

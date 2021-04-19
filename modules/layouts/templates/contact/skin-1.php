@@ -4,14 +4,14 @@
 
 type: layout
 
-name: skin-1
+name: Contacts 1
 
 position: 1
 
 */
 
 ?>
-<section class="section section-contact contact-page nodrop edit" field="layout-contact-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="section section-contact contact-page edit safe-mode nodrop" field="layout-contact-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-lg-6">
@@ -28,7 +28,7 @@ position: 1
                 <div class="section-contact__wrap-img">
                     <div class="rect rect--top-right rect--yellow"></div>
                     <div class="circles circles--top-right">
-
+                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/contact/skin-1.svg">
                     </div>
                     <img src="<?php print template_url(); ?>images/contact-img-1.jpg" alt="">
                 </div>

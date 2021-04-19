@@ -17,7 +17,8 @@ $url_blank = get_option('url_blank', $params['id']);
             <select class="mw_option_field selectpicker" data-width="100%" name="button_style">
                 <option <?php if ($style == 'footer__menu-link'): ?>selected<?php endif; ?> value="footer__menu-link"><?php _e("footer menu link"); ?></option>
                 <option <?php if ($style == 'st-email'): ?>selected<?php endif; ?> value="st-email"><?php _e("footer link email"); ?></option>
-                <option <?php if ($style == 'st-phone'): ?>selected<?php endif; ?> value="st-phone"><?php _e("footer link phone"); ?></option>
+                <option <?php if ($style == 'link-email'): ?>selected<?php endif; ?> value="link-email"><?php _e("contacts link email"); ?></option>
+                <option <?php if ($style == 'link-phone'): ?>selected<?php endif; ?> value="link-phone"><?php _e("contacts link phone"); ?></option>
                 <option <?php if ($style == 'btn btn-animate btn-red'): ?>selected<?php endif; ?> value="btn btn-animate btn-red"><?php _e("Red"); ?></option>
                 <option <?php if ($style == 'btn btn-animate btn-green'): ?>selected<?php endif; ?> value="btn btn-animate btn-green"><?php _e("Green"); ?></option>
             </select>

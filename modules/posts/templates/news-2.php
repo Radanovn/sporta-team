@@ -26,7 +26,7 @@ description: news
                 </a>
 
                 <div class="card-body">
-                    <p class="card-date"><?php echo date('d M Y', strtotime($item['posted_at'])); ?></p>
+                    <p class="card-date"><?php echo date('d M Y', strtotime($item['created_at'])); ?></p>
                     <?php if (!isset($show_fields) or $show_fields == false or in_array('title', $show_fields)): ?>
                         <h5 class="card-title">
                             <a href="<?php print $item['link'] ?>"><?php print $item['title'] ?></a>

@@ -4,22 +4,23 @@
 
 type: layout
 
-name: News
+name: News related
 
-description: news
+description: news related posts
 
 */
 ?>
 
 <?php if (!empty($data)): ?>
+
+        <div class="popular-posts-widget" itemscope itemtype="<?php print $schema_org_item_type_tag ?>">
+            <h3 class="mb-0">Most read</h3>
+            <div class="popular-posts-wrap">
     <?php foreach ($data as $key => $item): ?>
         <?php
         $itemData = content_data($item['id']);
         $itemTags = content_tags($item['id']);
         ?>
-        <div class="popular-posts-widget">
-            <h3 class="mb-0">Most read</h3>
-            <div class="popular-posts-wrap">
                 <div class="popular-post__item">
                     <a href="<?php print $item['link'] ?>" class="popular-post__item--link-img">
                         <?php if (!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
@@ -30,11 +31,11 @@ description: news
                         <h6>
                             <a href="<?php print $item['link'] ?>"><?php print $item['title'] ?></a>
                         </h6>
-                        <p class="popular-post__item--date"><?php echo date('d M Y', strtotime($item['posted_at'])); ?></p>
+                        <p class="popular-post__item--date"><?php echo date('d M Y', strtotime($item['created_at'])); ?></p>
                     </div>
                 </div>
+    <?php endforeach; ?>
             </div>
         </div>
-    <?php endforeach; ?>
 <?php endif; ?>
 

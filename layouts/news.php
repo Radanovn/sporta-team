@@ -14,7 +14,7 @@ description: News
 ?>
 <?php include template_dir() . "header.php"; ?>
 
-<section class="section section-news news-page edit main-content" rel="module" field="sporta-team_content">
+<section class="section section-news news-page edit main-content" rel="content" field="sporta-team_news">
     <div class="container">
         <module type="layouts" template="news/skin-1"/>
         <module type="layouts" template="news/skin-2"/>
@@ -24,4 +24,3 @@ description: News
     </div>
 </section>
 
-<?php include template_dir() . "footer.php"; ?>

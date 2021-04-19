@@ -12,7 +12,7 @@ position: 2
 
 ?>
 
-<section class="section section-participate nodrop edit" field="layout-skin-2-<?php print $params['id'] ?>" rel="module">
+<section class="section section-participate nodrop edit" field="layout-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="section__block-title text-sm-center">
             <h2>Why participate in Sporta Club?</h2>

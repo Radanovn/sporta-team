@@ -23,7 +23,7 @@ if (!$classes['padding_bottom']) {
 $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
 ?>
 
-<section class="section section-member bg-gray <?php print $layout_classes; ?> nodrop edit" field="layout-skin-3-<?php print $params['id'] ?>" rel="module">
+<section class="section section-member bg-gray <?php print $layout_classes; ?> nodrop edit" field="layout-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/templates/svg/skin-3-svg-1.svg">

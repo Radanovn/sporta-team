@@ -12,7 +12,7 @@ position: 5
 
 ?>
 
-<section class="section section-about nodrop edit" field="layout-skin-5-<?php print $params['id'] ?>" rel="module">
+<section class="section section-about nodrop edit" field="layout-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="section__block-title text-center">
             <h2>About Sporta Team</h2>

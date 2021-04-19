@@ -24,3 +24,4 @@ description: News
     </div>
 </section>
 
+<?php include template_dir() . "footer.php"; ?>

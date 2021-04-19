@@ -12,7 +12,7 @@ position: 6
 
 ?>
 
-<section class="section section-news bg-gray nodrop edit" field="layout-skin-6-<?php print $params['id'] ?>" rel="module">
+<section class="section section-news bg-gray nodrop edit" field="layout-skin-6-<?php print $params['id'] ?>" rel="content">
         <div class="container">
             <div class="section__block-title text-center">
                 <h2>News</h2>

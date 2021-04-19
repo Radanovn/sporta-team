@@ -11,7 +11,7 @@ position: 1
 */
 
 ?>
-<section class="hero-section nodrop edit" field="layout-skin-1-<?php print $params['id'] ?>" rel="module">
+<section class="hero-section nodrop edit" field="layout-skin-1-<?php print $params['id'] ?>" rel="content">
     <div id="heroSlider" class="carousel slide" data-ride="carousel" data-interval="false">
         <ol class="carousel-indicators">
             <li data-target="#heroSlider" data-slide-to="0" class="active"></li>

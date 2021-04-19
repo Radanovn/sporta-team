@@ -12,7 +12,7 @@ position: 7
 
 ?>
 
-<section class="section section-contact nodrop edit" field="layout-skin-7-<?php print $params['id'] ?>" rel="module">
+<section class="section section-contact nodrop edit" field="layout-skin-7-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters">
             <div class="d-none d-lg-block col-lg-6">

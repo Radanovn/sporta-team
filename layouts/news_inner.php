@@ -25,7 +25,7 @@ $itemTags = content_tags($content['id']);
 
 <?php include template_dir() . "header.php"; ?>
 
-    <article class="single-post"  id="news-content-<?php print CONTENT_ID; ?>">
+    <article class="single-post"  id="news-content-<?php print $content['id']; ?>">
         <div class="container">
 
             <div class="row no-gutters position-relative decor-block">

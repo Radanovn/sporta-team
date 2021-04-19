@@ -4,30 +4,29 @@
 
 type: layout
 
-name: Default
+name: News
 
-description: Grid Columns
+description: news
 
 */
 ?>
 
-<?php if (!empty($data)): ?>
-    <?php foreach ($data as $key => $item): ?>
-        <?php
-        $itemData = content_data($item['id']);
-        $itemTags = content_tags($item['id']);
-        ?>
-        <div class="card-deck justify-content-between">
-            <div class="card border-0 bg-transparent">
+    <?php if (!empty($data)): ?>
+        <?php foreach ($data as $key => $item): ?>
+            <?php
+            $itemData = content_data($item['id']);
+            $itemTags = content_tags($item['id']);
+            ?>
+
+            <div class="card card--big border-0 bg-transparent">
                 <a href="<?php print $item['link'] ?>" class="link-img card-img-top">
                     <?php if (!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
-                         <img src="<?php print $item['image']; ?>" class="img-cover" alt="">
+                        <img src="<?php print $item['image']; ?>" class="img-cover" alt="">
                     <?php endif; ?>
                 </a>
 
                 <div class="card-body">
                     <p class="card-date"><?php echo date('d M Y', strtotime($item['posted_at'])); ?></p>
-
                     <?php if (!isset($show_fields) or $show_fields == false or in_array('title', $show_fields)): ?>
                         <h5 class="card-title">
                             <a href="<?php print $item['link'] ?>"><?php print $item['title'] ?></a>
@@ -42,6 +41,8 @@ description: Grid Columns
                     <module type="btn" template="sporta-card-links-with-icons" button_style="yellow"/>
                 </div>
             </div>
-        </div>
+
     <?php endforeach; ?>
 <?php endif; ?>
+
+

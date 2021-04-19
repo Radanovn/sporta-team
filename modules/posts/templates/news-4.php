@@ -45,5 +45,14 @@ description: news
             </div>
         <?php endforeach; ?>
     <?php endif; ?>
-</div>
 
+    <div class="col-lg-4">
+        <div class="form-widget">
+            <div class="form-widget-wrap">
+                <h4 class="form-widget__title">The most interesting articles in your mailbox?</h4>
+                <module type="contact_form" template="sporta-news-page-form"/>
+
+            </div>
+        </div>
+    </div>
+</div>

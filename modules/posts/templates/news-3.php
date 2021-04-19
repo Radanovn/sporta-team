@@ -45,5 +45,8 @@ description: news
             </div>
         <?php endforeach; ?>
     <?php endif; ?>
-</div>
 
+    <div class="col-lg-4 d-none d-lg-block">
+        <module type="posts" related="true" limit="3" template="news-related" />
+    </div>
+</div>

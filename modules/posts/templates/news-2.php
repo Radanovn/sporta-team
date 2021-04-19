@@ -10,14 +10,14 @@ description: news
 
 */
 ?>
-
+<div class="row row-news-card">
     <?php if (!empty($data)): ?>
         <?php foreach ($data as $key => $item): ?>
             <?php
             $itemData = content_data($item['id']);
             $itemTags = content_tags($item['id']);
             ?>
-
+        <div class="col-lg-8">
             <div class="card card--big border-0 bg-transparent">
                 <a href="<?php print $item['link'] ?>" class="link-img card-img-top">
                     <?php if (!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
@@ -41,8 +41,12 @@ description: news
                     <module type="btn" template="sporta-card-links-with-icons" button_style="yellow"/>
                 </div>
             </div>
+        </div>
+        <?php endforeach; ?>
+    <?php endif; ?>
 
-    <?php endforeach; ?>
-<?php endif; ?>
-
+    <div class="col-lg-4 d-none d-lg-block">
+        <module type="posts" related="true" limit="3" template="news-related" />
+    </div>
+</div>
 

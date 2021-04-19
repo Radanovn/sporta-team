@@ -11,5 +11,5 @@
 ?>
 
 <section class="edit safe-mode nodrop" field="layout-news-skin-2-<?php print $params['id'] ?>" rel="module">
-        <module type="posts" template="news" />
+    <module type="posts" limit="3" template="news" />
 </section>

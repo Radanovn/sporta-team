@@ -17,7 +17,7 @@ position: 6
             <div class="section__block-title text-center">
                 <h2>News</h2>
             </div>
-            <module type="posts" template="default"/>
+            <module type="posts" limit="3" template="news" />
             <div class="section-wrapper-btn text-center">
                 <module type="btn" template="sporta-buttons" button_style="btn-green"/>
             </div>

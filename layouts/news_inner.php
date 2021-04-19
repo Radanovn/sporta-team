@@ -11,33 +11,21 @@ description: News inner page
 */
 
 
-    $post = get_content_by_id(CONTENT_ID);
-    $picture = get_picture(CONTENT_ID);
+$post = get_content_by_id($content['id']);
+$picture = get_picture($content['id']);
 
-    if (!$picture) {
-        $picture = '';
-    }
+var_dump($picture);
+if (!$picture) {
+    $picture = '';
+}
 
-    $itemData = content_data($post['id']);
-    $itemTags = content_tags($post['id']);
-    ?>
-
-<?php include template_dir() . "header.php";
-
-dd($content);
-
+$itemData = content_data($content['id']);
+$itemTags = content_tags($content['id']);
 ?>
 
-<?php if (!empty($data)): ?>
+<?php include template_dir() . "header.php"; ?>
 
-
-    <?php
-
-    $itemData = content_data($item['id']);
-    $itemTags = content_tags($item['id']);
-    ?>
-
-    <article class="single-post edit main-content" rel="content" field="sporta-team_news-article" id="news-content-<?php print CONTENT_ID; ?>">
+    <article class="single-post"  id="news-content-<?php print CONTENT_ID; ?>">
         <div class="container">
 
             <div class="row no-gutters position-relative decor-block">
@@ -45,8 +33,8 @@ dd($content);
                     <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-1.svg">
                 </div>
                 <div class="col-lg-8 mx-auto text-center">
-                    <div class="single-post__date"><?php echo date('d M Y', strtotime($post['created_at'])); ?></div>
-                    <h1 class="single-post__title"><?php echo $post['title']; ?></h1>
+                    <div class="single-post__date"><?php echo date('d M Y', strtotime($content['created_at'])); ?></div>
+                    <h1 class="single-post__title"><?php echo $content['title']; ?></h1>
                 </div>
             </div>
 
@@ -54,15 +42,18 @@ dd($content);
                 <div class="circles circles--bottom-left d-none d-lg-block">
                     <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-1.svg">
                 </div>
+
+                <?php if ($picture) : ?>
                 <div class="col-lg-9 mx-auto">
                     <div class="single-post__thumbnail">
                         <picture>
                             <source srcset="<?php print template_url(); ?>images/single-post-thumbnail-mobile.jpg" media="(max-width: 479px)">
                             <source srcset="<?php print template_url(); ?>images/single-post-thumbnail-tablet.jpg" media="(min-width: 480px) and (max-width: 991px)">
-                            <img src="<?php print $item['image']; ?>" alt="">
+                            <img src="<?php print $content['image']; ?>" alt="">
                         </picture>
                     </div>
                 </div>
+                <?php endif; ?>
             </div>
 
             <div class="row no-gutters position-relative decor-block">
@@ -79,7 +70,7 @@ dd($content);
                         <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#CA2F4E"/>
                     </svg>
                 </div>
-                <div class="col-lg-8 col-xl-6 mx-auto">
+                <div class="col-lg-8 col-xl-6 mx-auto edit main-content" rel="content" field="content">
                     <p class="font-weight-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in&#8209;cididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in&#8209;cididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
                     <div class="single-post__space"></div>
@@ -506,4 +497,4 @@ dd($content);
     </article>
 
 <?php include template_dir() . "footer.php"; ?>
-<?php endif; ?>
+

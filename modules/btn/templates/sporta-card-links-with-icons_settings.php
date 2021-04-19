@@ -18,8 +18,8 @@ $url_blank = get_option('url_blank', $params['id']);
                 <option <?php if ($style == 'yellow'): ?>selected<?php endif; ?> value="yellow"><?php _e("Yellow"); ?></option>
                 <option <?php if ($style == 'green'): ?>selected<?php endif; ?> value="green"><?php _e("Green"); ?></option>
                 <option <?php if ($style == 'red'): ?>selected<?php endif; ?> value="red"><?php _e("Red"); ?></option>
-                <option <?php if ($style == 'red text-decoration-none'): ?>selected<?php endif; ?> value="red decoration-none"><?php _e("About us Red"); ?></option>
-                <option <?php if ($style == 'green text-decoration-none'): ?>selected<?php endif; ?> value="green decoration-none"><?php _e("About us Green"); ?></option>
+                <option <?php if ($style == 'red text-decoration-none'): ?>selected<?php endif; ?> value="red text-decoration-none"><?php _e("About us Red"); ?></option>
+                <option <?php if ($style == 'green text-decoration-none'): ?>selected<?php endif; ?> value="green text-decoration-none"><?php _e("About us Green"); ?></option>
             </select>
         </div>
     </div>

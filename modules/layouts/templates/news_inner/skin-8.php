@@ -13,17 +13,7 @@
     <div class="col-lg-8 col-xl-6 mx-lg-auto">
         <div class="single-post__socials">
             <div class="single-post__socials-title">Schare this article</div>
-            <div class="single-post__socials-links">
-                <a href="#">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-15.svg">
-                </a>
-                <a href="#">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-16.svg">
-                </a>
-                <a href="#">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-17.svg">
-                </a>
-            </div>
+                <module type="social_links" template="sporta-socials-news-page"/>
         </div>
     </div>
 </div>

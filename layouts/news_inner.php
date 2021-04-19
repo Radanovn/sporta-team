@@ -71,8 +71,6 @@ $itemTags = content_tags($content['id']);
                 </div>
             </div>
 
-
-
             <module type="layouts" template="news_inner/skin-1"/>
             <module type="layouts" template="news_inner/skin-2"/>
             <module type="layouts" template="news_inner/skin-3"/>
@@ -81,8 +79,6 @@ $itemTags = content_tags($content['id']);
             <module type="layouts" template="news_inner/skin-6"/>
             <module type="layouts" template="news_inner/skin-7"/>
             <module type="layouts" template="news_inner/skin-8"/>
-
-
         </div>
     </article>
 

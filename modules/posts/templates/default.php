@@ -10,14 +10,13 @@ description: Grid Columns
 
 */
 ?>
-
-<?php if (!empty($data)): ?>
-    <?php foreach ($data as $key => $item): ?>
-        <?php
-        $itemData = content_data($item['id']);
-        $itemTags = content_tags($item['id']);
-        ?>
-        <div class="card-deck justify-content-between">
+<div class="card-deck justify-content-between">
+    <?php if (!empty($data)): ?>
+        <?php foreach ($data as $key => $item): ?>
+            <?php
+            $itemData = content_data($item['id']);
+            $itemTags = content_tags($item['id']);
+            ?>
             <div class="card border-0 bg-transparent">
                 <a href="<?php print $item['link'] ?>" class="link-img card-img-top">
                     <?php if (!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
@@ -42,6 +41,7 @@ description: Grid Columns
                     <module type="btn" template="sporta-card-links-with-icons" button_style="yellow"/>
                 </div>
             </div>
-        </div>
-    <?php endforeach; ?>
-<?php endif; ?>
+        <?php endforeach; ?>
+    <?php endif; ?>
+</div>
+

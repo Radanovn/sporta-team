@@ -9,7 +9,7 @@
 
  */
 ?>
-<div class="row no-gutters quote-card edit safe-mode nodrop" field="layout-news-article-skin-1-<?php print $params['id'] ?>" rel="content">
+<div class="row no-gutters quote-card edit safe-mode nodrop" field="layout-news-inner-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="col-lg-6">
         <div class="quote-card-content">
             <blockquote>

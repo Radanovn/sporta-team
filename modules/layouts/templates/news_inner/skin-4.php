@@ -9,7 +9,7 @@
 
  */
 ?>
-<div class="section-about section-about--column edit safe-mode nodrop" field="layout-news-article-skin-4-<?php print $params['id'] ?>" rel="content">
+<div class="section-about section-about--column edit safe-mode nodrop" field="layout-news-inner-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="row no-gutters about-card">
         <div class="col-md-5 col-lg-6">
             <div class="about-card__img">

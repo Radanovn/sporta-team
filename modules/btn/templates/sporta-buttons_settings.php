@@ -15,6 +15,7 @@ $url_blank = get_option('url_blank', $params['id']);
             <label class="control-label d-block"><?php _e("Color"); ?></label>
             <small class="text-muted d-block mb-3"><?php _e('Choose your button color from the dropdown.');?></small>
             <select class="mw_option_field selectpicker" data-width="100%" name="button_style">
+                <option <?php if ($style == 'Clean'): ?>selected<?php endif; ?> value=""><?php _e("Clean"); ?></option>
                 <option <?php if ($style == 'footer__menu-link'): ?>selected<?php endif; ?> value="footer__menu-link"><?php _e("footer menu link"); ?></option>
                 <option <?php if ($style == 'st-email'): ?>selected<?php endif; ?> value="st-email"><?php _e("footer link email"); ?></option>
                 <option <?php if ($style == 'link-email'): ?>selected<?php endif; ?> value="link-email"><?php _e("contacts link email"); ?></option>

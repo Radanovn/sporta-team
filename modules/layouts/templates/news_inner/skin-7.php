@@ -28,44 +28,25 @@
             <h2 class="about-card__title mt-0">Useful documents:</h2>
             <p class="about-card__text about-card__text--max-width">
                 Geneeskundig
-                <a href="#" class="text-red link-download text-nowrap">
-                    <span class="link-download__text link-download__text--decoration">getuigschrift.pdf</span>
-                    <span class="link-download__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-14.svg">
-                            </span>
-                </a>
+                <module type="btn" template="link-download-icon" button_style="Red" button_text="getuigschrift.pdf">
             </p>
             <p class="about-card__text  about-card__text--max-width">
                 Aangifteformulier
-                <a href="#" class="text-red link-download text-nowrap">
-                    <span class="link-download__text link-download__text--decoration">Sporta.pdf</span>
-                    <span class="link-download__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-14.svg">
-                        </span>
-                </a>
+                <module type="btn" template="link-download-icon" button_style="Red" button_text="Sporta.pdf">
             </p>
             <p class="about-card__text  about-card__text--max-width">
                 Aangifteformulier-individu gezin
-                <a href="#" class="text-red link-download text-nowrap">
-                    <span class="link-download__text link-download__text--decoration">ZS.pdf</span>
-                    <span class="link-download__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-14.svg">
-                        </span>
-                </a>
+                <module type="btn" template="link-download-icon" button_style="Red" button_text="ZS.pdf">
             </p>
             <p class="about-card__text  about-card__text--max-width">
                 Aangifteformulier- bedrijf
-                <a href="#" class="text-red link-download text-nowrap">
-                    <span class="link-download__text link-download__text--decoration">ZS.pdf</span>
-                    <span class="link-download__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-14.svg">
-                            </span>
-                </a>
+                <module type="btn" template="link-download-icon" button_style="Red" button_text="ZS.pdf">
             </p>
+
             <h4>Links</h4>
-            <p><a href="#">Dag van de trainer</a></p>
-            <p><a href="#">Kalender</a></p>
-            <p><a href="#">Vlaamse traininschool</a></p>
+            <p><module type="btn" template="sporta-buttons" button_style="Clean" button_text="Dag van de trainer"></p>
+            <p><module type="btn" template="sporta-buttons" button_style="Clean" button_text="Kalender"></p>
+            <p><module type="btn" template="sporta-buttons" button_style="Clean" button_text="Vlaamse traininschool"></p>
         </div>
     </div>
 </div>

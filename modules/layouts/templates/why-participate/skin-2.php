@@ -28,7 +28,7 @@ position: 2
                         <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <module type="btn" template="sporta-card-links-with-icons"/>
+                        <module type="btn" template="sporta-links-with-icons">
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@ position: 2
                         <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <module type="btn" template="sporta-card-links-with-icons"/>
+                        <module type="btn" template="sporta-links-with-icons">
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ position: 2
                         <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <module type="btn" template="sporta-card-links-with-icons"/>
+                        <module type="btn" template="sporta-links-with-icons">
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ position: 2
                         <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <module type="btn" template="sporta-card-links-with-icons"/>
+                        <module type="btn" template="sporta-links-with-icons">
                     </div>
                 </div>
             </div>

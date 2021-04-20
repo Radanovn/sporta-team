@@ -14,7 +14,7 @@ position: 4
 <section class="section section-about section-multimove-training edit safe-mode nodrop" field="layout-multimove-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/multimove/skin-5.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/multimove/skin-5.svg">
 
         </div>
         <div class="row no-gutters about-card">
@@ -31,7 +31,7 @@ position: 4
                 <div class="about-card__img about-card__img--ml">
                     <div class="rect rect--top-right rect--red d-none d-lg-block"></div>
                     <div class="circles circles--top-right d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/multimove/skin-6.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/multimove/skin-6.svg">
 
                     </div>
                     <picture>

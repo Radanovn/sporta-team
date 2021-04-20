@@ -14,10 +14,10 @@ position: 4
 <section class="section section-contact-person edit safe-mode nodrop" field="layout-contact-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/contact/skin-2.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/contact/skin-2.svg">
         </div>
         <div class="circles circles--bottom-left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/contact/skin-3.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/contact/skin-3.svg">
         </div>
         <div class="row">
             <div class="col-lg-9 mx-auto">

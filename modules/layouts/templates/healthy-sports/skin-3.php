@@ -14,10 +14,10 @@ position: 3
 <section class="section section-member bg-gray section-healthy-sports-ethical edit safe-mode nodrop" field="layout-healthy-sports-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--bottom-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/healthy-sports/skin-6.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/healthy-sports/skin-6.svg">
         </div>
         <div class="circles circles--top-left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/healthy-sports/skin-7.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/healthy-sports/skin-7.svg">
         </div>
         <div class="row no-gutters">
             <div class="col-lg-9 mx-auto">

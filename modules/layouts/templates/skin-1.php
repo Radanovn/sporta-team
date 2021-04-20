@@ -71,6 +71,6 @@ position: 1
         </a>
     </div>
     <div class="circles circles--bottom-right d-none d-lg-block">
-        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/home-slider.svg">
+        <img src="<?php print template_url(); ?>modules/layouts/svg/home-slider.svg">
     </div>
 </section>

@@ -87,19 +87,19 @@
                                         <div>
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-1.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-1.svg">
                                         </span>
                                                 <span>Prices</span>
                                             </a>
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-2.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-2.svg">
                                         </span>
                                                 <span>Why participate</span>
                                             </a>
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-3.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-3.svg">
                                         </span>
                                                 <span>Onze clubs</span>
                                             </a>
@@ -114,7 +114,7 @@
                                         <div class="megamenu__column">
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-4.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-4.svg">
                                         </span>
                                                 <span>Insurance</span>
                                             </a>
@@ -131,7 +131,7 @@
                                             </ul>
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-5.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-5.svg">
                                         </span>
                                                 <span>Club Support</span>
                                             </a>
@@ -150,7 +150,7 @@
                                         <div class="megamenu__column">
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-6.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-6.svg">
                                         </span>
                                                 <span>Sport for all</span>
                                             </a>
@@ -164,7 +164,7 @@
                                             </ul>
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-7.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-7.svg">
                                         </span>
                                                 <span>Multi sports</span>
                                             </a>
@@ -178,7 +178,7 @@
                                             </ul>
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-8.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-8.svg">
                                         </span>
                                                 <span>Healthy Sports</span>
                                             </a>
@@ -186,7 +186,7 @@
                                         <div class="megamenu__column">
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-9.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-9.svg">
                                         </span>
                                                 <span>Training</span>
                                             </a>
@@ -200,7 +200,7 @@
                                             </ul>
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-10.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-10.svg">
                                         </span>
                                                 <span>Ethical sports</span>
                                             </a>
@@ -213,7 +213,7 @@
                                         <div class="megamenu__column">
                                             <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-11.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-11.svg">
                                         </span>
                                                 <span>Sports Activities</span>
                                             </a>
@@ -247,38 +247,38 @@
                                     <div class="row row-cols-xl-2">
                                         <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-12.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-12.svg">
                                         </span>
                                             <span>The team</span>
                                         </a>
                                         <a class="dropdown-item" href="#">
                                             <span class="dropdown-item__icon">
-                                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-13.svg">
+                                                <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-13.svg">
                                             </span>
                                             <span>Board and policy</span>
                                         </a>
                                         <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-14.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-14.svg">
                                         </span>
                                             <span>Mission / Vision</span>
                                         </a>
                                         <a class="dropdown-item" href="#">
                                             <span class="dropdown-item__icon">
-                                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-15.svg">
+                                                <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-15.svg">
                                             </span>
                                             <span>House rules</span>
                                         </a>
                                         <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-16.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-16.svg">
                                         </span>
                                             <span>Values and norms</span>
                                         </a>
 
                                         <a class="dropdown-item" href="#">
                                         <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-17.svg">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-17.svg">
                                         </span>
                                             <span>Sporta</span>
                                         </a>
@@ -298,7 +298,7 @@
                             <div class="input-group">
                     <span class="input-group-append">
                         <button class="btn btn-sm border-right-0 border btn-search" type="submit">
-                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/header/skin-18.svg">
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-18.svg">
                         </button>
                     </span>
                                 <input class="form-control border-left-0 border" type="search" placeholder="Search..." aria-label="Search">

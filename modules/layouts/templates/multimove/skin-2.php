@@ -18,7 +18,7 @@ position: 2
                 <div class="about-card__img">
                     <div class="rect rect--top-left rect--green d-none d-lg-block"></div>
                     <div class="circles circles--bottom-left d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/multimove/skin-2.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/multimove/skin-2.svg">
 
                     </div>
                     <picture>
@@ -31,7 +31,7 @@ position: 2
             <div class="col-lg-5 offset-lg-1">
                 <div class="about-card-content">
                     <div class="circles circles--top-right d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/multimove/skin-3.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/multimove/skin-3.svg">
                     </div>
                     <h3 class="about-card__title">Voordelig aansluitingstar</h3>
                     <p class="about-card__text  about-card__text--max-width">De kinderen en lesgevers kan je aansluiten aan het voordelige M-tarief dat slechts €5/jaar bedraagt. Hiermee zijn zij verzekerd voor BA en LO.</p>

@@ -14,7 +14,7 @@ position: 3
 <section class="section section-about section-members-administration edit safe-mode nodrop" field="layout-why-participate-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--bottom-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-6.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-6.svg">
         </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
@@ -29,7 +29,7 @@ position: 3
                 <div class="about-card__img">
                     <div class="rect rect--top-left rect--yellow d-none d-lg-block"></div>
                     <div class="circles circles--bottom-left d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-7.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-7.svg">
                     </div>
                     <picture>
                         <source srcset="<?php print template_url(); ?>images/why-participate-img-1-mobile.jpg" media="(max-width: 479px)">
@@ -59,7 +59,7 @@ position: 3
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                             <span class="card-header__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-8.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-8.svg">
                             </span>
                             <span>Support for your daily club activities</span>
                         </h5>
@@ -78,7 +78,7 @@ position: 3
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                             <span class="card-header__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-9.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-9.svg">
                             </span>
                             <span>Competition management</span>
                         </h5>
@@ -96,7 +96,7 @@ position: 3
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                             <span class="card-header__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-10.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-10.svg">
                             </span>
                             <span>Subsidies</span>
                         </h5>

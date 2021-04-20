@@ -14,7 +14,7 @@ position: 4
 <section class="section section-video-tool edit safe-mode nodrop" field="layout-why-participate-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-11.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-11.svg">
         </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">

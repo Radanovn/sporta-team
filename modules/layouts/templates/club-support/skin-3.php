@@ -35,10 +35,10 @@ position: 3
                 <div class="guidance-card__wrap-img guidance-card__wrap-img--ml">
                     <div class="rect rect--bottom-right rect--yellow d-none d-lg-block"></div>
                     <div class="circles circles--top-left d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-9.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-9.svg">
                     </div>
                     <div class="circles circles--bottom-center d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-10.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-10.svg">
                     </div>
                     <picture>
                         <source srcset="<?php print template_url(); ?>images/guidance-img-mobile.jpg" media="(max-width: 479px)">

@@ -14,7 +14,7 @@ position: 2
 <section class="section section-participate section-healthy-sports-exercise edit safe-mode nodrop" field="layout-healthy-sports-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/healthy-sports/skin-1.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/healthy-sports/skin-1.svg">
         </div>
         <div class="row">
             <div class="col-lg-9 mx-auto">
@@ -30,7 +30,7 @@ position: 2
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                         <span class="card-header__icon">
-                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/healthy-sports/skin-2.svg">
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/healthy-sports/skin-2.svg">
                         </span>
                             <span>Geestig gezond sporten</span>
                         </h5>
@@ -48,7 +48,7 @@ position: 2
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                         <span class="card-header__icon">
-                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/healthy-sports/skin-3.svg">
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/healthy-sports/skin-3.svg">
                         </span>
                             <span>Medische commissie</span>
                         </h5>
@@ -66,7 +66,7 @@ position: 2
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                         <span class="card-header__icon">
-                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/healthy-sports/skin-4.svg">
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/healthy-sports/skin-4.svg">
                         </span>
                             <span>Antidoping</span>
                         </h5>
@@ -84,7 +84,7 @@ position: 2
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                         <span class="card-header__icon">
-                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/healthy-sports/skin-5.svg">
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/healthy-sports/skin-5.svg">
                         </span>
                             <span>Sportkeuring</span>
                         </h5>

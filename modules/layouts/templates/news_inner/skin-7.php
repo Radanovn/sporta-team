@@ -23,7 +23,7 @@
     <div class="col-lg-5 offset-lg-1">
         <div class="about-card-content">
             <div class="circles circles--right d-none d-xl-block">
-                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-13.svg">
+                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-13.svg">
             </div>
             <h2 class="about-card__title mt-0">Useful documents:</h2>
             <p class="about-card__text about-card__text--max-width">
@@ -31,7 +31,7 @@
                 <a href="#" class="text-red link-download text-nowrap">
                     <span class="link-download__text link-download__text--decoration">getuigschrift.pdf</span>
                     <span class="link-download__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-14.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-14.svg">
                             </span>
                 </a>
             </p>
@@ -40,7 +40,7 @@
                 <a href="#" class="text-red link-download text-nowrap">
                     <span class="link-download__text link-download__text--decoration">Sporta.pdf</span>
                     <span class="link-download__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-14.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-14.svg">
                         </span>
                 </a>
             </p>
@@ -49,7 +49,7 @@
                 <a href="#" class="text-red link-download text-nowrap">
                     <span class="link-download__text link-download__text--decoration">ZS.pdf</span>
                     <span class="link-download__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-14.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-14.svg">
                         </span>
                 </a>
             </p>
@@ -58,7 +58,7 @@
                 <a href="#" class="text-red link-download text-nowrap">
                     <span class="link-download__text link-download__text--decoration">ZS.pdf</span>
                     <span class="link-download__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-14.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-14.svg">
                             </span>
                 </a>
             </p>

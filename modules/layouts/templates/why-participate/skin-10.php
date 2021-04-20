@@ -14,7 +14,7 @@ position: 10
 <section class="ssection section-connect-sport-club edit safe-mode nodrop" field="layout-why-participate-skin-10-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-23.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-23.svg">
         </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
@@ -29,7 +29,7 @@ position: 10
         <ol class="list-unstyled list-connect mb-0">
             <li class="list-connect__item list-connect__item--red">
                 <div class="circles circles--first-list-item">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-24.svg">
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-24.svg">
                 </div>
                 <div class="list-connect__item-content">Check whether your club meets all the conditions</div>
             </li>
@@ -38,7 +38,7 @@ position: 10
             </li>
             <li class="list-connect__item list-connect__item--yellow">
                 <div class="circles circles--last-list-item">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-25.svg">
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-25.svg">
                 </div>
                 <div class="list-connect__item-content">You will receive all the infor&shy;mation you need to further or&shy;ganize your club and member administration via My Beheer.</div>
             </li>

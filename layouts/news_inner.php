@@ -28,7 +28,7 @@ $itemTags = content_tags($content['id']);
         <div class="container">
             <div class="row no-gutters position-relative decor-block">
                 <div class="circles circles--top-right d-none d-lg-block">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-1.svg">
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-1.svg">
                 </div>
                 <div class="col-lg-8 mx-auto text-center">
                     <div class="single-post__date"><?php echo date('d M Y', strtotime($content['created_at'])); ?></div>
@@ -38,7 +38,7 @@ $itemTags = content_tags($content['id']);
 
             <div class="row no-gutters position-relative decor-block">
                 <div class="circles circles--bottom-left d-none d-lg-block">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-2.svg">
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-2.svg">
                 </div>
 
                 <?php if ($picture) : ?>
@@ -56,7 +56,7 @@ $itemTags = content_tags($content['id']);
 
             <div class="row no-gutters position-relative decor-block">
                 <div class="circles circles--left d-none d-lg-block">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-3.svg">
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-3.svg">
                 </div>
                 <div class="col-lg-8 col-xl-6 mx-auto edit main-content" rel="content" field="content">
                     <p class="font-weight-600"><?php print $content['description'] ?></p>

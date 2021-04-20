@@ -18,7 +18,7 @@ position: 5
                 <div class="about-card__img">
                     <div class="rect rect--top-left rect--green d-none d-md-block"></div>
                     <div class="circles circles--bottom-left d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/multimove/skin-7.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/multimove/skin-7.svg">
 
                     </div>
                     <picture>

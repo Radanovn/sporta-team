@@ -18,7 +18,7 @@ position: 7
                 <div class="about-card__img">
                     <div class="rect rect--top-left rect--yellow d-none d-lg-block"></div>
                     <div class="circles circles--bottom-left d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-16.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-16.svg">
                     </div>
                     <picture>
                         <source srcset="<?php print template_url(); ?>images/vizit-img-mobile.jpg" media="(max-width: 479px)">

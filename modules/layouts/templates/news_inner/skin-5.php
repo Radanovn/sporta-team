@@ -11,10 +11,10 @@
 ?>
 <div class="row no-gutters position-relative decor-block edit safe-mode nodrop" field="layout-news-inner-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="circles circles--right d-none d-lg-block">
-        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-9.svg">
+        <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-9.svg">
     </div>
     <div class="circles circles--left-center d-none d-lg-block">
-        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-10.svg">
+        <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-10.svg">
     </div>
     <div class="col-lg-8 col-xl-6 mx-auto">
         <figure class="wrapper-video-content">

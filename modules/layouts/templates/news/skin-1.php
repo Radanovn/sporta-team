@@ -18,7 +18,7 @@
                 <input class="form-control border-right-0 border" type="search" placeholder="Search..." aria-label="Search">
                 <span class="input-group-append">
                     <button class="btn btn-sm border-left-0 border btn-search" type="submit">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news/skin-1.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/news/skin-1.svg">
                     </button>
                 </span>
             </div>

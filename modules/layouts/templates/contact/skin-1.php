@@ -28,7 +28,7 @@ position: 1
                 <div class="section-contact__wrap-img">
                     <div class="rect rect--top-right rect--yellow"></div>
                     <div class="circles circles--top-right">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/contact/skin-1.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/contact/skin-1.svg">
                     </div>
                     <img src="<?php print template_url(); ?>images/contact-img-1.jpg" alt="">
                 </div>

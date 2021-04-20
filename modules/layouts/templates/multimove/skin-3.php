@@ -23,7 +23,7 @@ position: 3
         </div>
         <div class="row cards-wrap mx-lg-auto position-relative">
             <div class="circles circles--bottom-right d-none d-lg-block">
-                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/multimove/skin-4.svg">
+                <img src="<?php print template_url(); ?>modules/layouts/svg/multimove/skin-4.svg">
 
             </div>
             <div class="col-lg-4">

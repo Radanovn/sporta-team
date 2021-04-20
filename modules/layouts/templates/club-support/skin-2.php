@@ -14,10 +14,10 @@ position: 2
 <section class="section section-benefits bg-gray edit safe-mode nodrop" field="layout-club-support-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-1.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-1.svg">
         </div>
         <div class="circles circles--right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-2.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-2.svg">
         </div>
         <div class="row">
             <div class="col-lg-9 mx-auto">
@@ -36,7 +36,7 @@ position: 2
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
-                                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-3.svg">
+                                    <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-3.svg">
                                 </div>
                                 <h5 class="card-title">Аdministrative</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
@@ -47,7 +47,7 @@ position: 2
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
-                                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-4.svg">
+                                    <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-4.svg">
                                 </div>
                                 <h5 class="card-title">Promotional</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
@@ -58,7 +58,7 @@ position: 2
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
-                                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-5.svg">
+                                    <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-5.svg">
                                 </div>
                                 <h5 class="card-title">Financial</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
@@ -69,7 +69,7 @@ position: 2
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
-                                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-6.svg">
+                                    <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-6.svg">
                                 </div>
                                 <h5 class="card-title">Sportif</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
@@ -80,7 +80,7 @@ position: 2
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
-                                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-7.svg">
+                                    <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-7.svg">
                                 </div>
                                 <h5 class="card-title">Social</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
@@ -91,7 +91,7 @@ position: 2
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
-                                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/club-support/skin-8.svg">
+                                    <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-8.svg">
                                 </div>
                                 <h5 class="card-title">Management</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>

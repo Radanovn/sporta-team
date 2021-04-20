@@ -19,7 +19,7 @@ position: 2
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                             <span class="card-header__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-1.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-1.svg">
                             </span>
                             <span>Insurance</span>
                         </h5>
@@ -37,7 +37,7 @@ position: 2
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                             <span class="card-header__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-3.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-3.svg">
                             </span>
                             <span>Club support</span>
                         </h5>
@@ -55,7 +55,7 @@ position: 2
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                             <span class="card-header__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-4.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-4.svg">
                             </span>
                             <span>Members’ Administration</span>
                         </h5>
@@ -73,7 +73,7 @@ position: 2
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
                             <span class="card-header__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-5.svg">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-5.svg">
                             </span>
                             <span>Easy all-in price formula</span>
                         </h5>

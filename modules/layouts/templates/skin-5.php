@@ -31,7 +31,7 @@ position: 5
                 <div class="about-card__img about-card__img--ml">
                     <div class="rect rect--top-right rect--red d-none d-lg-block"></div>
                     <div class="circles circles--top-right d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/skin-5-svg-1.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/skin-5-svg-1.svg">
                     </div>
                     <picture>
                         <source srcset="<?php print template_url(); ?>images/about-img-1-mobile.jpg" media="(max-width: 479px)">
@@ -47,7 +47,7 @@ position: 5
                 <div class="about-card__img">
                     <div class="rect rect--top-left rect--green d-none d-lg-block"></div>
                     <div class="circles circles--bottom-left d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/skin-5-svg-2.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/skin-5-svg-2.svg">
                     </div>
                     <picture>
                         <source srcset="<?php print template_url(); ?>images/about-img-2-mobile.jpg" media="(max-width: 479px)">

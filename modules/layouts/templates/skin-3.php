@@ -26,10 +26,10 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
 <section class="section section-member bg-gray <?php print $layout_classes; ?> nodrop edit" field="layout-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/skin-3-svg-1.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/skin-3-svg-1.svg">
         </div>
         <div class="circles circles--bottom-left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/skin-3-svg-2.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/skin-3-svg-2.svg">
         </div>
         <div class="section__block-title text-center">
             <h2>Already a member?</h2>

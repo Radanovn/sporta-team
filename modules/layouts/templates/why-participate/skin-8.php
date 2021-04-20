@@ -14,10 +14,10 @@ position: 8
 <section class="section section-club-support edit safe-mode nodrop" field="layout-why-participate-skin-8-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-18.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-18.svg">
         </div>
         <div class="circles circles--bottom-left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-19.svg">
+            <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-19.svg">
         </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
@@ -34,7 +34,7 @@ position: 8
                             <div class="card-header bg-transparent border-0">
                                 <h5 class="card-title m-0 h-100">
                                     <span class="card-header__icon">
-                                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-20.svg">
+                                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-20.svg">
                                     </span>
                                     <span>Perfect fit</span>
                                 </h5>
@@ -49,7 +49,7 @@ position: 8
                             <div class="card-header bg-transparent border-0">
                                 <h5 class="card-title m-0 h-100">
                                     <span class="card-header__icon">
-                                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-21.svg">
+                                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-21.svg">
                                     </span>
                                     <span>Pay less</span>
                                 </h5>
@@ -64,7 +64,7 @@ position: 8
                             <div class="card-header bg-transparent border-0">
                                 <h5 class="card-title m-0 h-100">
                                     <span class="card-header__icon">
-                                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-22.svg">
+                                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-22.svg">
                                     </span>
                                     <span>And even more...</span>
                                 </h5>

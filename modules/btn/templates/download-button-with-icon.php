@@ -20,7 +20,7 @@ description: sporta buttons with icons
     print ' target="_blank" ';
 } ?> class="<?php print $style ?>">
 <span class="btn__icon">
-    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-17.svg">
+    <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-17.svg">
 </span>
     <?php print $text; ?>
 </a>

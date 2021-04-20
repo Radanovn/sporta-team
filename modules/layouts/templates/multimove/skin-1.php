@@ -24,7 +24,7 @@ position: 1
                 <div class="about-card__img about-card__img--ml">
                     <div class="rect rect--top-right rect--yellow d-none d-lg-block"></div>
                     <div class="circles circles--top-right d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/multimove/skin-1.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/multimove/skin-1.svg">
                     </div>
                     <picture>
                         <source srcset="<?php print template_url(); ?>images/multimove-hero-img-mobile.jpg" media="(max-width: 479px)">

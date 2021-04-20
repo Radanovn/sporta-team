@@ -17,7 +17,7 @@
             <a href="#" class="link color-red font-weight-bold text-decoration-none">
                 Read more
                 <span class="link__arrow">
-                            <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-12.svg">
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-12.svg">
                         </span>
             </a>
         </div>

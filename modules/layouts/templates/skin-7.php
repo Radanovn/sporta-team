@@ -19,7 +19,7 @@ position: 7
                 <div class="section-contact__wrap-img">
                     <div class="rect rect--bottom-left rect--yellow d-none d-lg-block"></div>
                     <div class="circles circles--bottom-left d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/templates/svg/skin-7-svg-1.svg">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/skin-7-svg-1.svg">
                     </div>
                     <img src="<?php print template_url(); ?>images/contact-img.jpg" alt="">
                 </div>

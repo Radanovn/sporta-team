@@ -15,7 +15,7 @@
             <div class="about-card__img">
                 <div class="rect rect--top-left rect--yellow d-none d-md-block"></div>
                 <div class="circles circles--bottom-left d-none d-lg-block">
-                    <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-7.svg">
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-7.svg">
                 </div>
                 <picture>
                     <source srcset="<?php print template_url(); ?>images/about-img-2-mobile.jpg" media="(max-width: 479px)">
@@ -27,7 +27,7 @@
         </div>
         <div class="col-md-6 col-lg-5 offset-md-1 position-relative">
             <div class="circles circles--bottom-right d-none d-xl-block">
-                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/news_inner/skin-8.svg">
+                <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-8.svg">
             </div>
             <div class="about-card-content">
                 <h3 class="about-card__title">Column 1</h3>

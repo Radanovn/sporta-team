@@ -23,7 +23,7 @@ position: 4
                     <h4 class="about-card__title">Opleidingen en bijscholing<br class="d-none d-lg-inline"> voor multi&#8209;movebegeleiders</h4>
                     <p class="about-card__text  about-card__text--max-width">De kinderen en lesgevers kan je aansluiten aan het voordelige M-tarief dat slechts €5/jaar bedraagt. Hiermee zijn zij verzekerd voor BA en LO.</p>
                     <div class="about-card__wrap-link">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="red text-decoration-none">
+                        <module type="btn" template="sporta-card-links-with-icons" button_style="red text-decoration-none" button_text="Find out more">
                     </div>
                 </div>
             </div>

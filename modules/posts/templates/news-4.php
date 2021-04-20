@@ -39,7 +39,7 @@ description: news
                         <?php endif; ?>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow"/>
+                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Read more"/>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,6 @@ description: news
             <div class="form-widget-wrap">
                 <h4 class="form-widget__title">The most interesting articles in your mailbox?</h4>
                 <module type="contact_form" template="sporta-news-page-form"/>
-
             </div>
         </div>
     </div>

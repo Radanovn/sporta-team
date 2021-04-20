@@ -36,7 +36,7 @@ position: 2
                     <h3 class="about-card__title">Voordelig aansluitingstar</h3>
                     <p class="about-card__text  about-card__text--max-width">De kinderen en lesgevers kan je aansluiten aan het voordelige M-tarief dat slechts €5/jaar bedraagt. Hiermee zijn zij verzekerd voor BA en LO.</p>
                     <div class="about-card__wrap-btn">
-                        <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red">
+                        <module type="btn" template="sporta-buttons" button_style="Red" button_text="Yes, ik sluit me aan">
                     </div>
                 </div>
             </div>

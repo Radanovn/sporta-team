@@ -21,7 +21,7 @@ position: 6
             <module type="posts" limit="3" template="default"/>
 
             <div class="section-wrapper-btn text-center">
-                <module type="btn" template="sporta-buttons" button_style="btn-green"/>
+                <module type="btn" template="sporta-buttons" button_style="Red" button_text="Read all news"/>
             </div>
         </div>
 </section>

@@ -35,52 +35,52 @@
                 <div class="col-md-8">
                     <ul class="list-unstyled footer__menu">
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Join sporta club"/>
                             <module type="menu" name="footer_menu_1" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Insurance"/>
                             <module type="menu" name="footer_menu_2" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Club support"/>
                             <module type="menu" name="footer_menu_3" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Sport for all"/>
                             <module type="menu" name="footer_menu_4" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Multi sports"/>
                             <module type="menu" name="footer_menu_5" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Healthy sports"/>
                             <module type="menu" name="footer_menu_6" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Ethical sports"/>
                             <module type="menu" name="footer_menu_7" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Training"/>
                             <module type="menu" name="footer_menu_8" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Sports activities"/>
                             <module type="menu" name="footer_menu_9" template="footer"/>
                         </li>
                         <li>
-                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
+                            <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="About sporta team"/>
                             <module type="menu" name="footer_menu_10" template="footer"/>
                         </li>
                         <li>
                             <div class="contact-block">
-                                <module type="btn" template="sporta-buttons" button_style="footer__menu-link" />
-                                <module type="btn" template="sporta-buttons" button_style="st-email" />
-                                <module type="btn" template="sporta-buttons" button_style="st-phone" />
-                                <module type="btn" template="sporta-btn-link-p" />
-                                <module type="btn" template="sporta-buttons" button_style="btn-red" />
+                                <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Get in touch"/>
+                                <module type="btn" template="sporta-buttons" button_style="st-email" button_text="Federatie@sporta.be"/>
+                                <module type="btn" template="sporta-buttons" button_style="st-phone" button_text="+32 (0) 3 361 53 40"/>
+                                <module type="btn" template="sporta-btn-link-p" button_text="Boomgaardstraat 22 Bus 50 B-2600 Berchem"/>
+                                <module type="btn" template="sporta-buttons" button_style="Red" button_text="Contact us"/>
                             </div>
                         </li>
                     </ul>

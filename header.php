@@ -62,14 +62,14 @@
                                     </div>
                                 </form>
                                 <div class="navbar-nav order-0">
-                                    <module type="menu" name="header_menu"template="default"/>
+                                    <module type="menu" name="header_menu" template="default"/>
                                 </div>
                                 <div class="v-divider d-none d-lg-block order-lg-1"></div>
                                 <div class="order-lg-1">
-                                    <module type="btn" template="sporta-login" button_style="btn-link" />
+                                    <module type="btn" template="sporta-login" button_style="btn-link" button_text="Login" />
                                 </div>
                                 <div class="wrap-btn text-center order-lg-1">
-                                    <module type="btn" template="sporta-buttons" button_style="btn-red"/>
+                                    <module type="btn" template="sporta-buttons" button_style="Red" button_text="Join sporta club"/>
                                 </div>
                             </div>
                         </div>

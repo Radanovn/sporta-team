@@ -39,7 +39,7 @@ description: news
                         <?php endif; ?>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow"/>
+                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Read more"/>
                     </div>
                 </div>
             </div>

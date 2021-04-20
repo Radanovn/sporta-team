@@ -48,7 +48,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons"/>
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons"/>
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons"/>
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons"/>
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons"/>
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons"/>
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons"/>
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                                 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons"/>
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="btn-red"/>
+            <module type="btn" template="sporta-buttons" button_style="Red" button_text="Sign in"/>
         </div>
     </div>
 </section>

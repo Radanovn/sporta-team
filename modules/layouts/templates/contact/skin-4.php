@@ -119,7 +119,7 @@ position: 4
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="green" />
+            <module type="btn" template="sporta-buttons" button_style="Green" button_text="More about sporta team" />
         </div>
     </div>
 </section>

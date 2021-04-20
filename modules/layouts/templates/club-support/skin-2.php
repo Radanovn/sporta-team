@@ -102,7 +102,7 @@ position: 2
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green">
+            <module type="btn" template="sporta-buttons" button_style="Green" button_text="View all the benefits">
         </div>
     </div>
 </section>

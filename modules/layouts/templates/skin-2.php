@@ -33,7 +33,7 @@ position: 2
                         <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <module type="btn" template="sporta-links-with-icons"/>
+                        <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ position: 2
                         <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <module type="btn" template="sporta-links-with-icons"/>
+                        <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ position: 2
                         <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <module type="btn" template="sporta-links-with-icons"/>
+                        <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -87,13 +87,13 @@ position: 2
                         <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <module type="btn" template="sporta-links-with-icons"/>
+                        <module type="btn" template="sporta-links-with-icons" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="btn-green"/>
+            <module type="btn" template="sporta-buttons" button_style="btn-green" button_text="Join sporta club"/>
         </div>
     </div>
 </section>

@@ -39,7 +39,7 @@ position: 3
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis-cing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons">
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more">
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ position: 3
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis-cing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons">
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more">
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ position: 3
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis-cing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
                             <div class="card-footer bg-transparent border-top-0">
-                                <module type="btn" template="sporta-links-with-icons">
+                                <module type="btn" template="sporta-links-with-icons" button_text="Find out more">
                             </div>
                         </div>
                     </div>

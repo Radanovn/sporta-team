@@ -23,7 +23,7 @@ position: 5
                     <h3 class="about-card__title">Our <span class="text-red">mission</span> and vision</h3>
                     <p class="about-card__text  about-card__text--max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <div class="about-card__wrap-link">
-                        <module type="btn" template="sporta-links-with-icons" button-style="red text-decoration-none"/>
+                        <module type="btn" template="sporta-links-with-icons" button-style="red text-decoration-none" button_text="Find out more">
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ position: 5
                     <h3 class="about-card__title">Our team <span class="text-green">support</span></h3>
                     <p class="about-card__text  about-card__text--max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Exercitation veniam consequat sunt nostrud amet.</p>
                     <div class="about-card__wrap-link">
-                        <module type="btn" template="sporta-links-with-icons" button-style="green text-decoration-none"/>
+                        <module type="btn" template="sporta-links-with-icons" button-style="green text-decoration-none" button_text="Find out more"/>
                     </div>
                 </div>
             </div>

@@ -19,8 +19,8 @@ position: 2
         <div class="section-map__content">
             <div class="section-map__content-col-left">
                 <div class="font-weight-600 pb-2 mb-3">
-                    <module type="btn" template="sporta-buttons" button_style="link-email" />
-                    <module type="btn" template="sporta-buttons" button_style="link-phone" />
+                    <module type="btn" template="sporta-buttons" button_style="link-email" button_text="federatie@sporta.be"/>
+                    <module type="btn" template="sporta-buttons" button_style="link-phone" button_text="+32 (0) 3 361 53 40"/>
                 </div>
                 <div>
                     Boomgaardstraat 22<br>
@@ -33,8 +33,8 @@ position: 2
                 </div>
                 <div>
                     Charlotte Verboven<br>
-                    <module type="btn" template="sporta-buttons" button_style="link-email" />
-                    <module type="btn" template="sporta-buttons" button_style="link-phone" />
+                    <module type="btn" template="sporta-buttons" button_style="link-email" button_text="cverboven@sporta.be"/>
+                    <module type="btn" template="sporta-buttons" button_style="link-phone" button_text="+32 (0) 3 361 53 40"/>
                 </div>
             </div>
         </div>

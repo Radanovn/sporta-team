@@ -37,7 +37,7 @@ position: 3
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="default">
+                            <module type="btn" template="sporta-buttons" button_style="default" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -54,7 +54,7 @@ position: 3
                         <p class="card-text">Every two years, all trainers in Flanders gather for a day full of workshops, practical sessions, refresher courses and information about new developments, trends and tips. Both for certi-fied and (yet) non-qualified trainers or sports coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="red">
+                        <module type="btn" template="sporta-card-links-with-icons" button_style="red" button_text="Meer info">
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ position: 3
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="default">
+                            <module type="btn" template="sporta-buttons" button_style="default" button_text="More info">
 
                         </div>
                     </div>
@@ -87,7 +87,7 @@ position: 3
                         <p class="card-text">Every two years, all trainers in Flanders gather for a day full of workshops, practical sessions, refresher courses and information about new developments, trends and tips. Both for certi-fied and (yet) non-qualified trainers or sports coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="green">
+                        <module type="btn" template="sporta-card-links-with-icons" button_style="green" button_text="Meer info">
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@ position: 3
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="default">
+                            <module type="btn" template="sporta-buttons" button_style="default" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -119,7 +119,7 @@ position: 3
                         <p class="card-text">Every two years, all trainers in Flanders gather for a day full of workshops, practical sessions, refresher courses and information about new developments, trends and tips. Both for certi-fied and (yet) non-qualified trainers or sports coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow">
+                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Meer info">
                     </div>
                 </div>
             </div>

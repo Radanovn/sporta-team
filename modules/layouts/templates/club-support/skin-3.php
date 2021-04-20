@@ -27,7 +27,7 @@ position: 3
                         We are happy to visit your club and offer a listening ear for all your questions.
                     </p>
                     <div class="guidance-card__wrap-btn">
-                        <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green">
+                        <module type="btn" template="sporta-buttons" button_style="Green" button_text="Invite us">
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ position: 3
                     <h2 class="benefits-guide-card__title">Download this handy club benefits guide</h2>
                     <p class="benefits-guide-card__text">Seeing all those bonuses like this is great fun, but when it comes down to it, how does my club benefit from it? Well, that is clearly explained in this Club Benefits Guide.</p>
                     <div class="benefits-guide-card__wrap-btn text-center text-sm-left">
-                        <module type="btn" template="download-button-with-icon">
+                        <module type="btn" template="download-button-with-icon" button_style="Red" button_text="Download">
                     </div>
                 </div>
             </div>

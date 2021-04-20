@@ -154,7 +154,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="Red" button_text="Sign in"/>
+            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Sign in"/>
         </div>
     </div>
 </section>

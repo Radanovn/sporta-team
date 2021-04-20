@@ -28,19 +28,19 @@
             <h2 class="about-card__title mt-0">Useful documents:</h2>
             <p class="about-card__text about-card__text--max-width">
                 Geneeskundig
-                <module type="btn" template="link-download-icon" button_style="Red" button_text="getuigschrift.pdf">
+                <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="getuigschrift.pdf">
             </p>
             <p class="about-card__text  about-card__text--max-width">
                 Aangifteformulier
-                <module type="btn" template="link-download-icon" button_style="Red" button_text="Sporta.pdf">
+                <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="Sporta.pdf">
             </p>
             <p class="about-card__text  about-card__text--max-width">
                 Aangifteformulier-individu gezin
-                <module type="btn" template="link-download-icon" button_style="Red" button_text="ZS.pdf">
+                <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="ZS.pdf">
             </p>
             <p class="about-card__text  about-card__text--max-width">
                 Aangifteformulier- bedrijf
-                <module type="btn" template="link-download-icon" button_style="Red" button_text="ZS.pdf">
+                <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="ZS.pdf">
             </p>
 
             <h4>Links</h4>

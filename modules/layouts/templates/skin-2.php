@@ -93,7 +93,7 @@ position: 2
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="btn-green" button_text="Join sporta club"/>
+            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Join sporta club"/>
         </div>
     </div>
 </section>

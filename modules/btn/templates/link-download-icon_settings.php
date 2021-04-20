@@ -15,8 +15,8 @@ $url_blank = get_option('url_blank', $params['id']);
             <label class="control-label d-block"><?php _e("Color"); ?></label>
             <small class="text-muted d-block mb-3"><?php _e('Choose your button color from the dropdown.');?></small>
             <select class="mw_option_field selectpicker" data-width="100%" name="button_style">
-                <option <?php if ($style == 'Red'): ?>selected<?php endif; ?> value="text-red link-download text-nowrap"><?php _e("Red"); ?></option>
-                <option <?php if ($style == 'Green'): ?>selected<?php endif; ?> value="text-green link-download text-nowrap"><?php _e("Green"); ?></option>
+                <option <?php if ($style == 'text-red link-download text-nowrap'): ?>selected<?php endif; ?> value="text-red link-download text-nowrap"><?php _e("Red"); ?></option>
+                <option <?php if ($style == 'text-green link-download text-nowrap'): ?>selected<?php endif; ?> value="text-green link-download text-nowrap"><?php _e("Green"); ?></option>
             </select>
         </div>
     </div>

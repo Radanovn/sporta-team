@@ -27,7 +27,7 @@ position: 3
                         We are happy to visit your club and offer a listening ear for all your questions.
                     </p>
                     <div class="guidance-card__wrap-btn">
-                        <module type="btn" template="sporta-buttons" button_style="Green" button_text="Invite us">
+                        <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Invite us">
                     </div>
                 </div>
             </div>

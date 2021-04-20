@@ -1,4 +1,17 @@
-<?php include THIS_TEMPLATE_DIR . "header.php"; ?>
+<?php
+
+/*
+
+type: layout
+content_type: static
+name: Healthy sports
+position: 6
+description: Healthy sports
+
+*/
+
+?>
+<?php include template_dir() . "header.php"; ?>
 
             <section class="hero-section hero-healthy-sports pb-0">
                 <div class="row no-gutters">
@@ -285,4 +298,4 @@
                 </div>
             </section>
 
-<?php include THIS_TEMPLATE_DIR . "footer.php"; ?>
+<?php include template_dir() . "footer.php"; ?>

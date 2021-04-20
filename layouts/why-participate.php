@@ -3,7 +3,7 @@
 /*
 
 type: layout
-content_type: dynamic
+content_type: static
 name: Why participate
 position: 6
 description: Why participate

@@ -12,6 +12,7 @@ description: Healthy sports
 
 ?>
 <?php include template_dir() . "header.php"; ?>
+
 <div class="edit main-content" rel="content" field="sporta-healthy-sports_content">
     <module type="layouts" template="healthy-sports/skin-1"/>
     <module type="layouts" template="healthy-sports/skin-2"/>

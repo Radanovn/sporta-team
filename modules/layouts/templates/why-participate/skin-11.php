@@ -39,7 +39,7 @@ position: 11
                             <input type="email" class="form-control" placeholder="your.email@domain.com" required>
                             <div class="invalid-feedback">Error text</div>
                         </div>
-                        <button type="submit" class="btn btn-red btn-animate">Get</button>
+                        <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red">
                     </form>
                 </div>
             </div>

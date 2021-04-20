@@ -33,12 +33,7 @@ position: 7
                     <p class="about-card__text">Find out how to expand your insurance options here. policy details and insurance manual.</p>
                     <div class="about-card__wrap-btn">
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur elit</p>
-                        <a href="#" class="btn btn-animate btn-red">
-                            <span class="btn__icon">
-                                <img src="<?php print template_url(); ?>modules/layouts/templates/svg/why-participate/skin-17.svg">
-                            </span>
-                            download
-                        </a>
+                        <module type="btn" template="download-button-with-icon">
                     </div>
                 </div>
             </div>

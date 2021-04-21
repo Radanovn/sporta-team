@@ -18,17 +18,7 @@ description: Chart
         <div class="container">
             <div class="row no-gutters about-card position-relative">
                 <div class="circles circles--top-right d-none d-lg-block">
-                    <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="30.7904" r="2.78745" fill="#52B392"/>
-                    </svg>
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/chart/skin-1.svg">
                 </div>
                 <div class="col-lg-6">
                     <div class="about-card-content">
@@ -52,30 +42,10 @@ description: Chart
         <div class="container">
             <div class="row no-gutters position-relative">
                 <div class="circles circles--left d-none d-lg-block">
-                    <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="30.7904" r="2.78745" fill="#52B392"/>
-                    </svg>
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/chart/skin-2.svg">
                 </div>
                 <div class="circles circles--right d-none d-lg-block">
-                    <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                        <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                        <circle cx="32.479" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                        <circle cx="32.479" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                        <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                        <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                        <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                        <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                        <circle cx="32.479" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                    </svg>
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/chart/skin-3.svg">
                 </div>
                 <div class="col-lg-9 mx-lg-auto">
                     <div class="st-table">
@@ -218,33 +188,13 @@ description: Chart
         <div class="container">
             <div class="row no-gutters about-card position-relative">
                 <div class="circles circles--top-right d-none d-lg-block">
-                    <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="3.20932" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#52B392"/>
-                        <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#52B392"/>
-                        <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#52B392"/>
-                        <circle cx="32.479" cy="30.7904" r="2.78745" fill="#52B392"/>
-                    </svg>
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/chart/skin-4.svg">
                 </div>
                 <div class="col-md-6 order-md-2 order-lg-1">
                     <div class="about-card__img">
                         <div class="rect rect--top-left rect--yellow d-none d-md-block"></div>
                         <div class="circles circles--bottom-left d-none d-lg-block">
-                            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                                <circle cx="16.828" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.0855" cy="16.578" r="2.78745" fill="#F6D278"/>
-                                <circle cx="16.828" cy="16.578" r="2.78745" fill="#F6D278"/>
-                                <circle cx="3.03745" cy="16.578" r="2.78745" fill="#F6D278"/>
-                                <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                                <circle cx="16.828" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                            </svg>
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/chart/skin-5.svg">
                         </div>
                         <picture>
                             <source srcset="<?php print template_url(); ?>images/chart-img-1-mobile.jpg" media="(max-width: 767px)">

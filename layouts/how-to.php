@@ -27,17 +27,7 @@ description: How to
                     <div class="about-card__img about-card__img--ml">
                         <div class="rect rect--top-right rect--red d-none d-lg-block"></div>
                         <div class="circles circles--top-right d-none d-lg-block">
-                            <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                            </svg>
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-1.svg">
                         </div>
                         <picture>
                             <source srcset="<?php print template_url(); ?>images/how-to-img-1-mobile.jpg" media="(max-width: 479px)">
@@ -53,30 +43,10 @@ description: How to
     <section class="section section-accidents">
         <div class="container position-relative">
             <div class="circles circles--top-right d-none d-lg-block">
-                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="3.03745" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                </svg>
+                <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-2.svg">
             </div>
             <div class="circles circles--left d-none d-lg-block">
-                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#52B392"/>
-                    <circle cx="16.828" cy="2.78745" r="2.78745" fill="#52B392"/>
-                    <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#52B392"/>
-                    <circle cx="32.0855" cy="16.578" r="2.78745" fill="#52B392"/>
-                    <circle cx="16.828" cy="16.578" r="2.78745" fill="#52B392"/>
-                    <circle cx="3.03745" cy="16.578" r="2.78745" fill="#52B392"/>
-                    <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#52B392"/>
-                    <circle cx="16.828" cy="30.3685" r="2.78745" fill="#52B392"/>
-                    <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#52B392"/>
-                </svg>
+                <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-3.svg">
             </div>
             <div class="row">
                 <div class="col-lg-9 mx-auto">
@@ -105,30 +75,10 @@ description: How to
     <section class="section section-accidents">
         <div class="container position-relative">
             <div class="circles circles--right-top d-none d-lg-block">
-                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="3.03745" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                </svg>
+                <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-4.svg">
             </div>
             <div class="circles circles--left-center d-none d-lg-block">
-                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="3.03745" cy="16.578" r="2.78745" fill="#F6D278"/>
-                    <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                    <circle cx="16.828" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                    <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                </svg>
+                <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-5.svg">
             </div>
             <div class="row">
                 <div class="col-lg-9 mx-auto">
@@ -159,33 +109,13 @@ description: How to
         <div class="container">
             <div class="row no-gutters about-card">
                 <div class="circles circles--top-right d-none d-lg-block">
-                    <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#CA2F4E"/>
-                        <circle cx="16.828" cy="2.78745" r="2.78745" fill="#CA2F4E"/>
-                        <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#CA2F4E"/>
-                        <circle cx="32.0855" cy="16.578" r="2.78745" fill="#CA2F4E"/>
-                        <circle cx="16.828" cy="16.578" r="2.78745" fill="#CA2F4E"/>
-                        <circle cx="3.03745" cy="16.578" r="2.78745" fill="#CA2F4E"/>
-                        <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#CA2F4E"/>
-                        <circle cx="16.828" cy="30.3685" r="2.78745" fill="#CA2F4E"/>
-                        <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#CA2F4E"/>
-                    </svg>
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-6.svg">
                 </div>
                 <div class="col-md-5 col-lg-6">
                     <div class="about-card__img">
                         <div class="rect rect--top-left rect--yellow d-none d-md-block"></div>
                         <div class="circles circles--bottom-left d-none d-lg-block">
-                            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                                <circle cx="16.828" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.0855" cy="16.578" r="2.78745" fill="#F6D278"/>
-                                <circle cx="16.828" cy="16.578" r="2.78745" fill="#F6D278"/>
-                                <circle cx="3.03745" cy="16.578" r="2.78745" fill="#F6D278"/>
-                                <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                                <circle cx="16.828" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                            </svg>
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-7.svg">
                         </div>
                         <picture>
                             <source srcset="<?php print template_url(); ?>images/how-to-img-2-mobile.jpg" media="(max-width: 479px)">
@@ -271,30 +201,11 @@ description: How to
                 <div class="col-md-6 guidance-card__wrap-img order-0 order-md-1">
                     <div class="rect rect--bottom-right rect--green d-none d-md-block"></div>
                     <div class="circles circles--top-left d-none d-lg-block">
-                        <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                            <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                            <circle cx="32.479" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                            <circle cx="32.479" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                            <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                            <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                            <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                            <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                            <circle cx="32.479" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                        </svg>
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-8.svg">
+
                     </div>
                     <div class="circles circles--bottom-right d-none d-lg-block">
-                        <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#52B392"/>
-                            <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#52B392"/>
-                            <circle cx="32.479" cy="3.20932" r="2.78745" fill="#52B392"/>
-                            <circle cx="32.479" cy="16.9999" r="2.78745" fill="#52B392"/>
-                            <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#52B392"/>
-                            <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#52B392"/>
-                            <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#52B392"/>
-                            <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#52B392"/>
-                            <circle cx="32.479" cy="30.7904" r="2.78745" fill="#52B392"/>
-                        </svg>
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-9.svg">
                     </div>
                     <picture>
                         <source srcset="<?php print template_url(); ?>images/how-to-img-3-mobile.jpg" media="(max-width: 479px)">

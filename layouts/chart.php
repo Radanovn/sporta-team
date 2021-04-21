@@ -208,7 +208,7 @@ description: Chart
                         <h2 class="about-card__title">Heed help?</h2>
                         <p class="about-card__text  about-card__text--max-width">We are happy to help you.</p>
                         <div class="about-card__wrap-btn">
-                            <a href="#" class="btn btn-green btn-animate">contact us</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
                         </div>
                     </div>
                 </div>

@@ -22,8 +22,10 @@ $url_blank = get_option('url_blank', $params['id']);
                 <option <?php if ($style == 'link-phone'): ?>selected<?php endif; ?> value="link-phone"><?php _e("contacts link phone"); ?></option>
                 <option <?php if ($style == 'btn btn-animate'): ?>selected<?php endif; ?> value="btn btn-animate"><?php _e("Default"); ?></option>
                 <option <?php if ($style == 'btn btn-animate btn-red'): ?>selected<?php endif; ?> value="btn btn-animate btn-red"><?php _e("Red"); ?></option>
+                <option <?php if ($style == 'btn btn-animate btn-small'): ?>selected<?php endif; ?> value="btn btn-animate btn-small"><?php _e("Small"); ?></option>
                 <option <?php if ($style == 'btn btn-animate btn-green'): ?>selected<?php endif; ?> value="btn btn-animate btn-green"><?php _e("Green"); ?></option>
                 <option <?php if ($style == 'card-info__link-contact'): ?>selected<?php endif; ?> value="card-info__link-contact"><?php _e("Link contact"); ?></option>
+
             </select>
         </div>
     </div>

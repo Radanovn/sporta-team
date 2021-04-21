@@ -1,4 +1,19 @@
-<?php include THIS_TEMPLATE_DIR . "header.php"; ?>
+<?php
+
+/*
+
+type: layout
+content_type: static
+name: Insurance
+position: 13
+description: Insurance
+
+*/
+
+?>
+<?php include template_dir() . "header.php"; ?>
+
+<div class="edit main-content" rel="content" field="sporta-insurance_content">
 
             <section class="hero-insurance hero-section pb-lg-0">
                 <div class="row no-gutters">
@@ -259,4 +274,4 @@
                 </div>
             </section>
 
-<?php include THIS_TEMPLATE_DIR . "footer.php"; ?>
+    <?php include template_dir() . "footer.php"; ?>

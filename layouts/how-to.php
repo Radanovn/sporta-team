@@ -130,55 +130,19 @@ description: How to
                         <h2 class="about-card__title">Useful documents:</h2>
                         <p class="about-card__text  about-card__text--max-width">
                             Geneeskundig
-                            <a href="#" class="text-red text-nowrap link-download">
-                                <span class="link-download__text link-download__text--decoration">getuigschrift.pdf</span>
-                                <span class="link-download__icon">
-                                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16.0703 10.567V15.8171C16.0703 16.2296 15.7425 16.5671 15.3418 16.5671H2.22851C1.82783 16.5671 1.5 16.2296 1.5 15.8171V10.567" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.78516 1.56714V12.8171" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.4277 9.06693L8.78515 12.8171L5.14258 9.06693" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                            </a>
+                            <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="getuigschrift.pdf">
                         </p>
                         <p class="about-card__text  about-card__text--max-width">
                             Aangifteformulier
-                            <a href="#" class="text-red text-nowrap link-download">
-                                <span class="link-download__text link-download__text--decoration">Sporta.pdf</span>
-                                <span class="link-download__icon">
-                                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16.0703 10.567V15.8171C16.0703 16.2296 15.7425 16.5671 15.3418 16.5671H2.22851C1.82783 16.5671 1.5 16.2296 1.5 15.8171V10.567" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.78516 1.56714V12.8171" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.4277 9.06693L8.78515 12.8171L5.14258 9.06693" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                            </a>
+                            <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="Sporta.pdf">
                         </p>
                         <p class="about-card__text  about-card__text--max-width">
                             Aangifteformulier-individu gezin
-                            <a href="#" class="text-red text-nowrap link-download">
-                                <span class="link-download__text link-download__text--decoration">ZS.pdf</span>
-                                <span class="link-download__icon">
-                                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16.0703 10.567V15.8171C16.0703 16.2296 15.7425 16.5671 15.3418 16.5671H2.22851C1.82783 16.5671 1.5 16.2296 1.5 15.8171V10.567" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.78516 1.56714V12.8171" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.4277 9.06693L8.78515 12.8171L5.14258 9.06693" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                            </a>
+                            <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="ZS.pdf">
                         </p>
                         <p class="about-card__text  about-card__text--max-width">
                             Aangifteformulier- bedrijf
-                            <a href="#" class="text-red text-nowrap link-download">
-                                <span class="link-download__text link-download__text--decoration">ZS.pdf</span>
-                                <span class="link-download__icon">
-                                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M16.0703 10.567V15.8171C16.0703 16.2296 15.7425 16.5671 15.3418 16.5671H2.22851C1.82783 16.5671 1.5 16.2296 1.5 15.8171V10.567" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.78516 1.56714V12.8171" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M12.4277 9.06693L8.78515 12.8171L5.14258 9.06693" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                            </a>
+                            <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="ZS.pdf">
                         </p>
                     </div>
                 </div>
@@ -194,7 +158,7 @@ description: How to
                         <h2 class="guidance-card__title">Heed help?</h2>
                         <p class="guidance-card__text">We are happy to help you.</p>
                         <div class="guidance-card__wrap-btn">
-                            <a href="#" class="btn btn-animate btn-green">contact us</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
                         </div>
                     </div>
                 </div>
@@ -216,4 +180,5 @@ description: How to
         </div>
     </section>
 </div>
-<?php include template_dir() . "header.php"; ?>
+
+<?php include template_dir() . "footer.php"; ?>

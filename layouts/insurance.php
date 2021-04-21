@@ -137,7 +137,7 @@ description: Insurance
                 </div>
             </div>
             <div class="section-wrapper-btn text-center">
-                <a href="#" class="btn btn-animate btn-green">your insurance</a>
+                <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Your insurance"/>
             </div>
         </div>
     </section>
@@ -162,7 +162,7 @@ description: Insurance
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 </div>
                                 <div class="card-footer card-footer bg-transparent border-0">
-                                    <a href="#" class="btn btn-animate">DOWNLOAD</a>
+                                    <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Download"/>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@ description: Insurance
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 </div>
                                 <div class="card-footer card-footer bg-transparent border-0">
-                                    <a href="#" class="btn btn-animate">MEER INFO</a>
+                                    <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ description: Insurance
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 </div>
                                 <div class="card-footer card-footer bg-transparent border-0">
-                                    <a href="#" class="btn btn-animate">MEER INFO</a>
+                                    <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                                 </div>
                             </div>
                         </div>

@@ -4,53 +4,38 @@
 
 type: layout
 
-name: How to 4
+name: How to 5
 
-position: 4
+position: 5
 
 */
 
 ?>
-<section class="section section-about section-how-to edit safe-mode nodrop" field="layout-how-to-skin-4-<?php print $params['id'] ?>" rel="content">
+<section class="section section-how-to-help edit safe-mode nodrop" field="layout-how-to-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="container">
-        <div class="row no-gutters about-card">
-            <div class="circles circles--top-right d-none d-lg-block">
-                <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-6.svg">
-            </div>
-            <div class="col-md-5 col-lg-6">
-                <div class="about-card__img">
-                    <div class="rect rect--top-left rect--yellow d-none d-md-block"></div>
-                    <div class="circles circles--bottom-left d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-7.svg">
+        <div class="row guidance-card">
+            <div class="col-md-6 col-lg-5 order-1">
+                <div class="guidance-card__content">
+                    <h2 class="guidance-card__title">Heed help?</h2>
+                    <p class="guidance-card__text">We are happy to help you.</p>
+                    <div class="guidance-card__wrap-btn">
+                        <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
                     </div>
-                    <picture>
-                        <source srcset="<?php print template_url(); ?>images/how-to-img-2-mobile.jpg" media="(max-width: 479px)">
-                        <source srcset="<?php print template_url(); ?>images/how-to-img-2.jpg" media="(min-width: 480px) and (max-width: 767px)">
-                        <source srcset="<?php print template_url(); ?>images/how-to-img-2-tablet.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <img src="<?php print template_url(); ?>images/how-to-img-2.jpg" alt="">
-                    </picture>
                 </div>
             </div>
-            <div class="col-md-7 col-lg-6 col-xl-5 offset-xl-1">
-                <div class="about-card-content">
-                    <h2 class="about-card__title">Useful documents:</h2>
-                    <p class="about-card__text  about-card__text--max-width">
-                        Geneeskundig
-                        <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="getuigschrift.pdf">
-                    </p>
-                    <p class="about-card__text  about-card__text--max-width">
-                        Aangifteformulier
-                        <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="Sporta.pdf">
-                    </p>
-                    <p class="about-card__text  about-card__text--max-width">
-                        Aangifteformulier-individu gezin
-                        <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="ZS.pdf">
-                    </p>
-                    <p class="about-card__text  about-card__text--max-width">
-                        Aangifteformulier- bedrijf
-                        <module type="btn" template="link-download-icon" button_style="text-red link-download text-nowrap" button_text="ZS.pdf">
-                    </p>
+            <div class="col-md-6 guidance-card__wrap-img order-0 order-md-1">
+                <div class="rect rect--bottom-right rect--green d-none d-md-block"></div>
+                <div class="circles circles--top-left d-none d-lg-block">
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-8.svg">
+
                 </div>
+                <div class="circles circles--bottom-right d-none d-lg-block">
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-9.svg">
+                </div>
+                <picture>
+                    <source srcset="<?php print template_url(); ?>images/how-to-img-3-mobile.jpg" media="(max-width: 479px)">
+                    <img src="<?php print template_url(); ?>images/how-to-img-3.jpg" alt="">
+                </picture>
             </div>
         </div>
     </div>

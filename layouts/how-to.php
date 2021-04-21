@@ -17,9 +17,9 @@ description: How to
 
     <module type="layouts" template="how-to/skin-1"/>
     <module type="layouts" template="how-to/skin-2"/>
+    <module type="layouts" template="how-to/skin-2"/>
     <module type="layouts" template="how-to/skin-3"/>
     <module type="layouts" template="how-to/skin-4"/>
-    <module type="layouts" template="how-to/skin-5"/>
 
 </div>
 

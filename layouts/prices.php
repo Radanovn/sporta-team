@@ -17,17 +17,7 @@ description: Prices
     <section class="section prices-hero">
         <div class="container position-relative">
             <div class="circles circles--top-right d-none d-lg-block">
-                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#52B392"/>
-                    <circle cx="16.828" cy="2.78745" r="2.78745" fill="#52B392"/>
-                    <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#52B392"/>
-                    <circle cx="32.0855" cy="16.578" r="2.78745" fill="#52B392"/>
-                    <circle cx="16.828" cy="16.578" r="2.78745" fill="#52B392"/>
-                    <circle cx="3.03745" cy="16.578" r="2.78745" fill="#52B392"/>
-                    <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#52B392"/>
-                    <circle cx="16.828" cy="30.3685" r="2.78745" fill="#52B392"/>
-                    <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#52B392"/>
-                </svg>
+                <img src="<?php print template_url(); ?>modules/layouts/svg/prices/skin-1.svg">
             </div>
             <div class="row no-gutters">
                 <div class="col-md-10 col-lg-8">
@@ -73,17 +63,7 @@ description: Prices
         <div class="container">
             <div class="row no-gutters position-relative">
                 <div class="circles circles--right d-none d-lg-block">
-                    <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                        <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                        <circle cx="32.479" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                        <circle cx="32.479" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                        <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                        <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                        <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                        <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                        <circle cx="32.479" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                    </svg>
+                    <img src="<?php print template_url(); ?>modules/layouts/svg/prices/skin-2.svg">
                 </div>
                 <div class="col-12">
                     <div class="st-table">

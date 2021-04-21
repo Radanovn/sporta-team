@@ -1,5 +1,19 @@
-<?php include THIS_TEMPLATE_DIR . "header.php"; ?>
+<?php
 
+/*
+
+type: layout
+content_type: static
+name: Club vizit
+position: 20
+description: Club vizit
+
+*/
+
+?>
+<?php include template_dir() . "header.php"; ?>
+
+<div class="edit main-content" rel="content" field="sporta-club-vizit_content">
             <section class="hero-section hero-club-vizit pb-lg-0">
                 <div class="row no-gutters">
                     <div class="col-md-4 order-1 hero__content">
@@ -222,4 +236,4 @@
                 </div>
             </section>
 
-<?php include THIS_TEMPLATE_DIR . "footer.php"; ?>
+<?php include template_dir() . "footer.php"; ?>

@@ -388,49 +388,7 @@ description: Other elements
                             <p class="lead-text">Nog niet overtuigd? Of heb je nog hulp nodig? Sed do eiusmod tempor
                                 incididunt u tempor incididun. Sed do eiusmod tempor.</p>
                         </div>
-
-                        <form class="form-newsletter needs-validation" novalidate>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your name" required>
-                                    <div class="invalid-feedback">Error text</div>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Voornaam*">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" placeholder="Your.email@domain.com"
-                                           required>
-                                    <div class="invalid-feedback">Error text</div>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="tel" class="form-control" placeholder="Telefoonnummer">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Naam club">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="number" class="form-control" placeholder="Aantal leden">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="1" placeholder="Beoefende sporttakken"></textarea>
-                            </div>
-                            <div class="form-group checkbox-wrap">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="check-newsletter">
-                                    <label class="custom-control-label" for="check-newsletter">Ja, ik wil op de hoogte
-                                        gehouden worden via de nieuwsbrief</label>
-                                </div>
-                            </div>
-                            <div class="text-center text-lg-left">
-                                <button type="submit" class="btn btn-animate btn-red">Versturen</button>
-                            </div>
-                        </form>
+                        <module type="contact_form" template="sporta-newsletter-form"/>
                     </div>
                 </div>
             </div>
@@ -484,115 +442,13 @@ description: Other elements
 
     <section class="section section-filter section-filter-other">
         <div class="container">
-            <div class="row cards-wrap mx-lg-auto">
-                <div class="col-lg-4">
-                    <div class="card border-0 bg-transparent color-red rounded-0">
-                        <a href="#" class="d-block card-img-top rounded-0">
-                            <img src="<?php print template_url(); ?>images/filter-img-1.jpg" class="img-cover" alt="">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">Bewegingsschool</a>
-                            </h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis-cing elit, sed do
-                                eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
-                        </div>
-                        <div class="card-footer border-0 bg-transparent rounded-0">
-                            <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card border-0 bg-transparent color-yellow">
-                        <a href="#" class="d-block card-img-top rounded-0">
-                            <img src="<?php print template_url(); ?>images/news-2.jpg" class="img-cover" alt="">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">Multimove</a>
-                            </h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis-cing elit, sed do
-                                eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
-                        </div>
-                        <div class="card-footer border-0 bg-transparent">
-                            <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card border-0 bg-transparent color-green">
-                        <a href="#" class="d-block card-img-top rounded-0">
-                            <img src="<?php print template_url(); ?>images/filter-img-3.jpg" class="img-cover" alt="">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">Bewegingsschool</a>
-                            </h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis-cing elit, sed do
-                                eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
-                        </div>
-                        <div class="card-footer border-0 bg-transparent">
-                            <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <module type="posts" template="news-5" limit="3">
         </div>
     </section>
 
     <section class="section section-news section-news-other">
         <div class="container">
-            <div class="card-deck justify-content-between">
-                <div class="card border-0 bg-transparent">
-                    <a href="#" class="link-img card-img-top">
-                        <img src="<?php print template_url(); ?>images/news-1.jpg" class="img-cover" alt="">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-date">October 12, 2020</p>
-                        <h5 class="card-title">
-                            <a href="#">Materiele ondersteuning van clubs die multimove aanbieden</a>
-                        </h5>
-                        <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een
-                            bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
-                    </div>
-                    <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
-                    </div>
-                </div>
-                <div class="card border-0 bg-transparent">
-                    <a href="#" class="link-img card-img-top">
-                        <img src="<?php print template_url(); ?>images/news-2.jpg" class="img-cover" alt="">
-                    </a>
-
-                    <div class="card-body">
-                        <p class="card-date">October 12, 2020</p>
-                        <h5 class="card-title">
-                            <a href="#">Materiele ondersteuning van clubs die multimove aanbieden</a>
-                        </h5>
-                        <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een
-                            bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
-                    </div>
-                    <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="red" button_text="Find out more"/>
-                    </div>
-                </div>
-                <div class="card border-0 bg-transparent">
-                    <a href="#" class="link-img card-img-top">
-                        <img src="<?php print template_url(); ?>images/news-3.jpg" class="img-cover" alt="">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-date">October 12, 2020</p>
-                        <h5 class="card-title">
-                            <a href="#">Materiele ondersteuning van clubs die multimove aanbieden</a>
-                        </h5>
-                        <p class="card-text">Het Sport-i-Label is een kwaliteitslabel waarmee Sporta sportclubs, die een
-                            bloeiende jeugdwerking hebben of daarin willen investeren beloont en bekroont.</p>
-                    </div>
-                    <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="green" button_text="Find out more"/>
-                    </div>
-                </div>
-            </div>
+            <module type="posts" template="default" limit="3">
         </div>
     </section>
 
@@ -648,23 +504,7 @@ description: Other elements
 
     <section class="section-gallery">
         <div class="container">
-            <div class="gallery-slider js-gallery-slider">
-                <div>
-                    <img src="<?php print template_url(); ?>images/gallery-slide-1.jpg" alt="">
-                </div>
-                <div>
-                    <img src="<?php print template_url(); ?>images/gallery-slide-2.jpg" alt="">
-                </div>
-                <div>
-                    <img src="<?php print template_url(); ?>images/gallery-slide-3.jpg" alt="">
-                </div>
-                <div>
-                    <img src="<?php print template_url(); ?>images/gallery-slide-4.jpg" alt="">
-                </div>
-                <div>
-                    <img src="<?php print template_url(); ?>images/gallery-slide-5.jpg" alt="">
-                </div>
-            </div>
+            <module type="pictures" template="sporta-gallery">
         </div>
     </section>
 
@@ -672,50 +512,7 @@ description: Other elements
         <div class="container">
             <div class="row">
                 <div class="col-lg-11 mx-lg-auto">
-                    <div class="wrap-table table-responsive">
-                        <table class="table text-center">
-                            <thead>
-                            <tr>
-                                <th scope="col">Column</th>
-                                <th scope="col">Column</th>
-                                <th scope="col">Column</th>
-                                <th scope="col">Column</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                            </tr>
-                            <tr>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                            </tr>
-                            <tr>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                            </tr>
-                            <tr>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                            </tr>
-                            <tr>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                                <td>Text</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <module type="table" template="sporta-table">
                 </div>
             </div>
         </div>

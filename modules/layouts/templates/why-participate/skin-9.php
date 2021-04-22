@@ -20,7 +20,7 @@ position: 9
                     <div class="block-check-price__formula">insurance + support = 1 rate</div>
                     <p>no extra payments, no extra costs</p>
                 </div>
-                <module type="btn" template="sporta-buttons" button_style="Default" button_text="Check prices">
+                <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Check prices">
             </div>
         </div>
     </div>

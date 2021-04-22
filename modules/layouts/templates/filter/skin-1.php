@@ -50,7 +50,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -96,7 +96,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -143,7 +143,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -190,7 +190,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -236,7 +236,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -282,7 +282,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -329,7 +329,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -375,7 +375,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -421,7 +421,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <a href="#" class="btn btn-animate">more info</a>
+                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">

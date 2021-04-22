@@ -29,12 +29,7 @@ description: No result
                                     type="search" placeholder="Search..." aria-label="Search">
                                 <span class="input-group-append">
                                             <button class="btn border-bottom btn-search" type="submit">
-                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M11.0553 10.2285L14.25 13.5M12.4128 6.21562C12.4128 9.37227 9.91391 11.9312 6.8314 11.9312C3.74888 11.9312 1.25 9.37227 1.25 6.21562C1.25 3.05897 3.74888 0.5 6.8314 0.5C9.91391 0.5 12.4128 3.05897 12.4128 6.21562Z"
-                                                        stroke="#818181" stroke-linecap="round"/>
-                                                </svg>
+                                                <img src="<?php print template_url(); ?>modules/layouts/svg/no-result/skin-2.svg">
                                             </button>
                                         </span>
                             </div>

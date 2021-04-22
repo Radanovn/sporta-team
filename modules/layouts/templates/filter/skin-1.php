@@ -368,39 +368,11 @@ position: 1
         </div>
         <div class="row">
             <div class="col-12">
-                <nav aria-label="Page navigation">
-                    <ul class="pagination border-0 rounded-0 justify-content-center">
-                        <li class="page-item invisible">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="5" height="8"
-                                                 viewBox="0 0 5 8" fill="none">
-                                                <path d="M4.33398 1.15942L1.33398 4.15942L4.33398 7.15942"
-                                                      stroke="#1D2128" stroke-linecap="round"
-                                                      stroke-linejoin="round"/>
-                                            </svg>
-                                        </span>
-                            </a>
-                        </li>
-                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">4</a></li>
-                        <li class="page-item"><a class="page-link" href="#">...</a></li>
-                        <li class="page-item"><a class="page-link" href="#">25</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="5" height="8"
-                                                 viewBox="0 0 5 8" fill="none">
-                                                <path d="M1.25 7.02271L4.25 4L1.25 0.977295" stroke="#1D2128"
-                                                      stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="col-12">
+                    <?php if (isset($pages_count) and $pages_count > 1 and isset($paging_param)): ?>
+                        <module type="pagination" template="sporta-pagination" pages_count="<?php echo $pages_count; ?>" paging_param="<?php echo $paging_param; ?>"/>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
     </div>

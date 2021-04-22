@@ -49,12 +49,48 @@ $(document).ready(function () {
 		<thead>
 			<tr>
 				<th scope="col">Column</th>
+				<th scope="col">Column</th>
+				<th scope="col">Column</th>
+				<th scope="col">Column</th>
+				<th scope="col">Column</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Text</td>
-			</tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
 		</tbody>
     </table>
     <?php } ?>

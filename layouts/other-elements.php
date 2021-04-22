@@ -189,18 +189,7 @@ description: Other elements
                 <div class="col-lg-6 order-0 order-lg-1">
                     <div class="about-card__img about-card__img--ml">
                         <div class="circles circles--top-right d-none d-lg-block">
-                            <svg width="36" height="34" viewBox="0 0 36 34" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                            </svg>
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-1.svg">
                         </div>
                         <figure class="wrapper-video-content mb-0">
                             <div class="embed-responsive embed-responsive-16by9 video-wrap">
@@ -222,18 +211,7 @@ description: Other elements
                     <div class="about-card__img">
                         <div class="rect rect--top-left rect--green d-none d-lg-block"></div>
                         <div class="circles circles--bottom-left d-none d-lg-block">
-                            <svg width="35" height="34" viewBox="0 0 35 34" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#52B392"/>
-                                <circle cx="16.828" cy="2.78745" r="2.78745" fill="#52B392"/>
-                                <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#52B392"/>
-                                <circle cx="32.0855" cy="16.578" r="2.78745" fill="#52B392"/>
-                                <circle cx="16.828" cy="16.578" r="2.78745" fill="#52B392"/>
-                                <circle cx="3.03745" cy="16.578" r="2.78745" fill="#52B392"/>
-                                <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#52B392"/>
-                                <circle cx="16.828" cy="30.3685" r="2.78745" fill="#52B392"/>
-                                <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#52B392"/>
-                            </svg>
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-2.svg">
                         </div>
                         <figure class="wrapper-video-content mb-0">
                             <div class="embed-responsive embed-responsive-16by9 video-wrap">
@@ -348,18 +326,7 @@ description: Other elements
                 <ol class="list-unstyled list-connect list-connect--4-elements mb-0">
                     <li class="list-connect__item list-connect__item--red">
                         <div class="circles circles--first-list-item d-none d-lg-block">
-                            <svg width="36" height="34" viewBox="0 0 36 34" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                                <circle cx="32.479" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                            </svg>
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-3.svg">
                         </div>
                         <div class="list-connect__item-content">Check whether your club meets all the conditions</div>
                     </li>
@@ -373,18 +340,7 @@ description: Other elements
                     </li>
                     <li class="list-connect__item list-connect__item--yellow">
                         <div class="circles circles--last-list-item d-none d-lg-block">
-                            <svg width="36" height="34" viewBox="0 0 36 34" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                                <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.479" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.479" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                                <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                                <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                                <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                                <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.479" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                            </svg>
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-4.svg">
                         </div>
                         <div class="list-connect__item-content">As soon as your members have been entered in My Manage&shy;ment,
                             they are connected and insured! It is not more than that.
@@ -414,17 +370,7 @@ description: Other elements
             <ol class="list-unstyled list-connect mb-0">
                 <li class="list-connect__item list-connect__item--red">
                     <div class="circles circles--first-list-item d-none d-lg-block">
-                        <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                            <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                            <circle cx="32.479" cy="3.20932" r="2.78745" fill="#CA2F4E"/>
-                            <circle cx="32.479" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                            <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                            <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#CA2F4E"/>
-                            <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                            <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                            <circle cx="32.479" cy="30.7904" r="2.78745" fill="#CA2F4E"/>
-                        </svg>
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-5.svg">
                     </div>
                     <div class="list-connect__item-content">Check whether your club meets all the conditions</div>
                 </li>
@@ -433,17 +379,7 @@ description: Other elements
                 </li>
                 <li class="list-connect__item list-connect__item--yellow">
                     <div class="circles circles--last-list-item d-none d-lg-block">
-                        <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="3.43088" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                            <circle cx="17.2214" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                            <circle cx="32.479" cy="3.20932" r="2.78745" fill="#F6D278"/>
-                            <circle cx="32.479" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                            <circle cx="17.2214" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                            <circle cx="3.43088" cy="16.9999" r="2.78745" fill="#F6D278"/>
-                            <circle cx="3.43088" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                            <circle cx="17.2214" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                            <circle cx="32.479" cy="30.7904" r="2.78745" fill="#F6D278"/>
-                        </svg>
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-6.svg">
                     </div>
                     <div class="list-connect__item-content">You will receive all the infor&shy;mation you need to
                         further or&shy;ganize your club and member administration via My Beheer.
@@ -460,18 +396,7 @@ description: Other elements
                     <div class="section-contact__wrap-img">
                         <div class="rect rect--bottom-left rect--yellow"></div>
                         <div class="circles circles--bottom-left">
-                            <svg width="36" height="34" viewBox="0 0 36 34" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="3.77829" cy="3.36509" r="2.78745" fill="#F6D278"/>
-                                <circle cx="17.5688" cy="3.36509" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.8264" cy="3.36509" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.8264" cy="17.1556" r="2.78745" fill="#F6D278"/>
-                                <circle cx="17.5688" cy="17.1556" r="2.78745" fill="#F6D278"/>
-                                <circle cx="3.77829" cy="17.1556" r="2.78745" fill="#F6D278"/>
-                                <circle cx="3.77829" cy="30.9461" r="2.78745" fill="#F6D278"/>
-                                <circle cx="17.5688" cy="30.9461" r="2.78745" fill="#F6D278"/>
-                                <circle cx="32.8264" cy="30.9461" r="2.78745" fill="#F6D278"/>
-                            </svg>
+                            <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-7.svg">
                         </div>
                         <img src="<?php print template_url(); ?>images/contact-img.jpg" alt="">
                     </div>

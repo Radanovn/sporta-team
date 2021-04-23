@@ -28,16 +28,6 @@ position: 1
         </div>
     </div>
     <div class="circles circles--bottom-right d-none d-lg-block">
-        <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="3.3646" cy="3.20945" r="2.78745" fill="#52B392"/>
-            <circle cx="17.1551" cy="3.20945" r="2.78745" fill="#52B392"/>
-            <circle cx="32.4128" cy="3.20945" r="2.78745" fill="#52B392"/>
-            <circle cx="32.4128" cy="17" r="2.78745" fill="#52B392"/>
-            <circle cx="17.1551" cy="17" r="2.78745" fill="#52B392"/>
-            <circle cx="3.3646" cy="17" r="2.78745" fill="#52B392"/>
-            <circle cx="3.3646" cy="30.7905" r="2.78745" fill="#52B392"/>
-            <circle cx="17.1551" cy="30.7905" r="2.78745" fill="#52B392"/>
-            <circle cx="32.4128" cy="30.7905" r="2.78745" fill="#52B392"/>
-        </svg>
+        <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-1.svg">
     </div>
 </section>

@@ -14,30 +14,10 @@ position: 5
 <section class="section section-filter section-calendar-trainings edit safe-mode nodrop" field="layout-calendar-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
-            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#52B392"/>
-                <circle cx="16.828" cy="2.78745" r="2.78745" fill="#52B392"/>
-                <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#52B392"/>
-                <circle cx="32.0855" cy="16.578" r="2.78745" fill="#52B392"/>
-                <circle cx="16.828" cy="16.578" r="2.78745" fill="#52B392"/>
-                <circle cx="3.03745" cy="16.578" r="2.78745" fill="#52B392"/>
-                <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#52B392"/>
-                <circle cx="16.828" cy="30.3685" r="2.78745" fill="#52B392"/>
-                <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#52B392"/>
-            </svg>
+            <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-6.svg">
         </div>
         <div class="circles circles--bottom-left d-none d-xl-block">
-            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                <circle cx="16.828" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                <circle cx="32.0855" cy="16.578" r="2.78745" fill="#F6D278"/>
-                <circle cx="16.828" cy="16.578" r="2.78745" fill="#F6D278"/>
-                <circle cx="3.03745" cy="16.578" r="2.78745" fill="#F6D278"/>
-                <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                <circle cx="16.828" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#F6D278"/>
-            </svg>
+            <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-7.svg">
         </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">

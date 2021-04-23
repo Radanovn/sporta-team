@@ -14,17 +14,7 @@ position: 4
 <section class="section section-calendar-individual-training edit safe-mode nodrop" field="layout-calendar-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-left d-none d-lg-block">
-            <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="3.03745" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                <circle cx="16.828" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                <circle cx="32.0855" cy="2.78745" r="2.78745" fill="#F6D278"/>
-                <circle cx="32.0855" cy="16.578" r="2.78745" fill="#F6D278"/>
-                <circle cx="16.828" cy="16.578" r="2.78745" fill="#F6D278"/>
-                <circle cx="3.03745" cy="16.578" r="2.78745" fill="#F6D278"/>
-                <circle cx="3.03745" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                <circle cx="16.828" cy="30.3685" r="2.78745" fill="#F6D278"/>
-                <circle cx="32.0855" cy="30.3685" r="2.78745" fill="#F6D278"/>
-            </svg>
+            <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-5.svg">
         </div>
         <div class="row no-gutters">
             <div class="col-lg-9 mx-lg-auto">
@@ -66,7 +56,7 @@ position: 4
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <a href="#" class="btn btn-animate btn-red">vraag aan</a>
+            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Vraag aan"/>
         </div>
     </div>
 </section>

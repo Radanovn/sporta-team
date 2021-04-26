@@ -31,7 +31,7 @@ position: 2
         <div class="row">
             <div class="col-lg-11 mx-auto">
                 <div class="row cards-wrap">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 cloneable">
                         <div class="card color-green text-center mx-auto border-0 h-100">
                             <div class="card-header bg-transparent border-0">
                                         <span class="card-header__icon">
@@ -50,7 +50,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 cloneable">
                         <div class="card color-red text-center mx-auto border-0 h-100">
                             <div class="card-header bg-transparent border-0">
                                         <span class="card-header__icon">

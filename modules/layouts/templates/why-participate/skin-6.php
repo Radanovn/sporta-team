@@ -27,7 +27,7 @@ position: 6
         <div class="row ">
             <div class="col-md-10 col-lg-9 col-xl-11 mx-auto">
                 <div class="row wrapper-cards">
-                    <div class="col-sm-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-3 cloneable">
                         <div class="card color-red border-0">
                             <div class="card-header bg-transparent border-0 text-center">
                                 <h5 class="card-title">No franchise</h5>
@@ -37,7 +37,7 @@ position: 6
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-3 cloneable">
                         <div class="card color-yellow border-0">
                             <div class="card-header bg-transparent border-0 text-center">
                                 <h5 class="card-title">Sports</h5>
@@ -47,7 +47,7 @@ position: 6
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-3 cloneable">
                         <div class="card color-green border-0">
                             <div class="card-header bg-transparent border-0 text-center">
                                 <h5 class="card-title">Refunded costs</h5>
@@ -57,7 +57,7 @@ position: 6
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-3 cloneable">
                         <div class="card color-red border-0">
                             <div class="card-header bg-transparent border-0 text-center">
                                 <h5 class="card-title">No cost ceiling</h5>

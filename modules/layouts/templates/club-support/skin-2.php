@@ -30,9 +30,8 @@ position: 2
 
         <div class="row">
             <div class="col-lg-11 mx-auto">
-
                 <div class="row cards-wrap">
-                    <div class="col-sm-6 col-lg-4">
+                    <div class="col-sm-6 col-lg-4 cloneable">
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
@@ -43,7 +42,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
+                    <div class="col-sm-6 col-lg-4 cloneable">
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
@@ -54,7 +53,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
+                    <div class="col-sm-6 col-lg-4 cloneable">
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
@@ -65,7 +64,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
+                    <div class="col-sm-6 col-lg-4 cloneable">
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
@@ -76,7 +75,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
+                    <div class="col-sm-6 col-lg-4 cloneable">
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
@@ -87,7 +86,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4">
+                    <div class="col-sm-6 col-lg-4 cloneable">
                         <div class="card text-center mx-auto border-0">
                             <div class="card-body">
                                 <div class="card-icon">
@@ -101,7 +100,7 @@ position: 2
                 </div>
             </div>
         </div>
-        <div class="section-wrapper-btn text-center">
+        <div class="section-wrapper-btn text-center cloneable">
             <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="View all the benefits">
         </div>
     </div>

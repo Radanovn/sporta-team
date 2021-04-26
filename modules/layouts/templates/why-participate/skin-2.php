@@ -14,7 +14,7 @@ position: 2
 <section class="section-participate section-participate--top pt-0 edit safe-mode nodrop" field="layout-why-participate-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row cards-wrap">
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-3 cloneable">
                 <div class="card border-0 bg-green">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -32,7 +32,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-3 cloneable">
                 <div class="card border-0 bg-red">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -50,7 +50,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-3 cloneable">
                 <div class="card border-0 bg-yellow">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -68,7 +68,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
+            <div class="col-md-6 col-xl-3 cloneable">
                 <div class="card border-0 bg-green">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">

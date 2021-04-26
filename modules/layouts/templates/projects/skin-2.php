@@ -34,7 +34,7 @@ position: 2
         <div class="row">
             <div class="col-md-11 col-lg-12 mx-auto">
                 <div class="row wrapper-cards">
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 cloneable">
                         <div class="card border-0 bg-transparent color-red rounded-0">
                             <a href="#" class="d-block card-img-top rounded-0">
                                 <img src="<?php print template_url(); ?>images/filter-img-1.jpg" class="img-cover"
@@ -52,7 +52,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 cloneable">
                         <div class="card border-0 bg-transparent color-yellow">
                             <a href="#" class="d-block card-img-top rounded-0">
                                 <img src="<?php print template_url(); ?>images/news-2.jpg" class="img-cover" alt="">
@@ -69,7 +69,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 cloneable">
                         <div class="card border-0 bg-transparent color-green">
                             <a href="#" class="d-block card-img-top rounded-0">
                                 <img src="<?php print template_url(); ?>images/filter-img-3.jpg" class="img-cover"
@@ -87,7 +87,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 cloneable">
                         <div class="card border-0 bg-transparent color-red">
                             <a href="#" class="d-block card-img-top rounded-0">
                                 <img src="<?php print template_url(); ?>images/filter-img-3.jpg" class="img-cover"

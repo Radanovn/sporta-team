@@ -22,7 +22,7 @@ position: 12
         </div>
         <div class="contact-person-wrap">
             <div class="contact-person__item">
-                <div class="contact-person__item-photo">
+                <div class="contact-person__item-photo cloneable">
                     <img src="<?php print template_url(); ?>images/photo.jpg" class="img-cover" alt="">
                 </div>
                 <div>
@@ -31,7 +31,7 @@ position: 12
                 </div>
             </div>
             <div class="contact-person__item">
-                <div class="contact-person__item-photo">
+                <div class="contact-person__item-photo cloneable">
                     <img src="<?php print template_url(); ?>images/photo.jpg" class="img-cover" alt="">
                 </div>
                 <div>
@@ -40,7 +40,7 @@ position: 12
                 </div>
             </div>
             <div class="contact-person__item">
-                <div class="contact-person__item-photo">
+                <div class="contact-person__item-photo cloneable">
                     <img src="<?php print template_url(); ?>images/photo.jpg" class="img-cover" alt="">
                 </div>
                 <div>
@@ -49,7 +49,7 @@ position: 12
                 </div>
             </div>
             <div class="contact-person__item">
-                <div class="contact-person__item-photo">
+                <div class="contact-person__item-photo cloneable">
                     <img src="<?php print template_url(); ?>images/photo.jpg" class="img-cover" alt="">
                 </div>
                 <div>

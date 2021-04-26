@@ -22,7 +22,7 @@ position: 13
         </div>
 
         <div class="row wrap-cards">
-            <div class="col-md-6 col-lg-4 mx-auto">
+            <div class="col-md-6 col-lg-4 mx-auto cloneable">
                 <div class="card text-center border-0 mx-auto ml-lg-0">
                     <div class="card-body">
                         <div class="author__img mx-auto">
@@ -36,7 +36,7 @@ position: 13
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 mx-auto">
+            <div class="col-md-6 col-lg-4 mx-auto cloneable">
                 <div class="card text-center border-0 mx-auto">
                     <div class="card-body">
                         <div class="author__img mx-auto">
@@ -50,7 +50,7 @@ position: 13
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 mx-auto">
+            <div class="col-md-6 col-lg-4 mx-auto cloneable">
                 <div class="card text-center border-0 mx-auto mr-lg-0">
                     <div class="card-body">
                         <div class="author__img mx-auto">

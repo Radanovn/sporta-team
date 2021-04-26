@@ -23,7 +23,7 @@ position: 1
         <div class="row">
             <div class="col-md-11 col-lg-12 col-xl-11 mx-auto">
                 <div class="row wrapper-cards">
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 cloneable">
                         <div class="card color-red border-0 text-center">
                             <div class="card-header bg-transparent border-0">
                                 <h4 class="card-title">Prijs-kwaliteit verzekering</h4>
@@ -33,7 +33,7 @@ position: 1
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 cloneable">
                         <div class="card color-yellow border-0 text-center">
                             <div class="card-header bg-transparent border-0">
                                 <h4 class="card-title">Administratie-ve ondersteu</h4>
@@ -43,7 +43,7 @@ position: 1
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 cloneable">
                         <div class="card color-green border-0 text-center">
                             <div class="card-header bg-transparent border-0">
                                 <h4 class="card-title">Clubvoordelen</h4>
@@ -53,7 +53,7 @@ position: 1
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 cloneable">
                         <div class="card color-red border-0 text-center">
                             <div class="card-header bg-transparent border-0">
                                 <h4 class="card-title">All-in prijsfor-muler</h4>

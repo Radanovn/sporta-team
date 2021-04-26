@@ -38,7 +38,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
         <div class="row">
             <div class="col-12 col-md-10 col-lg-11 mx-auto">
                 <div class="row wrapper-cards">
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 cloneable">
                         <div class="card color-red text-center border-0">
                             <!--                                           <a href="#" class="full-card-link"></a>-->
                             <div class="card-header bg-transparent border-0">
@@ -52,7 +52,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 cloneable">
                         <div class="card color-yellow text-center border-0">
                             <!--                                           <a href="#" class="full-card-link"></a>-->
                             <div class="card-header bg-transparent border-0">
@@ -66,7 +66,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 cloneable">
                         <div class="card color-green text-center border-0">
                             <!--                                           <a href="#" class="full-card-link"></a>-->
                             <div class="card-header bg-transparent border-0">
@@ -80,7 +80,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 cloneable">
                         <div class="card color-red text-center border-0">
                             <!--                                           <a href="#" class="full-card-link"></a>-->
                             <div class="card-header bg-transparent border-0">
@@ -94,7 +94,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 cloneable">
                         <div class="card color-yellow text-center border-0">
                             <!--                                           <a href="#" class="full-card-link"></a>-->
                             <div class="card-header bg-transparent border-0">
@@ -108,7 +108,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 cloneable">
                         <div class="card color-green text-center border-0">
                             <!--                                           <a href="#" class="full-card-link"></a>-->
                             <div class="card-header bg-transparent border-0">
@@ -122,7 +122,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 cloneable">
                         <div class="card color-red text-center border-0">
                             <!--                                           <a href="#" class="full-card-link"></a>-->
                             <div class="card-header bg-transparent border-0">
@@ -136,7 +136,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 cloneable">
                         <div class="card color-green text-center border-0">
                             <!--                                           <a href="#" class="full-card-link"></a>-->
                             <div class="card-header bg-transparent border-0">

@@ -1,16 +1,5 @@
 <?php
 
-/*
-
-type: layout
-content_type: dynamic
-name: News inner
-position: 4
-description: News inner page
-
-*/
-
-
 $post = get_content_by_id($content['id']);
 $picture = get_picture($content['id']);
 

@@ -54,7 +54,7 @@ position: 3
             </div>
         </div>
         <div class="row wrap-cards">
-            <div class="col-lg-4">
+            <div class="col-lg-4 cloneable">
                 <div class="card border-0">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -73,7 +73,7 @@ position: 3
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 cloneable">
                 <div class="card border-0 mx-auto">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -91,7 +91,7 @@ position: 3
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 cloneable">
                 <div class="card border-0 ml-auto">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">

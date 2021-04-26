@@ -21,7 +21,7 @@ position: 5
             </div>
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 wrapper-cards">
-            <div class="col">
+            <div class="col cloneable">
                 <div class="card color-red border-0 text-center">
                     <div class="card-body">
                         <p class="card-text">Er <a href="#">geen franchise</a> geldt waardoor je leden alle kosten
@@ -30,7 +30,7 @@ position: 5
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col cloneable">
                 <div class="card color-yellow border-0 text-center">
                     <div class="card-body">
                         <p class="card-text">Je clubleden ook verzekerd zijn voor joggen, wandelen, fiet&#8209;sen,
@@ -38,7 +38,7 @@ position: 5
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col cloneable">
                 <div class="card color-green border-0 text-center">
                     <div class="card-body">
                         <p class="card-text">Naast medische&#8209;en apothekerskosten kan ook <a
@@ -47,7 +47,7 @@ position: 5
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col cloneable">
                 <div class="card color-red border-0 text-center">
                     <div class="card-body">
                         <p class="card-text">Je leden de klok rond wereldwijd verze&#8209;kerd zijn? En er <a
@@ -56,7 +56,7 @@ position: 5
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col cloneable">
                 <div class="card color-red border-0 text-center">
                     <div class="card-body">
                         <p class="card-text">Je leden de klok rond wereldwijd verze-kerd zijn? En er <a href="#">geen

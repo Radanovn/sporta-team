@@ -60,7 +60,7 @@ position: 3
                     <h2 class="benefits-guide-card__title">Download this handy club benefits guide</h2>
                     <p class="benefits-guide-card__text">Seeing all those bonuses like this is great fun, but when it comes down to it, how does my club benefit from it? Well, that is clearly explained in this Club Benefits Guide.</p>
                     <div class="benefits-guide-card__wrap-btn text-center text-sm-left">
-                        <module type="btn" template="download-button-with-icon" button_style="Red" button_text="Download">
+                        <module type="btn" template="download-button-with-icon" button_style="btn btn-animate btn-red" button_text="Download">
                     </div>
                 </div>
             </div>

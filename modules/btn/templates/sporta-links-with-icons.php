@@ -16,7 +16,7 @@ description: Sporta template for link with icons
 <?php else: ?>
     <a id="<?php print $btn_id ?>" href="<?php print $url; ?>" <?php if ($blank) {
         print ' target="_blank" ';
-    } ?> class="card-link link ">
+    } ?> class="card-link link color-<?php print $style ;?>">
         <span><?php print $text; ?></span>
         <span class="link__arrow">
             <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">

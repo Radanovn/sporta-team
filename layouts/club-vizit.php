@@ -17,6 +17,8 @@ description: Club vizit
     <module type="layouts" template="club-vizit/skin-1"/>
     <module type="layouts" template="club-vizit/skin-2"/>
     <module type="layouts" template="club-vizit/skin-3"/>
+    <module type="layouts" template="club-vizit/skin-4"/>
+    <module type="layouts" template="club-vizit/skin-5"/>
 </div>
 
 <?php include template_dir() . "footer.php"; ?>

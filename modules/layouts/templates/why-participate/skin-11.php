@@ -4,14 +4,14 @@
 
 type: layout
 
-name: Why participate 10
+name: Why participate 11
 
-position: 10
+position: 11
 
 */
 
 ?>
-<section class="ssection section-connect-sport-club edit safe-mode nodrop" field="layout-why-participate-skin-10-<?php print $params['id'] ?>" rel="content">
+<section class="ssection section-connect-sport-club edit safe-mode nodrop" field="layout-why-participate-skin-11-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-23.svg">

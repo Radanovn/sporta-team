@@ -4,14 +4,14 @@
 
 type: layout
 
-name: Why participate 11
+name: Why participate 12
 
-position: 11
+position: 12
 
 */
 
 ?>
-<section class="section section-information-package edit safe-mode nodrop" field="layout-why-participate-skin-11-<?php print $params['id'] ?>" rel="content">
+<section class="section section-information-package edit safe-mode nodrop" field="layout-why-participate-skin-12-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="block-information-package">
             <div class="block-information-package__left-side">

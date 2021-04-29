@@ -4,14 +4,14 @@
 
 type: layout
 
-name: Why participate 9
+name: Why participate 10
 
-position: 9
+position: 10
 
 */
 
 ?>
-<section class="section section-check-price d-none d-lg-block edit safe-mode nodrop" field="layout-why-participate-skin-9-<?php print $params['id'] ?>" rel="content">
+<section class="section section-check-price d-none d-lg-block edit safe-mode nodrop" field="layout-why-participate-skin-10-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="block-check-price block-check-price--red">
             <h2 class="block-check-price__title">Easy all-in price formula</h2>

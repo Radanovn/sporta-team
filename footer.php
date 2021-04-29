@@ -7,7 +7,7 @@
                 <div class="col-md-3 col-xl-3 pr-xl-0 pr-lg-3">
                     <div class="text-center text-md-left">
                         <a class="navbar-brand" href="#">
-                            <module type="logo" id="logo" template="default" class="d-inline-block align-top" default-text="Sporta"/>
+                            <img src="<?php print template_url(); ?>images/logo.png"/>
                         </a>
                     </div>
                     <p class="footer__small-text text-center text-md-left">The pinnacle of recreational sports is what Sporta-federatie vzw has to offer sports clubs.<br>

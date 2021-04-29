@@ -11,43 +11,26 @@ position: 9
 */
 
 ?>
-<section class="section section-calendar-club-operation section-other-club-operation edit safe-mode nodrop" field="layout-other-elements-skin-9-<?php print $params['id'] ?>" rel="content">
+<section class="section section-contact section-contact-other edit safe-mode nodrop" field="layout-other-elements-skin-9-<?php print $params['id'] ?>" rel="content">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-11 mx-auto">
-                <div class="row wrap-cards">
-                    <div class="col-lg-6 cloneable">
-                        <div class="card color-green text-center border-0 h-100 mx-sm-auto ml-lg-0">
-                            <img src="<?php print template_url(); ?>images/other-elements-img-1.jpg"
-                                 class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Bijscholingen sporta team</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod.</p>
-                            </div>
-                            <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
-                            </div>
-                        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="section-contact__wrap-img">
+                    <div class="rect rect--bottom-left rect--yellow"></div>
+                    <div class="circles circles--bottom-left">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-7.svg">
                     </div>
-                    <div class="col-lg-6 cloneable">
-                        <div class="card color-red text-center mx-sm-auto mr-lg-0 border-0 h-100">
-                            <img src="<?php print template_url(); ?>images/other-elements-img-2.jpg"
-                                 class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Bijscholingen vlaamse trainerschool</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod.</p>
-                            </div>
-                            <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
-                            </div>
-                        </div>
+                    <img src="<?php print template_url(); ?>images/contact-img.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-contact__content mx-auto ml-lg-0">
+                    <div class="section__block-title text-center text-lg-left mx-auto ml-lg-0">
+                        <h2>Request a free price-offer</h2>
+                        <p class="lead-text">Nog niet overtuigd? Of heb je nog hulp nodig? Sed do eiusmod tempor
+                            incididunt u tempor incididun. Sed do eiusmod tempor.</p>
                     </div>
+                    <module type="contact_form" template="sporta-newsletter-form"/>
                 </div>
             </div>
         </div>

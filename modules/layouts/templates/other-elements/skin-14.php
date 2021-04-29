@@ -4,19 +4,15 @@
 
 type: layout
 
-name: other elements 13
+name: other elements 14
 
-position: 13
+position: 14
 
 */
 
 ?>
-<section class="section-table edit safe-mode nodrop" field="layout-other-elements-skin-13-<?php print $params['id'] ?>" rel="content">
+<section class="section-gallery edit safe-mode nodrop" field="layout-other-elements-skin-14-<?php print $params['id'] ?>" rel="content">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-11 mx-lg-auto">
-                <module type="table" template="sporta-table">
-            </div>
-        </div>
+        <module type="pictures" template="sporta-gallery">
     </div>
 </section>

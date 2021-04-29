@@ -11,8 +11,8 @@ position: 11
 */
 
 ?>
-<section class="section section-news section-news-other edit safe-mode nodrop" field="layout-other-elements-skin-11-<?php print $params['id'] ?>" rel="content">
+<section class="section section-filter section-filter-other edit safe-mode nodrop" field="layout-other-elements-skin-11-<?php print $params['id'] ?>" rel="content">
     <div class="container">
-        <module type="posts" template="default" limit="3">
+        <module type="posts" template="news-5" limit="3">
     </div>
 </section>

@@ -11,45 +11,60 @@ position: 6
 */
 
 ?>
-<section class="section section-list-connect-4 edit safe-mode nodrop" field="layout-other-elements-skin-6-<?php print $params['id'] ?>" rel="content">
+<section class="section section-all-insurance bg-gray edit safe-mode nodrop" field="layout-other-elements-skin-6-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-auto">
-                <div class="section__block-title text-sm-center">
-                    <h2>Connect your sport club in 4 steps</h2>
-                    <p class="lead-text">Are you convinced? You can connect in 5 minutes and is very easy!<br>More
-                        than 1,400 clubs preceded you. How do you connect?</p>
+                <div class="section__block-title text-center">
+                    <h2>All-in verzekering</h2>
                 </div>
             </div>
         </div>
-        <div class="wrap-list-connect">
-            <ol class="list-unstyled list-connect list-connect--4-elements mb-0">
-                <li class="list-connect__item list-connect__item--red">
-                    <div class="circles circles--first-list-item d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-3.svg">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5 wrapper-cards">
+            <div class="col cloneable">
+                <div class="card color-red border-0 text-center">
+                    <div class="card-body">
+                        <p class="card-text">Er <a href="#">geen franchise</a> geldt waardoor je leden alle kosten
+                            die in aanmerking komen te&#8209;rugbetaald krijgen, ook al gaat het om kleinere
+                            bedragen?</p>
                     </div>
-                    <div class="list-connect__item-content">Check whether your club meets all the conditions</div>
-                </li>
-                <li class="list-connect__item list-connect__item--green">
-                    <div class="list-connect__item-content">Fill in and forward the online connection form.</div>
-                </li>
-                <li class="list-connect__item list-connect__item--green">
-                    <div class="list-connect__item-content">You will receive all the infor&shy;mation you need to
-                        further or&shy;ganize your club and member administration via My Beheer.
+                </div>
+            </div>
+            <div class="col cloneable">
+                <div class="card color-yellow border-0 text-center">
+                    <div class="card-body">
+                        <p class="card-text">Je clubleden ook verzekerd zijn voor joggen, wandelen, fiet&#8209;sen,
+                            zwemmen, yoga, fitness en rolschaatsen <a href="#">buiten clubverband</a>?</p>
                     </div>
-                </li>
-                <li class="list-connect__item list-connect__item--yellow">
-                    <div class="circles circles--last-list-item d-none d-lg-block">
-                        <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-4.svg">
+                </div>
+            </div>
+            <div class="col cloneable">
+                <div class="card color-green border-0 text-center">
+                    <div class="card-body">
+                        <p class="card-text">Naast medische&#8209;en apothekerskosten kan ook <a
+                                href="#">brilschade</a> terug&#8209;betaald worden na een lichamelijk ongeval met er
+                            een hoofdlet&#8209;sel?</p>
                     </div>
-                    <div class="list-connect__item-content">As soon as your members have been entered in My Manage&shy;ment,
-                        they are connected and insured! It is not more than that.
+                </div>
+            </div>
+            <div class="col cloneable">
+                <div class="card color-red border-0 text-center">
+                    <div class="card-body">
+                        <p class="card-text">Je leden de klok rond wereldwijd verze&#8209;kerd zijn? En er <a
+                                href="#">geen kostenplafond</a> is bij lichamelijke ongeval&#8209;len (incl.
+                            beroerte of hartfalen)?</p>
                     </div>
-                </li>
-            </ol>
-        </div>
-        <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Get started now"/>
+                </div>
+            </div>
+            <div class="col cloneable">
+                <div class="card color-red border-0 text-center">
+                    <div class="card-body">
+                        <p class="card-text">Je leden de klok rond wereldwijd verze-kerd zijn? En er <a href="#">geen
+                                kostenplafond</a> is bij lichamelijke ongeval&#8209;len (incl. beroerte of
+                            hartfalen)?</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

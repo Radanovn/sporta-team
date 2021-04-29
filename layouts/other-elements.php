@@ -31,6 +31,7 @@ description: Other elements
     <module type="layouts" template="other-elements/skin-12"/>
     <module type="layouts" template="other-elements/skin-13"/>
     <module type="layouts" template="other-elements/skin-14"/>
+    <module type="layouts" template="other-elements/skin-15"/>
 </div>
 
 <?php include template_dir() . "footer.php"; ?>

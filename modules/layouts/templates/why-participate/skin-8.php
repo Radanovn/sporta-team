@@ -4,83 +4,60 @@
 
 type: layout
 
-name: Why participate 8
+name: Why participate 7
 
-position: 8
+position: 7
 
 */
 
 ?>
-<section class="section section-club-support edit safe-mode nodrop" field="layout-why-participate-skin-8-<?php print $params['id'] ?>" rel="content">
-    <div class="container position-relative">
-        <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-18.svg">
-        </div>
-        <div class="circles circles--bottom-left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-19.svg">
-        </div>
-        <div class="row">
-            <div class="col-lg-9 mx-lg-auto">
-                <div class="section__block-title text-sm-center">
-                    <h2>Club support</h2>
+<section class="section section-about section-participate-about edit safe-mode nodrop" field="layout-why-participate-skin-7-<?php print $params['id'] ?>" rel="content">
+    <div class="container">
+        <div class="row no-gutters about-card about-card--more-options">
+            <div class="col-lg-6">
+                <div class="about-card__img">
+                    <div class="rect rect--top-left rect--yellow d-none d-lg-block"></div>
+                    <div class="circles circles--bottom-left d-none d-lg-block">
+                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-16.svg">
+                    </div>
+                    <picture>
+                        <source srcset="<?php print template_url(); ?>images/vizit-img-mobile.jpg" media="(max-width: 479px)">
+                        <source srcset="<?php print template_url(); ?>images/vizit-img-tablet.jpg" media="(min-width: 480px) and (max-width: 991px)">
+                        <img src="<?php print template_url(); ?>images/vizit-img.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <div class="about-card-content">
+                    <h3 class="about-card__title">Want more options?</h3>
+                    <p class="about-card__text">Find out how to expand your insurance options here. policy details and insurance manual.</p>
+                    <div class="about-card__wrap-btn">
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur elit</p>
+                        <module type="btn" template="download-button-with-icon" button_style="btn btn-animate btn-red" button_text="Download">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row no-gutters">
-            <div class="col-lg-11 mx-lg-auto">
-                <div class="row wrap-cards">
-                    <div class="col-lg-4">
-                        <div class="card border-0 ml-auto">
-                            <div class="card-header bg-transparent border-0">
-                                <h5 class="card-title m-0 h-100">
-                                    <span class="card-header__icon">
-                                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-20.svg">
-                                    </span>
-                                    <span>Perfect fit</span>
-                                </h5>
+        <div class="row no-gutters quote-card">
+            <div class="col-lg-6">
+                <div class="quote-card-content">
+                    <blockquote>
+                        <p>The Sporta manager contributed to the items that were requested from our club. Opportunities were offered that were appropriate for our club. There was a constructive atmosphere.</p>
+                        <div class="author-wrap">
+                            <div class="author__img">
+                                <img src="<?php print template_url(); ?>images/photo.jpg" class="d-block" alt="">
                             </div>
-                            <div class="card-body">
-                                <p class="card-text">Exclusive benefits divided by theme (promotional, financial, administrative, social, management, sportif).</p>
+                            <div class="author__info">
+                                <div class="author__name">jan janssens</div>
+                                <div class="author__location">volleyclub westerlo</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card border-0 mx-auto">
-                            <div class="card-header bg-transparent border-0">
-                                <h5 class="card-title m-0 h-100">
-                                    <span class="card-header__icon">
-                                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-21.svg">
-                                    </span>
-                                    <span>Pay less</span>
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card border-0">
-                            <div class="card-header bg-transparent border-0">
-                                <h5 class="card-title m-0 h-100">
-                                    <span class="card-header__icon">
-                                        <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-22.svg">
-                                    </span>
-                                    <span>And even more...</span>
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                <ul class="list-unstyled list-custom list-custom-bullet list-custom-bullet--yellow">
-                                    <li>50% reimbursement of course fees upon obtaining a VTS diploma</li>
-                                    <li>Joma sports bag for certified trainers</li>
-                                    <li>Pen set for volunteers</li>
-                                    <li>Club bonus when participating in Sporta camp</li>
-                                    <li>Reimbursement of participation fees Day of the Sportclub driver</li>
-                                    <li>Refund of participation fee Day of the Trainer</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1 d-none d-lg-block">
+                <div class="quote-card__img">
+                    <img src="<?php print template_url(); ?>images/vizit-img-2.jpg" class="d-block ml-auto" alt="">
                 </div>
             </div>
         </div>

@@ -27,6 +27,7 @@ description: Why participate
         <module type="layouts" template="why-participate/skin-11"/>
         <module type="layouts" template="why-participate/skin-12"/>
         <module type="layouts" template="why-participate/skin-13"/>
+        <module type="layouts" template="why-participate/skin-14"/>
     </div>
 
 

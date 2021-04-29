@@ -17,6 +17,7 @@ description: Club support
     <module type="layouts" template="club-support/skin-1"/>
     <module type="layouts" template="club-support/skin-2"/>
     <module type="layouts" template="club-support/skin-3"/>
+    <module type="layouts" template="club-support/skin-4"/>
 </div>
 
 <?php include template_dir() . "footer.php"; ?>

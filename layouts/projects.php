@@ -18,6 +18,7 @@ description: Projects
     <module type="layouts" template="projects/skin-2"/>
     <module type="layouts" template="projects/skin-3"/>
     <module type="layouts" template="projects/skin-4"/>
+    <module type="layouts" template="projects/skin-5"/>
 </div>
 
 <?php include template_dir() . "footer.php"; ?>

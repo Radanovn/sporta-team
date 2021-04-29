@@ -21,6 +21,7 @@ description: Safety
 <module type="layouts" template="safety/skin-4"/>
 <module type="layouts" template="safety/skin-5"/>
 <module type="layouts" template="safety/skin-6"/>
+<module type="layouts" template="safety/skin-7"/>
 
     <!--<section class="section section-filter section-safety-news">-->
         <!--<div class="container">-->

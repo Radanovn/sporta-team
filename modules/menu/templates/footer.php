@@ -16,11 +16,12 @@ description: Footer menu
 <?php
 $menu_filter['return_data'] = true;
 $mt = menu_tree($menu_filter);
-
+var_dump($mt);
 if (is_array($mt)) { ?>
     <ul class="list-unstyled footer__submenu">
         <?php foreach($mt as $item) {
             if (isset($item['url']) AND $item['url']): ?>
+            <?php var_dump($item['children']); ?>
                 <li>
                     <a itemprop='<?php print $item['url'] ?>' data-item-id='<?php print $item['id'] ?>' href='<?php print $item['url'] ?>'>
                         <?php print $item['title'] ?>

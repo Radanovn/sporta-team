@@ -33,9 +33,7 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-
-                        <module type="menu" name="footer_menu_1" template="footer"/>
-
+                    <module type="menu" name="footer_menu_1" template="footer"/>
                     <ul class="list-unstyled footer__menu">
                         <li>
                             <div class="contact-block">

@@ -55,7 +55,7 @@ position: 4
                         <div class="card color-green text-center mx-auto border-0 h-100">
                             <div class="card-header bg-transparent border-0">
                                 <span class="card-header__icon">
-                                    <img src="<?php print template_url(); ?>modules/layouts/svg/insurance/skin-9.svg">
+                                    <img src="<?php print template_url(); ?>modules/layouts/svg/insurance/skin-10.svg">
                                 </span>
                             </div>
                             <div class="card-body">

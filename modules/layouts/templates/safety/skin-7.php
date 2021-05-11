@@ -33,7 +33,7 @@ position: 7
                         <p class="lead-text">Schrijf je in op onze nieuwsbrief en blijf op de hoogte</p>
                     </div>
 
-                    <module type="contact_form" template="sporta-newsletter-form"/>
+                    <module type="contact_form" template="sporta-safety-newsletter-form"/>
                 </div>
             </div>
         </div>

@@ -34,17 +34,7 @@
                 </div>
                 <div class="col-md-8">
                     <module type="menu" name="footer_menu_1" template="footer"/>
-                    <ul class="list-unstyled footer__menu">
-                        <li>
-                            <div class="contact-block">
-                                <module type="btn" template="sporta-buttons" button_style="footer__menu-link" button_text="Get in touch"/>
-                                <module type="btn" template="sporta-buttons" button_style="st-email" button_text="Federatie@sporta.be"/>
-                                <module type="btn" template="sporta-buttons" button_style="st-phone" button_text="+32 (0) 3 361 53 40"/>
-                                <module type="btn" template="sporta-btn-link-p" button_text="Boomgaardstraat 22 Bus 50 B-2600 Berchem"/>
-                                <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Contact us"/>
-                            </div>
-                        </li>
-                    </ul>
+
                 </div>
             </div>
             <div class="footer__bottom">

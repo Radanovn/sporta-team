@@ -36,15 +36,15 @@
                         </div>
 
                         <button class="navbar-toggler d-md-none js-mobile-menu" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <span class="line"></span>
-                    </span>
+                            <span class="navbar-toggler-icon">
+                                <span class="line"></span>
+                            </span>
                         </button>
 
                         <button class="navbar-toggler d-none d-md-block d-lg-none js-tablet-menu" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <span class="line"></span>
-                    </span>
+                            <span class="navbar-toggler-icon">
+                                <span class="line"></span>
+                            </span>
                         </button>
 
                         <div class="collapse navbar-collapse justify-content-end" id="navbarTop">
@@ -81,31 +81,8 @@
                     <div class="collapse navbar-collapse" id="navbarBottom">
                         <ul class="navbar-nav nav-justified w-100">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Join Sporta Club</a>
-                                <div class="dropdown-menu">
-                                    <div class="row flex-column align-items-xl-center">
-                                        <div>
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-1.svg">
-                                        </span>
-                                                <span>Prices</span>
-                                            </a>
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-2.svg">
-                                        </span>
-                                                <span>Why participate</span>
-                                            </a>
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-3.svg">
-                                        </span>
-                                                <span>Onze clubs</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Join S1111porta Club</a>
+                                <module type="menu" template="header-main" id="header-join-sporta" />
                             </li>
                             <li class="nav-item dropdown has-megamenu">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">For clubs</a>

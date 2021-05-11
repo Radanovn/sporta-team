@@ -34,6 +34,8 @@ $menuTree = menu_tree($menu_filter);
 
 
 
+
+
 if(!function_exists('rendItemsSporta')) {
     function rendItemsSporta($items, $level = -1): string
     {
@@ -61,5 +63,35 @@ print is_array($menuTree) ? ('<li>' . $contactBlock . '</li></ul>') : $contactBl
 
 
 ?>
+
+
+<div class="dropdown-menu w-100 megamenu">
+    <div class="row justify-content-between flex-xl-nowrap">
+        <div class="megamenu__column">
+            <a class="dropdown-item" href="#">
+                                        <span class="dropdown-item__icon">
+                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-4.svg">
+                                        </span>
+                <span>Insurance</span>
+            </a>
+            <ul class="list-unstyled dropdown-item__sublist">
+                <li>
+                    <a href="#">Our sports insurance</a>
+                </li>
+                <li>
+                    <a href="#">Additional options</a>
+                </li>
+                <li>
+                    <a href="#">What to do in the event of an accident?</a>
+                </li>
+            </ul>
+
+
+        </div>
+
+
+
+    </div>
+</div>
 
 

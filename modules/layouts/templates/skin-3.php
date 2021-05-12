@@ -33,7 +33,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
         </div>
         <div class="section__block-title text-center">
             <h2>Already a member?</h2>
-            <p class="lead-text">Get all advanteges of your membership</p>
+            <p class="lead-text">Get all advantages of your membership</p>
         </div>
         <div class="row">
             <div class="col-12 col-md-10 col-lg-11 mx-auto">

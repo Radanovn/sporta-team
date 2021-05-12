@@ -20,7 +20,7 @@ position: 6
             <div class="col-lg-9 mx-lg-auto">
                 <div class="section__block-title text-center">
                     <h2>Advantages of this insurance:</h2>
-                    <p class="lead-text d-xl-none">Get all advanteges of your membership</p>
+                    <p class="lead-text d-xl-none">Get all advantages of your membership</p>
                 </div>
             </div>
         </div>

@@ -84,140 +84,21 @@
                     <div class="collapse navbar-collapse" id="navbarBottom">
                         <ul class="navbar-nav nav-justified w-100">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Join S1111porta Club</a>
-                                <module type="menu" template="header-main" id="header-join-sporta" />
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Join Sporta Club</a>
+                                <div class="dropdown-menu w-100 megamenu">
+                                    <div class="row justify-content-between flex-xl-nowrap">
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="join-sporta-club-menu" menu-name="join-sporta-club" />
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item dropdown has-megamenu">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">For clubs</a>
                                 <div class="dropdown-menu w-100 megamenu">
                                     <div class="row justify-content-between flex-xl-nowrap">
-                                        <div class="megamenu__column">
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-4.svg">
-                                        </span>
-                                                <span>Insurance</span>
-                                            </a>
-                                            <ul class="list-unstyled dropdown-item__sublist">
-                                                <li>
-                                                    <a href="#">Our sports insurance</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Additional options</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">What to do in the event of an accident?</a>
-                                                </li>
-                                            </ul>
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-5.svg">
-                                        </span>
-                                                <span>Club Support</span>
-                                            </a>
-                                            <ul class="list-unstyled dropdown-item__sublist">
-                                                <li>
-                                                    <a href="#">Club benefits</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Ideas and tools for your club</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Youth sports subsidy</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="megamenu__column">
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-6.svg">
-                                        </span>
-                                                <span>Sport for all</span>
-                                            </a>
-                                            <ul class="list-unstyled dropdown-item__sublist">
-                                                <li>
-                                                    <a href="#">Sport (a) for everyone</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Social rate</a>
-                                                </li>
-                                            </ul>
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-7.svg">
-                                        </span>
-                                                <span>Multi sports</span>
-                                            </a>
-                                            <ul class="list-unstyled dropdown-item__sublist">
-                                                <li>
-                                                    <a href="#">Support for clubs</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Methodologies “in the picture”</a>
-                                                </li>
-                                            </ul>
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-8.svg">
-                                        </span>
-                                                <span>Healthy Sports</span>
-                                            </a>
-                                        </div>
-                                        <div class="megamenu__column">
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-9.svg">
-                                        </span>
-                                                <span>Training</span>
-                                            </a>
-                                            <ul class="list-unstyled dropdown-item__sublist">
-                                                <li>
-                                                    <a href="#">Offer Sporta</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Offer VTS</a>
-                                                </li>
-                                            </ul>
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-10.svg">
-                                        </span>
-                                                <span>Ethical sports</span>
-                                            </a>
-                                            <ul class="list-unstyled dropdown-item__sublist">
-                                                <li>
-                                                    <a href="#">Unacceptable behavior</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="megamenu__column">
-                                            <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-11.svg">
-                                        </span>
-                                                <span>Sports Activities</span>
-                                            </a>
-                                            <ul class="list-unstyled dropdown-item__sublist">
-                                                <li>
-                                                    <a href="#">Volley-ball</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Table tennis</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Swimming</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Jogging</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Gym & Dance</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Badminton</a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-1" menu-name="For clubs - 1st column" />
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-2" menu-name="For clubs - 2nd column" />
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-3" menu-name="For clubs - 3rd column" />
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-4" menu-name="For clubs - 4th column" />
                                     </div>
                                 </div>
                             </li>
@@ -225,43 +106,7 @@
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Sporta Team</a>
                                 <div class="dropdown-menu w-100">
                                     <div class="row row-cols-xl-2">
-                                        <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-12.svg">
-                                        </span>
-                                            <span>The team</span>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <span class="dropdown-item__icon">
-                                                <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-13.svg">
-                                            </span>
-                                            <span>Board and policy</span>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-14.svg">
-                                        </span>
-                                            <span>Mission / Vision</span>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <span class="dropdown-item__icon">
-                                                <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-15.svg">
-                                            </span>
-                                            <span>House rules</span>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-16.svg">
-                                        </span>
-                                            <span>Values and norms</span>
-                                        </a>
-
-                                        <a class="dropdown-item" href="#">
-                                        <span class="dropdown-item__icon">
-                                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-17.svg">
-                                        </span>
-                                            <span>Sporta</span>
-                                        </a>
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="about-sporta-team-menu" menu-name="About sporta team" />
                                     </div>
                                 </div>
                             </li>
@@ -276,11 +121,11 @@
                     <div class="wrap-mobile-menu">
                         <form class="d-flex form-header-mobile">
                             <div class="input-group">
-                    <span class="input-group-append">
-                        <button class="btn btn-sm border-right-0 border btn-search" type="submit">
-                            <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-18.svg">
-                        </button>
-                    </span>
+                                <span class="input-group-append">
+                                    <button class="btn btn-sm border-right-0 border btn-search" type="submit">
+                                        <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-18.svg">
+                                    </button>
+                                </span>
                                 <input class="form-control border-left-0 border" type="search" placeholder="Search..." aria-label="Search">
                             </div>
                         </form>

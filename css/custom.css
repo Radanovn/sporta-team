@@ -1,0 +1,12 @@
+.section-fullwidth-img .wrap-img--gradient:after, .hero-content-center__img-bg:after {
+    pointer-events: none;
+}
+
+.mw-skin-1-text-container .hero-content-center__img-bg {
+    z-index: 0;
+}
+
+.mw-skin-1-text-container .container {
+    z-index: 1;
+    position: relative;
+}

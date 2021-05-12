@@ -11,7 +11,7 @@ position: 1
 */
 
 ?>
-<section class="hero-content-center edit safe-mode nodrop" field="layout-why-participate-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="hero-content-center mw-skin-1-text-container edit safe-mode nodrop" field="layout-why-participate-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="hero-content-center__img-bg">
         <picture>
             <source srcset="<?php print template_url(); ?>images/why-participate-hero-img-mobile.jpg" media="(max-width: 479px)">

@@ -21,8 +21,8 @@ position: 13
             </div>
         </div>
         <div class="contact-person-wrap">
-            <div class="contact-person__item">
-                <div class="contact-person__item-photo cloneable">
+            <div class="contact-person__item cloneable">
+                <div class="contact-person__item-photo">
                     <img src="<?php print template_url(); ?>images/photo.jpg" class="img-cover" alt="">
                 </div>
                 <div>
@@ -30,8 +30,8 @@ position: 13
                     <p class="contact-person__item-position">Consulent basketbal</p>
                 </div>
             </div>
-            <div class="contact-person__item">
-                <div class="contact-person__item-photo cloneable">
+            <div class="contact-person__item cloneable">
+                <div class="contact-person__item-photo">
                     <img src="<?php print template_url(); ?>images/photo.jpg" class="img-cover" alt="">
                 </div>
                 <div>
@@ -39,8 +39,8 @@ position: 13
                     <p class="contact-person__item-position">Consulent basketbal</p>
                 </div>
             </div>
-            <div class="contact-person__item">
-                <div class="contact-person__item-photo cloneable">
+            <div class="contact-person__item cloneable">
+                <div class="contact-person__item-photo">
                     <img src="<?php print template_url(); ?>images/photo.jpg" class="img-cover" alt="">
                 </div>
                 <div>
@@ -48,8 +48,8 @@ position: 13
                     <p class="contact-person__item-position">Consulent basketbal</p>
                 </div>
             </div>
-            <div class="contact-person__item">
-                <div class="contact-person__item-photo cloneable">
+            <div class="contact-person__item cloneable">
+                <div class="contact-person__item-photo">
                     <img src="<?php print template_url(); ?>images/photo.jpg" class="img-cover" alt="">
                 </div>
                 <div>

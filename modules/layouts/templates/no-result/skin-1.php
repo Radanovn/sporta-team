@@ -19,18 +19,7 @@ position: 1
         <div class="row no-gutters">
             <div class="col-md-4">
                 <div class="section-no-result__sidebar mx-auto ml-md-0">
-                    <form class="d-flex mb-0 search-form">
-                        <div class="input-group">
-                            <input
-                                class="form-control border-top-0 border-left-0 border-right-0 bg-transparent border-bottom"
-                                type="search" placeholder="Search..." aria-label="Search">
-                            <span class="input-group-append">
-                                        <button class="btn border-bottom btn-search" type="submit">
-                                            <img class="mb-0" src="<?php print template_url(); ?>modules/layouts/svg/no-result/skin-2.svg">
-                                        </button>
-                                    </span>
-                        </div>
-                    </form>
+                        <module type="search" template="no-result">
                     <div class="categories">
                         <a href="#" class="categories__item categories__item--green">financieel</a>
                         <a href="#" class="categories__item categories__item--green">management</a>

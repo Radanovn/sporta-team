@@ -34,13 +34,7 @@ position: 12
                     <p class="block-information-package__text">Enter your email below and we’ll send it to you</p>
                 </div>
                 <div class="block-information-package__bottom">
-                    <form class="form-information-package needs-validation" novalidate>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="your.email@domain.com" required>
-                            <div class="invalid-feedback">Error text</div>
-                        </div>
-                        <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Get">
-                    </form>
+                    <module type="contact_form" template="why-participate-newsletter">
                 </div>
             </div>
         </div>

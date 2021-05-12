@@ -10,3 +10,16 @@
     z-index: 1;
     position: relative;
 }
+
+
+@media screen and (min-width: 992px) {
+    .section-testimonials .wrap-cards>[class*=col] {
+        margin-bottom: 49px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-other-club-operation .wrap-cards>[class*=col] {
+        margin-bottom: 51px;
+    }
+}

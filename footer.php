@@ -47,5 +47,5 @@
     </div>
 </footer>
 </div>
-<script type="text/javascript" src="<?php print template_url(); ?>js/bundle.js"></script></body>
+<script src="<?php print template_url(); ?>js/bundle.js"></script></body>
 </html>

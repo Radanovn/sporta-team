@@ -40,7 +40,7 @@
             <div class="footer__bottom">
                 <p class="copyright"><span class="copyright__symbol">©</span> Sporta Team</p>
                 <ul class="list-unstyled d-flex justify-content-end align-items-center footer__bottom-menu">
-                    <module type="menu" name="footer_menu_11" template="footer_bottom"/>
+                    <module type="menu" name="footer_menu_2" template="footer_bottom"/>
                 </ul>
             </div>
         </div>

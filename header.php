@@ -78,7 +78,6 @@
         }
 
         $(document).ready(function (){
-           $('.dropdown-menu').eq(1).show();
 
             var mobilemenu = mw.element('ul#main-mobile-menu');
 
@@ -156,7 +155,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Join Sporta Club</a>
                                 <div class="dropdown-menu">
-                                    <div class="row justify-content-between flex-xl-nowrap">
+                                    <div class="row flex-column align-items-xl-center">
                                         <module type="menu" template="header-main"  id="join-sporta-club-menu" menu-name="join-sporta-club" is-mega="false" />
                                     </div>
                                 </div>
@@ -175,7 +174,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Sporta Team</a>
                                 <div class="dropdown-menu w-100">
-                                    <div class="row row-cols-xl-2">
+                                    <div class="row row-cols-xl-2>
                                         <module type="menu" class="megamenu__column" template="header-main"  id="about-sporta-team-menu" menu-name="About sporta team" is-mega="false" />
                                     </div>
                                 </div>

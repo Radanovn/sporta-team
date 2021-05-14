@@ -25,30 +25,7 @@ position: 1
         <div class="row no-gutters">
             <div class="col-lg-9 mx-auto">
                 <h1 class="search-results__title mb-0">6 results found for "search word"</h1>
-                <article class="search-results__item">
-                    <h4 class="search-results__item-title"><a href="#">Titel page (clickable)</a></h4>
-                    <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
-                </article>
-                <article class="search-results__item">
-                    <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
-                    <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
-                </article>
-                <article class="search-results__item">
-                    <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
-                    <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
-                </article>
-                <article class="search-results__item">
-                    <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
-                    <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
-                </article>
-                <article class="search-results__item">
-                    <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
-                    <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
-                </article>
-                <article class="search-results__item">
-                    <h4 class="search-results__item-title"><a href="#">Titel page</a></h4>
-                    <p class="search-results__item-content">De clubbestuurder logt in via <a href="#">search word</a> klikt in de clubomgeving door naar de menu ‘Verzekering’ – ‘Nieuwe Aangifte’ en volgt de stappen die daar staan. Op datzelfde moment ontvang je van Sporta een bevestigingsbrief.</p>
-                </article>
+                <module type="posts" template="search-results">
             </div>
         </div>
     </div>

@@ -43,11 +43,17 @@
                                 <span class="line"></span>
                             </span>
                         </button>
-
                         <div class="collapse navbar-collapse justify-content-end" id="navbarTop">
                             <div class="wrap-navbar-top d-lg-flex align-items-lg-center">
-                                <form class="d-flex order-lg-1 form-navbar-top">
-                                    <module type="search" template="header-search"/>
+                                <form class="d-flex order-lg-1 form-navbar-top" method="get" action="<?php print site_url(); ?>search-results">
+                                    <div class="input-group">
+                                        <input type="search" name="q" class="form-control border-right-0 border" value="<?php print isset($_GET['q']) ? $_GET['q'] : '';?>" placeholder="Search..." aria-label="Search"/>
+                                        <span class="input-group-append">
+                                            <button type="submit" class="btn btn-sm border-left-0 border btn-search">
+                                                <img class="mb-0" src="<?php print template_url(); ?>modules/layouts/svg/no-result/skin-2.svg">
+                                            </button>
+                                        </span>
+                                    </div>
                                 </form>
                                 <div class="navbar-nav order-0">
                                     <module type="menu" name="header_menu" template="default"/>
@@ -102,14 +108,14 @@
             <nav class="navbar p-0 d-md-none">
                 <div class="collapse navbar-collapse" id="navbarMobile">
                     <div class="wrap-mobile-menu">
-                        <form class="d-flex form-header-mobile">
+                        <form class="d-flex form-header-mobile" method="get" action="<?php print site_url(); ?>search-results">
                             <div class="input-group">
                                 <span class="input-group-append">
                                     <button class="btn btn-sm border-right-0 border btn-search" type="submit">
                                         <img src="<?php print template_url(); ?>modules/layouts/svg/header/skin-18.svg">
                                     </button>
                                 </span>
-                                <input class="form-control border-left-0 border" type="search" placeholder="Search..." aria-label="Search">
+                                <input class="form-control border-left-0 border" type="search" name="q"  value="<?php print isset($_GET['q']) ? $_GET['q'] : '';?>" placeholder="Search..." aria-label="Search">
                             </div>
                         </form>
                         <ul class="navbar-nav w-100" id="main-mobile-menu"></ul>
@@ -126,7 +132,6 @@
                             <a href="#" class="btn btn-animate btn-red">Join Sporta Club</a>
                         </div>
                     </div>
-
                 </div>
             </nav>
         </header>

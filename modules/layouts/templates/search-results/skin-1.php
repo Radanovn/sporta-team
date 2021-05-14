@@ -10,6 +10,8 @@ position: 1
 
 */
 
+$q = isset($_GET['q']) ? $_GET['q'] : '';
+
 ?>
 <section class="section section-search-results edit safe-mode nodrop" field="layout-search-results-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
@@ -24,8 +26,7 @@ position: 1
         </div>
         <div class="row no-gutters">
             <div class="col-lg-9 mx-auto">
-                <h1 class="search-results__title mb-0">6 results found for "search word"</h1>
-                <module type="posts" template="search-results">
+                <module type="posts" keyword="<?php print $q; ?>" template="search-results">
             </div>
         </div>
     </div>

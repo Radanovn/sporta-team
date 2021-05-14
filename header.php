@@ -120,7 +120,7 @@
                         </form>
                         <ul class="navbar-nav w-100" id="main-mobile-menu"></ul>
                         <div class="navbar-nav">
-                            <module type="menu" name="header_menu" template="default"/>
+                            <module type="menu" name="header_menu" template="default-mobile"/>
                             <a href="#" class="nav-link btn-login">
                                 <span class="btn-login__icon">
                                     <img src="<?php print template_url(); ?>images/user-icon.svg" class="d-inline-block align-top" alt="">

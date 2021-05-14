@@ -96,9 +96,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Sporta Team</a>
                                 <div class="dropdown-menu w-100">
-                                    <div class="row row-cols-xl-2">
-                                        <module type="menu" class="megamenu__column" template="header-main"  id="about-sporta-team-menu" menu-name="About sporta team" is-mega="false" />
-                                    </div>
+                                    <module type="menu" class="row row-cols-xl-2" template="header-main" id="about-sporta-team-menu" menu-name="About sporta team" is-mega="false" />
                                 </div>
                             </li>
                         </ul>

@@ -12,6 +12,8 @@ description: The menu which is just before content
 
 $menu_filter['return_data'] = true;
 $menuTree = menu_tree($menu_filter);
+$isMega = isset($params["is-mega"]) and $params["is-mega"] === 'true';
+
 if(!function_exists('headerSportaMenuItem')) {
     function headerSportaMenuItem($items, $level = -1): string
     {
@@ -39,5 +41,5 @@ if(!function_exists('headerSportaMenuItem')) {
         return $html;
     }
 }
-  is_array($menuTree) ? print headerSportaMenuItem($menuTree) : print lnotif("There are no items in the menu <b>" . $params['menu-name'] . '</b>')
+is_array($menuTree) ? print headerSportaMenuItem($menuTree) : print lnotif("There are no items in the menu <b>" . $params['menu-name'] . '</b>')
 ?>

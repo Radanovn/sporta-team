@@ -25,6 +25,84 @@
     <link href="<?php print template_url(); ?>css/main.css" rel="stylesheet">
     <link href="<?php print template_url(); ?>css/custom.css" rel="stylesheet">
 
+    <script>
+        var mobileSubMenus = function (target, sourceSelector, title, isMega){
+            var root = mw.element('<div class="submenu" />');
+            var content = mw.element('<div class="submenu-wrap" />');
+            root.append(content);
+            var header = mw.element('<div class="submenu-header"><div class="btn-close-submenu">back</div><div class="submenu-title">' + title + '</div></div>')
+            content.append(header);
+            var ul = mw.element('<ul class="navbar-nav w-100"/>');
+            $(sourceSelector).find('.dropdown-item').each(function (){
+                var sub = $(this).next('ul');
+                var hasChild = !!sub.length;
+                var wrap;
+                if(sub.length) {
+                    sub = sub.clone()
+                    sub.attr('class', 'navbar-nav w-100')
+                    sub.find('li').attr('class', 'nav-item')
+                    sub.find('ul')
+                        .attr('class', 'navbar-nav w-100')
+                        .wrap('<div class="submenu"><div class="submenu-wrap"></div></div>')
+                        .before('<div class="submenu-header"><div class="btn-close-submenu">back</div><div class="submenu-title">'+this.innerHTML+'</div></div>')
+
+                    sub.find('a').attr('class', 'nav-link')
+                    wrap = mw.element('<div class="submenu" />');
+                    var wrapcontent = mw.element('<div class="submenu-wrap" />');
+                    wrap.append(wrapcontent);
+                    var wrapheader = mw.element('<div class="submenu-header"><div class="btn-close-submenu">back</div><div class="submenu-title">' + title + '</div></div>')
+                    wrapcontent.append(wrapheader);
+                    wrapcontent.append(sub.get(0));
+                }
+                ul.append(mw.element({
+                    tag: 'li',
+                    props: {
+                        className: 'nav-item' + (hasChild ? ' has-submenu' : '')
+                    },
+                    content: [
+                        mw.element({
+                            tag: 'a',
+                            props: {
+                                className: 'nav-link'  + (hasChild ? ' submenu-toggle' : ''),
+                                href: this.href,
+                                innerHTML: this.innerHTML
+                            }
+                        }),
+                        (wrap ? wrap : '')
+                    ]
+                }))
+                ul.find('.dropdown-item__icon').remove()
+            });
+            content.append(ul);
+            target.appendChild(root.get(0));
+        }
+
+        $(document).ready(function (){
+           $('.dropdown-menu').eq(1).show();
+
+            var mobilemenu = mw.element('ul#main-mobile-menu');
+
+            $('#navbarBottom > ul > li').each(function (){
+               var link = this.querySelector('a');
+               var li = mw.element({
+                   tag: 'li',
+                   props: {
+                       className: 'nav-item has-submenu',
+                   },
+                   content: {
+                       tag:'a',
+                       props: {
+                           className: 'nav-link submenu-toggle',
+                           innerHTML: link.innerHTML
+                       }
+                   }
+               });
+                mobileSubMenus(li.get(0), link.nextElementSibling, link.innerHTML, false)
+                mobilemenu.append(li.get(0))
+           })
+        });
+    </script>
+
 </head>
 <body>
 <div class="wrapper">
@@ -85,9 +163,9 @@
                         <ul class="navbar-nav nav-justified w-100">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Join Sporta Club</a>
-                                <div class="dropdown-menu w-100 megamenu">
+                                <div class="dropdown-menu">
                                     <div class="row justify-content-between flex-xl-nowrap">
-                                        <module type="menu" class="megamenu__column" template="header-main"  id="join-sporta-club-menu" menu-name="join-sporta-club" />
+                                        <module type="menu" template="header-main"  id="join-sporta-club-menu" menu-name="join-sporta-club" is-mega="false" />
                                     </div>
                                 </div>
                             </li>
@@ -95,10 +173,10 @@
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">For clubs</a>
                                 <div class="dropdown-menu w-100 megamenu">
                                     <div class="row justify-content-between flex-xl-nowrap">
-                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-1" menu-name="For clubs - 1st column" />
-                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-2" menu-name="For clubs - 2nd column" />
-                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-3" menu-name="For clubs - 3rd column" />
-                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-4" menu-name="For clubs - 4th column" />
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-1" menu-name="For clubs - 1st column" is-mega="true" />
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-2" menu-name="For clubs - 2nd column" is-mega="true" />
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-3" menu-name="For clubs - 3rd column" is-mega="true" />
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-4" menu-name="For clubs - 4th column" is-mega="true" />
                                     </div>
                                 </div>
                             </li>
@@ -106,7 +184,7 @@
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Sporta Team</a>
                                 <div class="dropdown-menu w-100">
                                     <div class="row row-cols-xl-2">
-                                        <module type="menu" class="megamenu__column" template="header-main"  id="about-sporta-team-menu" menu-name="About sporta team" />
+                                        <module type="menu" class="megamenu__column" template="header-main"  id="about-sporta-team-menu" menu-name="About sporta team" is-mega="false" />
                                     </div>
                                 </div>
                             </li>
@@ -115,7 +193,7 @@
                 </nav>
             </div>
 
-            <!--mobile menu-->
+
             <nav class="navbar p-0 d-md-none">
                 <div class="collapse navbar-collapse" id="navbarMobile">
                     <div class="wrap-mobile-menu">
@@ -129,231 +207,27 @@
                                 <input class="form-control border-left-0 border" type="search" placeholder="Search..." aria-label="Search">
                             </div>
                         </form>
-                        <ul class="navbar-nav w-100">
-                            <li class="nav-item has-submenu">
+                        <ul class="navbar-nav w-100" id="main-mobile-menu">
+                           <?php /* <li class="nav-item has-submenu">
                                 <a class="nav-link submenu-toggle" href="#" role="button">Join Sporta Club</a>
-                                <div class="submenu">
-                                    <div class="submenu-wrap">
-                                        <div class="submenu-header">
-                                            <div class="btn-close-submenu">back</div>
-                                            <div class="submenu-title">Join Sporta Club</div>
-                                        </div>
-                                        <ul class="navbar-nav w-100">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Prices</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Why participate</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Onze clubs</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                <div class="submenu" data-menu-name="join-sporta-club"></div>
+                                <module type="menu" class="submenu" template="header-main-mobile" menu-name="join-sporta-club" root-name="Join Sporta Club" />
                             </li>
                             <li class="nav-item has-submenu">
                                 <a class="nav-link submenu-toggle" href="#" role="button">For clubs</a>
-                                <div class="submenu">
-                                    <div class="submenu-wrap">
-                                        <div class="submenu-header">
-                                            <div class="btn-close-submenu">back</div>
-                                            <div class="submenu-title">For clubs</div>
-                                        </div>
-                                        <ul class="navbar-nav w-100">
-                                            <li class="nav-item has-submenu">
-                                                <a class="nav-link submenu-toggle" href="#" role="button">Insurance</a>
-                                                <div class="submenu">
-                                                    <div class="submenu-wrap">
-                                                        <div class="submenu-header">
-                                                            <div class="btn-close-submenu">back</div>
-                                                            <div class="submenu-title">Insurance</div>
-                                                        </div>
-                                                        <ul class="navbar-nav w-100">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Our sports insurance</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Additional options</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">What to do in the event of an accident?</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item has-submenu">
-                                                <a class="nav-link submenu-toggle" href="#" role="button">Club Support</a>
-                                                <div class="submenu">
-                                                    <div class="submenu-wrap">
-                                                        <div class="submenu-header">
-                                                            <div class="btn-close-submenu">back</div>
-                                                            <div class="submenu-title">Club Support</div>
-                                                        </div>
-                                                        <ul class="navbar-nav w-100">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Club benefits</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Ideas and tools for your club</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Youth sports subsidy</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item has-submenu">
-                                                <a class="nav-link submenu-toggle" href="#" role="button">Sport for all</a>
-                                                <div class="submenu">
-                                                    <div class="submenu-wrap">
-                                                        <div class="submenu-header">
-                                                            <div class="btn-close-submenu">back</div>
-                                                            <div class="submenu-title">Sport for all</div>
-                                                        </div>
-                                                        <ul class="navbar-nav w-100">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Sport (a) for everyone</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Social rate</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item has-submenu">
-                                                <a class="nav-link submenu-toggle" href="#" role="button">Multi sports</a>
-                                                <div class="submenu">
-                                                    <div class="submenu-wrap">
-                                                        <div class="submenu-header">
-                                                            <div class="btn-close-submenu">back</div>
-                                                            <div class="submenu-title">Multi sports</div>
-                                                        </div>
-                                                        <ul class="navbar-nav w-100">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Support for clubs</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Methodologies “in the picture”</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#" role="button">Healthy Sports</a>
-                                            </li>
-                                            <li class="nav-item has-submenu">
-                                                <a class="nav-link submenu-toggle" href="#" role="button">Training</a>
-                                                <div class="submenu">
-                                                    <div class="submenu-wrap">
-                                                        <div class="submenu-header">
-                                                            <div class="btn-close-submenu">back</div>
-                                                            <div class="submenu-title">Training</div>
-                                                        </div>
-                                                        <ul class="navbar-nav w-100">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Offer Sporta</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Offer VTS</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item has-submenu">
-                                                <a class="nav-link submenu-toggle" href="#" role="button">Ethical sports</a>
-                                                <div class="submenu">
-                                                    <div class="submenu-wrap">
-                                                        <div class="submenu-header">
-                                                            <div class="btn-close-submenu">back</div>
-                                                            <div class="submenu-title">Ethical sports</div>
-                                                        </div>
-                                                        <ul class="navbar-nav w-100">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Unacceptable behavior</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item has-submenu">
-                                                <a class="nav-link submenu-toggle" href="#" role="button">Sports Activities</a>
-                                                <div class="submenu">
-                                                    <div class="submenu-wrap">
-                                                        <div class="submenu-header">
-                                                            <div class="btn-close-submenu">back</div>
-                                                            <div class="submenu-title">Sports Activities</div>
-                                                        </div>
-                                                        <ul class="navbar-nav w-100">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Volley-ball</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Table tennis</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Swimming</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Jogging</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Gym & Dance</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Badminton</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                <module type="menu" class="submenu" template="header-main-mobile" menu-name="join-sporta-club" root-name="For clubs" />
                             </li>
                             <li class="nav-item has-submenu">
                                 <a class="nav-link submenu-toggle" href="#" role="button">About Sporta Team</a>
-                                <div class="submenu">
-                                    <div class="submenu-wrap">
-                                        <div class="submenu-header">
-                                            <div class="btn-close-submenu">back</div>
-                                            <div class="submenu-title">About Sporta Team</div>
-                                        </div>
-                                        <ul class="navbar-nav w-100">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">The team</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Board and policy</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Mission / Vision</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">House rules</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Values and norms</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Sporta</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
+                                <module type="menu" class="submenu" template="header-main-mobile" menu-name="join-sporta-club" root-name="About Sporta Team" />
+                            </li> */ ?>
                         </ul>
                         <div class="navbar-nav">
-                            <module type="menu" name="header_menu"template="default"/>
+                            <module type="menu" name="header_menu" template="default"/>
                             <a href="#" class="nav-link btn-login">
-                    <span class="btn-login__icon">
-                        <img src="<?php print template_url(); ?>images/user-icon.svg" class="d-inline-block align-top" alt="">
-                    </span>
+                                <span class="btn-login__icon">
+                                    <img src="<?php print template_url(); ?>images/user-icon.svg" class="d-inline-block align-top" alt="">
+                                </span>
                                 <span>Log in</span>
                             </a>
                         </div>

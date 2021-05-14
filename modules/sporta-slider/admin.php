@@ -89,7 +89,6 @@ if (isset($params["live_edit"]) and $params["live_edit"]) {
                             options: [
                                 {title: 'Red', value: 'red'},
                                 {title: 'Green', value: 'green'},
-                                // {title: 'Yellow', value: 'yellow'}
                             ],
                             label: ['Last word color'],
                             id: 'lastwordcolor'

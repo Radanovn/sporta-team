@@ -20,18 +20,7 @@ position: 5
                     <div class="circles circles--bottom-left d-none d-lg-block">
                         <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-2.svg">
                     </div>
-                    <figure class="wrapper-video-content mb-0">
-                        <div class="embed-responsive embed-responsive-16by9 video-wrap">
-                            <div class="poster-video">
-                                <img src="<?php print template_url(); ?>images/about-img-2.jpg" class="img-cover"
-                                     alt="">
-                                <div class="btn-play btn-play--green js-video-play"></div>
-                            </div>
-
-                            <div class="embed-responsive-item js-video-player" data-youtube-id="DnGdoEa1tPg"
-                                 id="player2"></div>
-                        </div>
-                    </figure>
+                    <module type="video" template="sporta-team">
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">

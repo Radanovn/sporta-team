@@ -26,3 +26,7 @@
 .dropdown-item__icon img{
     min-width: 20px;
 }
+
+.section-video-tool .poster-video:before{
+    pointer-events: none;
+}

@@ -33,7 +33,7 @@ position: 4
                     <h3 class="about-card__title">Short & Powerful</h3>
                     <p class="about-card__text  about-card__text--max-width">The time investment consciously remains minimal. It is therefore not necessary to prepare or find out certain things for the club visit. In order to work effectively, we ask that the number of board members at the club visit be limited to 2 people.<br>It is recommended that one of those two persons<br class="d-sm-none"> is familiar with <a href="#" class="text-green font-weight-bold">My Account</a>.</p>
                     <div class="about-card__wrap-link">
-                        <module type="btn" template="sporta-card-links-with-icons" button-style="red text-decoration-none" button_text="Find out more">
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button-style="red text-decoration-none" button_text="Find out more">
                     </div>
                 </div>
             </div>

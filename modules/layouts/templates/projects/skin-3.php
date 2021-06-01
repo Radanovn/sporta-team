@@ -28,7 +28,7 @@ position: 3
                 <div class="card-info__for-only-title">for only</div>
                 <div class="card-info__for-only-quantity">5,-</div>
             </div>
-            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-small" button_text="Meer info"/>
+            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-small" button_text="Meer info"/>
         </div>
     </div>
 </section>

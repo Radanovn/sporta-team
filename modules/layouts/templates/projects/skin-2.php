@@ -48,7 +48,7 @@ position: 2
                                     do eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
                             <div class="card-footer border-0 bg-transparent rounded-0">
-                                <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                                <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ position: 2
                                     do eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
                             <div class="card-footer border-0 bg-transparent">
-                                <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                                <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ position: 2
                                     do eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
                             <div class="card-footer border-0 bg-transparent">
-                                <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                                <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ position: 2
                                     do eiusmod. Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
                             <div class="card-footer border-0 bg-transparent">
-                                <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                                <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                             </div>
                         </div>
                     </div>

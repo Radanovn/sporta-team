@@ -35,7 +35,7 @@ position: 3
                     <h2 class="about-card__title">Heed help?</h2>
                     <p class="about-card__text  about-card__text--max-width">We are happy to help you.</p>
                     <div class="about-card__wrap-btn">
-                        <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
+                        <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
                     </div>
                 </div>
             </div>

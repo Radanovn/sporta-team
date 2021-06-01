@@ -49,7 +49,7 @@ position: 2
                     <h3 class="about-card__title">We vizit you</h3>
                     <p class="about-card__text  about-card__text--max-width">Specifically, a club visit works like this: a Sporta employee visits your club to meet personally and to listen to the questions and feedback your club has. In addition, during the club visit there is room to view the possibilities of the services of Sporta together, so that your club makes optimal use of the Sporta advantages. Together we invest in your club activities!</p>
                     <div class="about-card__wrap-link">
-                        <module type="btn" template="sporta-card-links-with-icons" button-style="red text-decoration-none" button_text="Find out more">
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button-style="red text-decoration-none" button_text="Find out more">
                     </div>
                 </div>
             </div>

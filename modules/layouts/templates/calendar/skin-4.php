@@ -56,7 +56,7 @@ position: 4
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Vraag aan"/>
+            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Vraag aan"/>
         </div>
     </div>
 </section>

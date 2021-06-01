@@ -50,7 +50,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -69,7 +69,7 @@ position: 1
                             label.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -106,7 +106,7 @@ position: 1
                             coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -143,7 +143,7 @@ position: 1
                             coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -179,7 +179,7 @@ position: 1
                             label.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -196,7 +196,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -215,7 +215,7 @@ position: 1
                             coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -232,7 +232,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -252,7 +252,7 @@ position: 1
                             coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -269,7 +269,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -288,7 +288,7 @@ position: 1
                             label.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -305,7 +305,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -324,7 +324,7 @@ position: 1
                             coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>
@@ -341,7 +341,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -361,7 +361,7 @@ position: 1
                             coaches.</p>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Find out more"/>
                     </div>
                 </div>
             </div>

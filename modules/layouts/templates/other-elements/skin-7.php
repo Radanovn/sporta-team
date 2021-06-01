@@ -49,7 +49,7 @@ position: 7
             </ol>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Get started now"/>
+            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Get started now"/>
         </div>
     </div>
 </section>

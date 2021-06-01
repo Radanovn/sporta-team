@@ -19,7 +19,7 @@ position: 5
                     <h2 class="guidance-card__title">Heed help?</h2>
                     <p class="guidance-card__text">We are happy to help you.</p>
                     <div class="guidance-card__wrap-btn">
-                        <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
+                        <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ position: 1
             <h1 class="hero__title w-100">PROJECTS</h1>
             <p class="hero__text w-100">Sed do eiusmod tempor incididunt u tempor incididun.</p>
             <div class="hero__wrap-btn">
-                <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="GTA"/>
+                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="GTA"/>
             </div>
         </div>
         <div class="col-md-8 order-0 order-md-1 hero__img">

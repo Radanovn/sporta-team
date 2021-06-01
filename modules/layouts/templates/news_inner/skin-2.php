@@ -32,7 +32,7 @@
                 <h3 class="about-card__title">Subtitle</h3>
                 <p class="about-card__text  about-card__text--max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                 <div class="about-card__wrap-link">
-                    <module type="btn" template="sporta-card-links-with-icons" button_style="red text-decoration-none" button_text="Find out more"/>
+                    <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="red text-decoration-none" button_text="Find out more"/>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                     <li>Lorem ipsum dolor</li>
                 </ul>
                 <div class="about-card__wrap-link">
-                    <module type="btn" template="sporta-card-links-with-icons" button_style="green text-decoration-none" button_text="Find out more"/>
+                    <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="green text-decoration-none" button_text="Find out more"/>
                 </div>
             </div>
         </div>

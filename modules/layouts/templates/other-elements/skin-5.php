@@ -31,7 +31,7 @@ position: 5
                         Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit
                         mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <div class="about-card__wrap-link">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="green text-decoration-none" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="green text-decoration-none" button_text="Find out more"/>
                     </div>
                 </div>
             </div>

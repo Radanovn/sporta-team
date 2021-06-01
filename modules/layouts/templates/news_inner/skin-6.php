@@ -15,7 +15,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in&#8209;cididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
         <div class="wrap-link">
             <div class="wrap-link">
-                <module type="btn" template="sporta-card-links-with-icons" button_style="red text-decoration-none font-weight-bold" button_text="Read more">
+                <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="red text-decoration-none font-weight-bold" button_text="Read more">
             </div>
         </div>
         <div class="single-post__space single-post__space--md-60"></div>

@@ -19,7 +19,7 @@ position: 4
                     <h3 class="about-card__title">Sport & Traffic</h3>
                     <p class="about-card__text  about-card__text--max-width">On the way to road safety sport? the online traffic guide Sport & Traffic of the Associations for Road Safety is the guide to follow. There you will find all the tips for safe sports on one digital information highway.</p>
                     <div class="about-card__wrap-link">
-                        <module type="btn" template="sporta-card-links-with-icons" button_style="red text-decoration-none" button_text="Find out more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="red text-decoration-none" button_text="Find out more"/>
                     </div>
                 </div>
             </div>

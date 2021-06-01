@@ -17,7 +17,7 @@ position: 30
             <img src="<?php print template_url(); ?>images/404-img.svg" alt="">
             <h4>Something went wrong (</h4>
             <p>Page not found, try going pack to home page.</p>
-            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Back to home"/>
+            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Back to home"/>
         </div>
     </div>
 </section>

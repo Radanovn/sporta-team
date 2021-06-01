@@ -31,7 +31,7 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Download"/>
+                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Download"/>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>

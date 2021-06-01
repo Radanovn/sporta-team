@@ -76,7 +76,7 @@ position: 3
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Your insurance"/>
+            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Your insurance"/>
         </div>
     </div>
 </section>

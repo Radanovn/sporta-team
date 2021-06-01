@@ -43,7 +43,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="wrap-card__item order-lg-3 cloneable">
+            <div class="wrap-card__item cloneable">
                 <div class="card border-0 color-red">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -61,7 +61,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="wrap-card__item order-lg-2 cloneable">
+            <div class="wrap-card__item cloneable">
                 <div class="card border-0 color-green">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -79,7 +79,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="wrap-card__item order-lg-1 cloneable">
+            <div class="wrap-card__item cloneable">
                 <div class="card border-0 color-green">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">

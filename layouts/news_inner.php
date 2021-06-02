@@ -59,6 +59,10 @@ $itemTags = content_tags($content['id']);
                     </figure>
                 </div>
             </div>
+
+            <div class="edit main-content" rel="content" field="sporta-team_news_inner">
+
+            </div>
         </div>
     </article>
 

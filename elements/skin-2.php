@@ -1,4 +1,4 @@
-<div class="section-about edit safe-mode allow-drop" field="layout-news-inner-skin-2-<?php print $params['id'] ?>" rel="content">
+<div class="section-about edit safe-mode allow-drop" field="layout-news-inner-skin-2" rel="global">
     <div class="row no-gutters about-card">
         <div class="col-lg-6">
             <div class="about-card__img">

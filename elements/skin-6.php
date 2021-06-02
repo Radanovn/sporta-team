@@ -1,4 +1,4 @@
-<div class="row no-gutters edit safe-mode allow-drop" field="layout-news-inner-skin-6-<?php print $params['id'] ?>" rel="content">
+<div class="row no-gutters edit safe-mode allow-drop" field="layout-news-inner-skin-6" rel="global">
     <div class="col-lg-8 col-xl-6 mx-auto">
         <p class="font-weight-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in&#8209;cididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in&#8209;cididunt ut labore et dolore magna aliqua. Ut enim ad. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>

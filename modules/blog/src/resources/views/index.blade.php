@@ -140,7 +140,6 @@ $randId = uniqid();
                 </div>
             </div>
 
-
         </div>
     </div>
 </section>

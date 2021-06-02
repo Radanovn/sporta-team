@@ -11,7 +11,7 @@ position: 5
 */
 
 ?>
-<section class="section section-about section-multimove-more-tips edit safe-mode nodrop" field="layout-multimove-skin-5-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-multimove-more-tips edit safe-mode allow-drop" field="layout-multimove-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters about-card">
             <div class="col-md-5 col-lg-6">

@@ -11,7 +11,7 @@ position: 5
 */
 
 ?>
-<section class="section section-testimonials bg-gray edit safe-mode nodrop" field="layout-club-vizit-skin-5-<?php print $params['id'] ?>" rel="content">
+<section class="section section-testimonials bg-gray edit safe-mode allow-drop" field="layout-club-vizit-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">

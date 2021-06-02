@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section section-reminders edit safe-mode nodrop" field="layout-insurance-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-reminders edit safe-mode allow-drop" field="layout-insurance-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--bottom-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/insurance/skin-2.svg">
@@ -76,7 +76,7 @@ position: 3
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Your insurance"/>
+            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Your insurance"/>
         </div>
     </div>
 </section>

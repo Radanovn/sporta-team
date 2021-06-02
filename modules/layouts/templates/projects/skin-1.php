@@ -11,13 +11,13 @@ position: 1
 */
 
 ?>
-<section class="hero-section projects-hero pb-0 edit safe-mode nodrop" field="layout-projects-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="hero-section projects-hero pb-0 edit safe-mode allow-drop" field="layout-projects-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="row no-gutters">
         <div class="col-md-4 order-1 hero__content">
             <h1 class="hero__title w-100">PROJECTS</h1>
             <p class="hero__text w-100">Sed do eiusmod tempor incididunt u tempor incididun.</p>
             <div class="hero__wrap-btn">
-                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="GTA"/>
+                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="GTA"/>
             </div>
         </div>
         <div class="col-md-8 order-0 order-md-1 hero__img">

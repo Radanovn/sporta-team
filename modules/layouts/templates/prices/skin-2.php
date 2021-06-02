@@ -11,7 +11,7 @@ position: 2
 */
 
 ?>
-<section class="section section-prices-insurance edit safe-mode nodrop" field="layout-prices-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="section section-prices-insurance edit safe-mode allow-drop" field="layout-prices-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-lg-3">

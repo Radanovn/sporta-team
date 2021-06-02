@@ -11,7 +11,7 @@ position: 4
 */
 
 ?>
-<section class="section section-insurance-cards bg-gray edit safe-mode nodrop" field="layout-insurance-skin-4-<?php print $params['id'] ?>" rel="content">
+<section class="section section-insurance-cards bg-gray edit safe-mode allow-drop" field="layout-insurance-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-left d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/insurance/skin-7.svg">
@@ -31,7 +31,7 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Download"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Download"/>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>

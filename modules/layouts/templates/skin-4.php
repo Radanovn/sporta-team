@@ -12,7 +12,7 @@ position: 4
 
 ?>
 
-<section class="section section-about nodrop edit" field="layout-skin-4-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about allow-drop edit" field="layout-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="section__block-title text-center">
             <h2>About Sporta Team</h2>

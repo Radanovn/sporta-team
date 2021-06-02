@@ -11,7 +11,7 @@ position: 4
 */
 
 ?>
-<section class="section section-about section-multimove-training edit safe-mode nodrop" field="layout-multimove-skin-4-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-multimove-training edit safe-mode allow-drop" field="layout-multimove-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-left d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/multimove/skin-5.svg">

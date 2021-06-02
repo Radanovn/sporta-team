@@ -11,7 +11,7 @@ position: 1
 */
 
 ?>
-<section class="section prices-hero edit safe-mode nodrop" field="layout-prices-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="section prices-hero edit safe-mode allow-drop" field="layout-prices-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/prices/skin-1.svg">

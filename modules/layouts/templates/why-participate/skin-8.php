@@ -11,7 +11,7 @@ position: 8
 */
 
 ?>
-<section class="section section-about section-participate-about edit safe-mode nodrop" field="layout-why-participate-skin-8-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-participate-about edit safe-mode allow-drop" field="layout-why-participate-skin-8-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters quote-card">
             <div class="col-lg-6">

@@ -11,7 +11,7 @@ position: 7
 */
 
 ?>
-<section class="section section-contact section-safety-subscribe edit safe-mode nodrop" field="layout-safety-skin-7-<?php print $params['id'] ?>" rel="content">
+<section class="section section-contact section-safety-subscribe edit safe-mode allow-drop" field="layout-safety-skin-7-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-lg-6 d-none d-md-block">

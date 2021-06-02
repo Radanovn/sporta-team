@@ -9,7 +9,7 @@
 
  */
 ?>
-<div class="row no-gutters position-relative decor-block edit safe-mode nodrop" field="layout-news-inner-skin-5-<?php print $params['id'] ?>" rel="content">
+<div class="row no-gutters position-relative decor-block edit safe-mode allow-drop" field="layout-news-inner-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="circles circles--right d-none d-lg-block">
         <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-9.svg">
     </div>

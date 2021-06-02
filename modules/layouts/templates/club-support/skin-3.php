@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section section-guidance pb-0 edit safe-mode nodrop" field="layout-club-support-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-guidance pb-0 edit safe-mode allow-drop" field="layout-club-support-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row guidance-card">
             <div class="col-lg-6 order-1">
@@ -27,7 +27,7 @@ position: 3
                         We are happy to visit your club and offer a listening ear for all your questions.
                     </p>
                     <div class="guidance-card__wrap-btn">
-                        <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Invite us">
+                        <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Invite us">
                     </div>
                 </div>
             </div>

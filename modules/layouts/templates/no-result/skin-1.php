@@ -11,7 +11,7 @@ position: 1
 */
 
 ?>
-<section class="section section-no-result edit safe-mode nodrop" field="layout-no-result-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="section section-no-result edit safe-mode allow-drop" field="layout-no-result-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--bottom-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/no-result/skin-1.svg">

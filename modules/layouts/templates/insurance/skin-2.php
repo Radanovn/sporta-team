@@ -11,7 +11,7 @@ position: 2
 */
 
 ?>
-<section class="hsection section-insurance edit safe-mode nodrop" field="layout-insurance-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="hsection section-insurance edit safe-mode allow-drop" field="layout-insurance-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-auto">

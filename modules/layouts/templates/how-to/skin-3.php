@@ -11,7 +11,7 @@ position: 4
 */
 
 ?>
-<section class="section section-about section-how-to edit safe-mode nodrop" field="layout-how-to-skin-4-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-how-to edit safe-mode allow-drop" field="layout-how-to-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters about-card">
             <div class="circles circles--top-right d-none d-lg-block">

@@ -11,7 +11,7 @@ position: 1
 */
 
 ?>
-<section class="section section-filter edit safe-mode nodrop" field="layout-filter-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="section section-filter edit safe-mode allow-drop" field="layout-filter-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-auto">
@@ -50,7 +50,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -86,7 +86,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -123,7 +123,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -160,7 +160,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -196,7 +196,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -232,7 +232,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -269,7 +269,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -305,7 +305,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">
@@ -341,7 +341,7 @@ position: 1
                             </ul>
                         </div>
                         <div class="card-hover-block__footer">
-                            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
+                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="More info">
                         </div>
                     </div>
                     <a href="#" class="d-block card-img-top rounded-0">

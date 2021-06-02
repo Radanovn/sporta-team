@@ -11,7 +11,7 @@ position: 10
 */
 
 ?>
-<section class="section section-calendar-club-operation section-other-club-operation edit safe-mode nodrop" field="layout-other-elements-skin-10-<?php print $params['id'] ?>" rel="content">
+<section class="section section-calendar-club-operation section-other-club-operation edit safe-mode allow-drop" field="layout-other-elements-skin-10-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-11 mx-auto">
@@ -28,7 +28,7 @@ position: 10
                                     eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ position: 10
                                     eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>

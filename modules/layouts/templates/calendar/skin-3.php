@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section-fullwidth-img section-calendar-fullwidth-img edit safe-mode nodrop" field="layout-calendar-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section-fullwidth-img section-calendar-fullwidth-img edit safe-mode allow-drop" field="layout-calendar-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="wrap-img">
         <picture>
             <source srcset="<?php print template_url(); ?>images/calendar-img-1-mobile.jpg"

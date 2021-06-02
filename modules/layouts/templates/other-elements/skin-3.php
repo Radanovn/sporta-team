@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section section-quote edit safe-mode nodrop" field="layout-other-elements-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-quote edit safe-mode allow-drop" field="layout-other-elements-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters quote-card">
             <div class="col-lg-6 order-1">

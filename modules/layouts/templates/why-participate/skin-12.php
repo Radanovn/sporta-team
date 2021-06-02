@@ -11,7 +11,7 @@ position: 12
 */
 
 ?>
-<section class="section section-information-package edit safe-mode nodrop" field="layout-why-participate-skin-12-<?php print $params['id'] ?>" rel="content">
+<section class="section section-information-package edit safe-mode allow-drop" field="layout-why-participate-skin-12-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="block-information-package">
             <div class="block-information-package__left-side">

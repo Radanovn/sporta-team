@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section section-about section-chart-help edit safe-mode nodrop" field="layout-chart-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-chart-help edit safe-mode allow-drop" field="layout-chart-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters about-card position-relative">
             <div class="circles circles--top-right d-none d-lg-block">
@@ -35,7 +35,7 @@ position: 3
                     <h2 class="about-card__title">Heed help?</h2>
                     <p class="about-card__text  about-card__text--max-width">We are happy to help you.</p>
                     <div class="about-card__wrap-btn">
-                        <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
+                        <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Contact us"/>
                     </div>
                 </div>
             </div>

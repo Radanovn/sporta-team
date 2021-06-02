@@ -11,7 +11,7 @@ position: 6
 */
 
 ?>
-<section class="section section-all-insurance bg-gray edit safe-mode nodrop" field="layout-other-elements-skin-6-<?php print $params['id'] ?>" rel="content">
+<section class="section section-all-insurance bg-gray edit safe-mode allow-drop" field="layout-other-elements-skin-6-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-auto">

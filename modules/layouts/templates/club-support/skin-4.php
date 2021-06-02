@@ -11,7 +11,7 @@ position: 4
 */
 
 ?>
-<section class="section section-guidance pb-0 edit safe-mode nodrop" field="layout-club-support-skin-4-<?php print $params['id'] ?>" rel="content">
+<section class="section section-guidance pb-0 edit safe-mode allow-drop" field="layout-club-support-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters benefits-guide-card">
             <div class="col-md-6">

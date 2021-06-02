@@ -11,7 +11,7 @@ position: 13
 */
 
 ?>
-<section class="section-fullwidth-img section-why-participate-fullwidth-img d-flex align-items-center edit safe-mode nodrop" field="layout-why-participate-skin-13-<?php print $params['id'] ?>" rel="content">
+<section class="section-fullwidth-img section-why-participate-fullwidth-img d-flex align-items-center edit safe-mode allow-drop" field="layout-why-participate-skin-13-<?php print $params['id'] ?>" rel="content">
     <div class="wrap-img wrap-img--gradient">
         <img src="<?php print template_url(); ?>images/why-participate-img-3.jpg" class="img-cover" alt="">
     </div>

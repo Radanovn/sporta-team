@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section-fullwidth-img section-projects-info edit safe-mode nodrop" field="layout-projects-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section-fullwidth-img section-projects-info edit safe-mode allow-drop" field="layout-projects-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="wrap-img">
         <picture>
             <source srcset="<?php print template_url(); ?>images/volleyball-projects-mobile.jpg"
@@ -28,7 +28,7 @@ position: 3
                 <div class="card-info__for-only-title">for only</div>
                 <div class="card-info__for-only-quantity">5,-</div>
             </div>
-            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-small" button_text="Meer info"/>
+            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-small" button_text="Meer info"/>
         </div>
     </div>
 </section>

@@ -5,7 +5,7 @@
             <div class="filters__header d-lg-none">
                 <div class="d-flex align-items-center">
                     <h2 class="filters__title">{{_e('Filters')}}</h2>
-                    <span class="js-filter-picked clear-all d-md-none">{{_e('Clear all')}}</span>
+                    <span class="js-filter-picked js-filter-reset clear-all d-md-none">{{_e('Clear all')}}</span>
                 </div>
                 <div class="filters-btn-close js-filters-close">
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
@@ -23,7 +23,7 @@
             @endforeach
 
             <div class="filters__btn-bar">
-                <span class="js-filter-picked clear-all d-none d-md-inline-block d-lg-none">{{_e('Clear all')}}</span>
+                <span class="js-filter-picked js-filter-reset clear-all d-none d-md-inline-block d-lg-none">{{_e('Clear all')}}</span>
                 <button type="button" class="btn btn-animate btn-green btn-apply js-filter-apply">{{_e('Apply filters')}}</button>
             </div>
         </form>

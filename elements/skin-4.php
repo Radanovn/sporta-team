@@ -1,14 +1,3 @@
-<?php
-/*
-
-  type: layout
-
-  name: News - article 4
-
-  position: 4
-
- */
-?>
 <div class="section-about section-about--column edit safe-mode allow-drop" field="layout-news-inner-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="row no-gutters about-card">
         <div class="col-md-5 col-lg-6">

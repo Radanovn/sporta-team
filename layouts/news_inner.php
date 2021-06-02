@@ -59,18 +59,6 @@ $itemTags = content_tags($content['id']);
                     </figure>
                 </div>
             </div>
-
-            <div class="edit main-content" rel="content" field="sporta-team_news_inner">
-                <module type="layouts" template="news_inner/skin-1"/>
-                <module type="layouts" template="news_inner/skin-2"/>
-                <module type="layouts" template="news_inner/skin-3"/>
-                <module type="layouts" template="news_inner/skin-4"/>
-                <module type="layouts" template="news_inner/skin-5"/>
-                <module type="layouts" template="news_inner/skin-6"/>
-                <module type="layouts" template="news_inner/skin-7"/>
-                <module type="layouts" template="news_inner/skin-8"/>
-            </div>
-
         </div>
     </article>
 

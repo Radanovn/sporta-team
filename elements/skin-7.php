@@ -1,14 +1,3 @@
-<?php
-/*
-
-  type: layout
-
-  name: News article - 7
-
-  position: 7
-
- */
-?>
 <div class="row no-gutters about-card useful-document edit safe-mode allow-drop" field="layout-news-inner-skin-7-<?php print $params['id'] ?>" rel="content">
     <div class="col-lg-6">
         <div class="about-card__img">

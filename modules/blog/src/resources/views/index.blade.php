@@ -37,6 +37,8 @@ $randId = uniqid();
 
             {!! $posts->filters() !!}
 
+            {!! $posts->filtersActive() !!}
+
             @php
                 $i=0;
             @endphp

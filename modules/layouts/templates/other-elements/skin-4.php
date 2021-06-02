@@ -31,10 +31,15 @@ position: 4
                     <div class="circles circles--top-right d-none d-lg-block">
                         <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-1.svg">
                     </div>
-                    <figure class="wrapper-video-content mb-0">
+                    <figure class="wrapper-video-content mb-0 noelement nodrop">
+                        <div class="embed-responsive embed-responsive-16by9 video-wrap noelement">
+                            <module type="video" template="sporta-team" upload_thumb="<?php print template_url(); ?>images/about-img-1.jpg">
+                        </div>
+                    </figure>
+                    <!--<figure class="wrapper-video-content mb-0">
                         <div class="embed-responsive embed-responsive-16by9 video-wrap">
                             <div class="poster-video">
-                                <img src="<?php print template_url(); ?>images/about-img-1.jpg" class="img-cover"
+                                <img src="<?php /*print template_url(); */?>images/about-img-1.jpg" class="img-cover"
                                      alt="">
                                 <div class="btn-play btn-play--green js-video-play"></div>
                             </div>
@@ -42,7 +47,7 @@ position: 4
                             <div class="embed-responsive-item js-video-player" data-youtube-id="DnGdoEa1tPg"
                                  id="player1"></div>
                         </div>
-                    </figure>
+                    </figure>-->
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ description: Opens video in a popup
             var dialog = mw.dialog.get()
 
             mw.spinner(({element: dialog.dialogContainer, size: 30})).show();
-            $('iframe', dialog.dialogContainer).on('load', function (){
+            $('iframe,video', dialog.dialogContainer).on('load canplay', function (){
                 mw.spinner(({element: dialog.dialogContainer, size: 30})).remove();
             })
         })

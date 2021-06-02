@@ -15,12 +15,17 @@ position: 5
     <div class="container">
         <div class="row no-gutters about-card">
             <div class="col-lg-6">
-                <div class="about-card__img">
+                <div class="about-card__img noelement">
                     <div class="rect rect--top-left rect--green d-none d-lg-block"></div>
                     <div class="circles circles--bottom-left d-none d-lg-block">
                         <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-2.svg">
                     </div>
-                    <module type="video" template="sporta-team">
+                    <figure class="wrapper-video-content mb-0 noelement nodrop">
+                        <div class="embed-responsive embed-responsive-16by9 video-wrap noelement">
+                            <module type="video" template="sporta-team">
+                        </div>
+                    </figure>
+
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">

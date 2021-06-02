@@ -1,4 +1,4 @@
-<div class="row no-gutters position-relative decor-block edit safe-mode allow-drop" field="layout-news-inner-skin-5" rel="global">
+<div class="row no-gutters position-relative decor-block">
     <div class="circles circles--right d-none d-lg-block">
         <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-9.svg">
     </div>
@@ -6,16 +6,21 @@
         <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-10.svg">
     </div>
     <div class="col-lg-8 col-xl-6 mx-auto">
-        <figure class="wrapper-video-content">
+        <!--<figure class="wrapper-video-content">
             <div class="embed-responsive embed-responsive-16by9 video-wrap">
                 <div class="poster-video">
-                    <img src="<?php print template_url(); ?>images/news-1.jpg" class="img-cover" alt="">
+                    <img src="<?php /*print template_url(); */?>images/news-1.jpg" class="img-cover" alt="">
                     <div class="btn-play btn-play--yellow js-video-play"></div>
                 </div>
 
                 <div class="embed-responsive-item js-video-player" data-youtube-id="DnGdoEa1tPg" id="player1"></div>
             </div>
             <figcaption>Photo or video description</figcaption>
+        </figure>-->
+        <figure class="wrapper-video-content mb-0 noelement nodrop">
+        <div class="embed-responsive embed-responsive-16by9 video-wrap noelement">
+            <module type="video" template="sporta-team" upload_thumb="<?php print template_url(); ?>images/news-1.jpg">
+        </div>
         </figure>
         <div class="single-post__space"></div>
         <h2>Titel titel titel</h2>

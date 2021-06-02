@@ -22,10 +22,6 @@ $randId = uniqid();
         </div>
 
         <div class="row">
-            {!! $posts->filters() !!}
-        </div>
-
-        <div class="row">
             <div class="col-md-8"></div>
             <div class="col-md-2">
                 {!! $posts->limit(); !!}
@@ -38,6 +34,9 @@ $randId = uniqid();
         {!! $posts->tags() !!}
 
         <div class="cards-wrap mx-lg-auto">
+
+            {!! $posts->filters() !!}
+
             @php
                 $i=0;
             @endphp

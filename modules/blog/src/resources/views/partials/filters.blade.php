@@ -22,50 +22,9 @@
                 @include('blog::partials.filters.' . $filter->controlType)
             @endforeach
 
-          {{--  <div class="filters__item">
-                <div class="filters__item-title" id="headingOne">
-                    <h3>
-                                            <span class="filters__item-title-text js-filters-item-title"
-                                                  role="button" data-toggle="collapse" data-target="#filters-item-1"
-                                                  aria-expanded="false" aria-controls="filters-item-1">
-                                                For who?
-                                                <span class="filters__item-title-icon"></span>
-                                            </span>
-                    </h3>
-                </div>
-                <div class="collapse js-filters-item-body" id="filters-item-1"
-                     aria-labelledby="headingOne" data-parent="#form-filters">
-                    <div class="filters__item-body">
-                        <div class="form-group">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input js-filter"
-                                       id="forwhocheck1" value="Clubleden">
-                                <label class="custom-control-label" for="forwhocheck1">Clubleden</label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input js-filter"
-                                       id="forwhocheck2" value="Clubbestuurders">
-                                <label class="custom-control-label"
-                                       for="forwhocheck2">Clubbestuurders</label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input js-filter"
-                                       id="forwhocheck3" value="Trainers">
-                                <label class="custom-control-label" for="forwhocheck3">Trainers</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>--}}
-
-
             <div class="filters__btn-bar">
                 <span class="js-filter-picked clear-all d-none d-md-inline-block d-lg-none">{{_e('Clear all')}}</span>
-                <button type="submit" class="btn btn-animate btn-green btn-apply">{{_e('Apply filters')}}</button>
+                <button type="button" class="btn btn-animate btn-green btn-apply js-filter-apply">{{_e('Apply filters')}}</button>
             </div>
         </form>
     </aside>

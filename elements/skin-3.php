@@ -1,4 +1,4 @@
-<div class="row no-gutters position-relative decor-block edit safe-mode allow-drop" field="layout-news-inner-skin-3-<?php print $params['id'] ?>" rel="content">
+<div class="row no-gutters position-relative decor-block edit safe-mode allow-drop" field="layout-news-inner-skin-3" rel="global">
     <div class="circles circles--top-left d-none d-lg-block">
         <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-6.svg">
     </div>

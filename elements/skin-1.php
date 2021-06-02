@@ -1,4 +1,4 @@
-<div class="row no-gutters quote-card edit safe-mode allow-drop" field="layout-news-inner-skin-1-<?php print $params['id'] ?>" rel="content">
+<div class="row no-gutters quote-card edit safe-mode allow-drop" field="layout-news-inner-skin-1" rel="global">
     <div class="col-lg-6">
         <div class="quote-card-content">
             <blockquote>

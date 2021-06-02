@@ -29,6 +29,8 @@ position: 5
             </div>
         </div>
         <div class="cards-wrap mx-lg-auto">
+
+
             <div class="col-lg-4 calendar-sidebar">
                 <aside class="filters calendar-filters">
                     <form id="form-filters" class="accordion">
@@ -398,6 +400,8 @@ position: 5
                     </div>
                 </div>
             </div>
+
+
             <div class="col-md-6 col-lg-4">
                 <div class="card border-0 bg-transparent color-green rounded-0">
                     <div class="card-hover-block d-none d-lg-flex">
@@ -454,6 +458,8 @@ position: 5
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0 bg-transparent color-green rounded-0">
                         <div class="card-hover-block d-none d-lg-flex">

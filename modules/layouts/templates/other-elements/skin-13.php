@@ -11,7 +11,7 @@ position: 13
 */
 
 ?>
-<section class="section section-contact-person section-contact-person-other edit safe-mode nodrop" field="layout-other-elements-skin-13-<?php print $params['id'] ?>" rel="content">
+<section class="section section-contact-person section-contact-person-other edit safe-mode allow-drop" field="layout-other-elements-skin-13-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-auto">

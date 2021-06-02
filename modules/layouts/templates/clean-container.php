@@ -23,7 +23,7 @@ if (!$classes['padding_bottom']) {
 $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
 ?>
 
-<section class="section <?php print $layout_classes; ?> nodrop clean-container edit" field="layout-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="section <?php print $layout_classes; ?> allow-drop clean-container edit" field="layout-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-12 allow-drop">

@@ -11,7 +11,7 @@ position: 6
 */
 
 ?>
-<section class="section section-member section-participate-member bg-gray edit safe-mode nodrop" field="layout-why-participate-skin-6-<?php print $params['id'] ?>" rel="content">
+<section class="section section-member section-participate-member bg-gray edit safe-mode allow-drop" field="layout-why-participate-skin-6-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/why-participate/skin-15.svg">

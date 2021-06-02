@@ -11,7 +11,7 @@ position: 2
 */
 
 ?>
-<section class="section section-calendar-club-operation bg-gray edit safe-mode nodrop" field="layout-calendar-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="section section-calendar-club-operation bg-gray edit safe-mode allow-drop" field="layout-calendar-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-left d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-2.svg">
@@ -46,7 +46,7 @@ position: 2
                                     eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ position: 2
                                     eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>

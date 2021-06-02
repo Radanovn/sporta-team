@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section section-member bg-gray section-healthy-sports-ethical edit safe-mode nodrop" field="layout-healthy-sports-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-member bg-gray section-healthy-sports-ethical edit safe-mode allow-drop" field="layout-healthy-sports-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--bottom-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/healthy-sports/skin-6.svg">

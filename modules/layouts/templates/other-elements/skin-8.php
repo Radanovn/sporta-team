@@ -11,7 +11,7 @@ position: 8
 */
 
 ?>
-<section class="section section-list-connect edit safe-mode nodrop" field="layout-other-elements-skin-8-<?php print $params['id'] ?>" rel="content">
+<section class="section section-list-connect edit safe-mode allow-drop" field="layout-other-elements-skin-8-<?php print $params['id'] ?>" rel="content">
 <section class="">
     <div class="container">
         <div class="row">

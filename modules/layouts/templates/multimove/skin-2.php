@@ -11,7 +11,7 @@ position: 2
 */
 
 ?>
-<section class="section section-about section-multimove-connection edit safe-mode nodrop" field="layout-multimove-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-multimove-connection edit safe-mode allow-drop" field="layout-multimove-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row about-card no-gutters">
             <div class="col-lg-6">
@@ -36,7 +36,7 @@ position: 2
                     <h3 class="about-card__title">Voordelig aansluitingstar</h3>
                     <p class="about-card__text  about-card__text--max-width">De kinderen en lesgevers kan je aansluiten aan het voordelige M-tarief dat slechts €5/jaar bedraagt. Hiermee zijn zij verzekerd voor BA en LO.</p>
                     <div class="about-card__wrap-btn">
-                        <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Yes, ik sluit me aan">
+                        <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Yes, ik sluit me aan">
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section section-benefits section-safety-steps bg-gray edit safe-mode nodrop" field="layout-safety-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-benefits section-safety-steps bg-gray edit safe-mode allow-drop" field="layout-safety-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">

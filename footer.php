@@ -2,7 +2,7 @@
 </div>
 <footer class="footer bg-gray">
     <div class="container">
-        <div class="edit nodrop safe-mode" field="sporta-team_footer" rel="global">
+        <div class="edit allow-drop safe-mode" field="sporta-team_footer" rel="global">
             <div class="row no-gutters justify-content-between">
                 <div class="col-md-3 col-xl-3 pr-xl-0 pr-lg-3">
                     <div class="text-center text-md-left">

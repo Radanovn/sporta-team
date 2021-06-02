@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section section-about section-custom-accompaniment edit safe-mode nodrop" field="layout-club-vizit-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-custom-accompaniment edit safe-mode allow-drop" field="layout-club-vizit-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="row no-gutters quote-card">
             <div class="col-lg-6">

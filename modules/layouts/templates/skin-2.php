@@ -12,7 +12,7 @@ position: 2
 
 ?>
 
-<section class="section section-participate nodrop edit" field="layout-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="section section-participate allow-drop edit" field="layout-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="section__block-title text-sm-center">
             <h2>Why participate in Sporta Club?</h2>
@@ -93,7 +93,7 @@ position: 2
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Join sporta club"/>
+            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Join sporta club"/>
         </div>
     </div>
 </section>

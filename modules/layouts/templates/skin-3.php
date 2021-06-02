@@ -23,7 +23,7 @@ if (!$classes['padding_bottom']) {
 $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
 ?>
 
-<section class="section section-member bg-gray <?php print $layout_classes; ?> nodrop edit" field="layout-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-member bg-gray <?php print $layout_classes; ?> allow-drop edit" field="layout-skin-3-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/skin-3-svg-1.svg">
@@ -154,7 +154,7 @@ $layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Sign in"/>
+            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Sign in"/>
         </div>
     </div>
 </section>

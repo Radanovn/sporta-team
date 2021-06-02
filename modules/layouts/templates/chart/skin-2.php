@@ -11,7 +11,7 @@ position: 2
 */
 
 ?>
-<section class="section section-chart-table edit safe-mode nodrop" field="layout-chart-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="section section-chart-table edit safe-mode allow-drop" field="layout-chart-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters position-relative">
             <div class="circles circles--left d-none d-lg-block">

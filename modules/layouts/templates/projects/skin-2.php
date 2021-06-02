@@ -11,7 +11,7 @@ position: 2
 */
 
 ?>
-<section class="section section-filter section-projects-multisport edit safe-mode nodrop" field="layout-projects-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="section section-filter section-projects-multisport edit safe-mode allow-drop" field="layout-projects-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/projects/skin-1.svg">

@@ -9,7 +9,7 @@
 
  */
 ?>
-<div class="row no-gutters about-card useful-document edit safe-mode nodrop" field="layout-news-inner-skin-7-<?php print $params['id'] ?>" rel="content">
+<div class="row no-gutters about-card useful-document edit safe-mode allow-drop" field="layout-news-inner-skin-7-<?php print $params['id'] ?>" rel="content">
     <div class="col-lg-6">
         <div class="about-card__img">
             <div class="rect rect--top-left rect--yellow d-none d-lg-block"></div>
@@ -44,9 +44,9 @@
             </p>
 
             <h4>Links</h4>
-            <p><module type="btn" class="allow-drop"  template="sporta-buttons" button_style="Clean" button_text="Dag van de trainer"></p>
-            <p><module type="btn" class="allow-drop"  template="sporta-buttons" button_style="Clean" button_text="Kalender"></p>
-            <p><module type="btn" class="allow-drop"  template="sporta-buttons" button_style="Clean" button_text="Vlaamse traininschool"></p>
+            <p><module type="btn" class="cloneable"  template="sporta-buttons" button_style="Clean" button_text="Dag van de trainer"></p>
+            <p><module type="btn" class="cloneable"  template="sporta-buttons" button_style="Clean" button_text="Kalender"></p>
+            <p><module type="btn" class="cloneable"  template="sporta-buttons" button_style="Clean" button_text="Vlaamse traininschool"></p>
         </div>
     </div>
 </div>

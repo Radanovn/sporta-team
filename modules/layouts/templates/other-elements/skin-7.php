@@ -11,7 +11,7 @@ position: 7
 */
 
 ?>
-<section class="section section-list-connect-4 edit safe-mode nodrop" field="layout-other-elements-skin-7-<?php print $params['id'] ?>" rel="content">
+<section class="section section-list-connect-4 edit safe-mode allow-drop" field="layout-other-elements-skin-7-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-auto">
@@ -49,7 +49,7 @@ position: 7
             </ol>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Get started now"/>
+            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Get started now"/>
         </div>
     </div>
 </section>

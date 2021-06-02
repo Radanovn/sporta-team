@@ -11,7 +11,7 @@ position: 5
 */
 
 ?>
-<section class="section section-filter section-calendar-trainings edit safe-mode nodrop" field="layout-calendar-skin-5-<?php print $params['id'] ?>" rel="content">
+<section class="section section-filter section-calendar-trainings edit safe-mode allow-drop" field="layout-calendar-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-6.svg">

@@ -11,7 +11,7 @@ position: 4
 */
 
 ?>
-<section class="section-fullwidth-img section-prices-info edit safe-mode nodrop" field="layout-prices-skin-4-<?php print $params['id'] ?>" rel="content">
+<section class="section-fullwidth-img section-prices-info edit safe-mode allow-drop" field="layout-prices-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="wrap-img">
         <picture>
             <source srcset="<?php print template_url(); ?>images/volleyball-tablet.jpg" media="(max-width: 991px)">
@@ -23,10 +23,10 @@ position: 4
         <div class="card-info text-center">
             <h3 class="card-info__title">Ready to get started?</h3>
             <div class="card-info__wrap-btn">
-                <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="SLUIT JE NU AAN">
+                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="SLUIT JE NU AAN">
             </div>
             <p class="card-info__text">Not sure yet, questions?</p>
-            <p><module type="btn" class="allow-drop"  template="sporta-buttons" button_style="card-info__link-contact" button_text="contact us"></p>
+            <p><module type="btn" class="cloneable"  template="sporta-buttons" button_style="card-info__link-contact" button_text="contact us"></p>
         </div>
     </div>
 </section>

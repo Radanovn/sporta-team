@@ -11,7 +11,7 @@ position: 2
 */
 
 ?>
-<section class="section section-benefits bg-gray edit safe-mode nodrop" field="layout-club-support-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="section section-benefits bg-gray edit safe-mode allow-drop" field="layout-club-support-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--left d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/club-support/skin-1.svg">
@@ -101,7 +101,7 @@ position: 2
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="View all the benefits">
+            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="View all the benefits">
         </div>
     </div>
 </section>

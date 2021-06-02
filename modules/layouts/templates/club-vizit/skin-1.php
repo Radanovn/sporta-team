@@ -11,7 +11,7 @@ position: 1
 */
 
 ?>
-<section class="hero-section hero-club-vizit pb-lg-0 edit safe-mode nodrop" field="layout-club-vizit-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="hero-section hero-club-vizit pb-lg-0 edit safe-mode allow-drop" field="layout-club-vizit-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="row no-gutters">
         <div class="col-md-4 order-1 hero__content">
             <h1 class="hero__title w-100">WE <span class="text-red">VISIT</span> YOUR CLUB</h1>

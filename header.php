@@ -63,7 +63,7 @@
                                     <module type="btn" class="allow-drop"  template="sporta-login" button_style="btn-link" button_text="Login" />
                                 </div>
                                 <div class="wrap-btn text-center order-lg-1">
-                                    <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Join sporta club"/>
+                                    <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Join sporta club"/>
                                 </div>
                             </div>
                         </div>

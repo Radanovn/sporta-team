@@ -11,7 +11,7 @@ position: 1
 */
 
 ?>
-<section class="section section-about section-safety-hero edit safe-mode nodrop" field="layout-safety-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-safety-hero edit safe-mode allow-drop" field="layout-safety-skin-1-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters about-card">
             <div class="col-lg-6">
@@ -32,7 +32,7 @@ position: 1
                     <h1 class="about-card__title">Het toppunt van waar voor je geld krijgen</h1>
                     <p class="about-card__text  about-card__text--max-width">De kinderen en lesgevers kan je aansluiten aan het voordelige M-tarief dat slechts €5/jaar bedraagt. Hiermee zijn zij verzekerd voor BA en LO.</p>
                     <div class="about-card__wrap-btn">
-                        <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Sluit je nu aan"/>
+                        <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Sluit je nu aan"/>
                     </div>
                 </div>
             </div>

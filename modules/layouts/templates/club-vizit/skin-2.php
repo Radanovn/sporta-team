@@ -11,7 +11,7 @@ position: 2
 */
 
 ?>
-<section class="section section-about section-custom-accompaniment edit safe-mode nodrop" field="layout-club-vizit-skin-2-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about section-custom-accompaniment edit safe-mode allow-drop" field="layout-club-vizit-skin-2-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-left d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/club-vizit/skin-1.svg">

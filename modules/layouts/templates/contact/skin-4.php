@@ -11,7 +11,7 @@ position: 4
 */
 
 ?>
-<section class="section section-contact-person edit safe-mode nodrop" field="layout-contact-skin-4-<?php print $params['id'] ?>" rel="content">
+<section class="section section-contact-person edit safe-mode allow-drop" field="layout-contact-skin-4-<?php print $params['id'] ?>" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/contact/skin-2.svg">
@@ -119,7 +119,7 @@ position: 4
             </div>
         </div>
         <div class="section-wrapper-btn text-center">
-            <module type="btn" class="allow-drop"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="More about sporta team" />
+            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="More about sporta team" />
         </div>
     </div>
 </section>

@@ -10,7 +10,7 @@
  */
 ?>
 
-<section class="edit safe-mode nodrop" field="layout-news-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="edit safe-mode allow-drop" field="layout-news-skin-3-<?php print $params['id'] ?>" rel="content">
     <module type="posts" limit="1" template="news-2" />
 </section>
 

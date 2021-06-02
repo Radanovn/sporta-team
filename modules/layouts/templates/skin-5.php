@@ -12,7 +12,7 @@ position: 5
 
 ?>
 
-<section class="section section-about nodrop edit" field="layout-skin-5-<?php print $params['id'] ?>" rel="content">
+<section class="section section-about allow-drop edit" field="layout-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters about-card">
             <div class="col-12 col-lg-6">

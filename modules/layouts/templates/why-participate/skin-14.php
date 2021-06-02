@@ -11,7 +11,7 @@ position: 14
 */
 
 ?>
-<section class="section section-testimonials section-why-participate-testimonials bg-gray edit safe-mode nodrop" field="layout-why-participate-skin-14-<?php print $params['id'] ?>" rel="content">
+<section class="section section-testimonials section-why-participate-testimonials bg-gray edit safe-mode allow-drop" field="layout-why-participate-skin-14-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">

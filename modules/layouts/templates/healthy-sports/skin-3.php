@@ -30,7 +30,7 @@ position: 3
         <div class="row">
             <div class="col-md-11 col-lg-12 col-xl-11 mx-auto">
                 <div class="row wrapper-cards">
-                    <div class="col-sm-6 col-lg-3 cloneable">
+                    <div class="col-sm-6 col-lg-3 cloneable nodrop">
                         <div class="card color-red text-center border-0">
                             <div class="card-header bg-transparent border-0">
                                 <h5 class="card-title">Witty healthy sports</h5>
@@ -43,7 +43,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3 cloneable">
+                    <div class="col-sm-6 col-lg-3 cloneable nodrop">
                         <div class="card color-yellow text-center border-0">
                             <div class="card-header bg-transparent border-0">
                                 <h5 class="card-title">Sports inspection</h5>
@@ -56,7 +56,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3 cloneable">
+                    <div class="col-sm-6 col-lg-3 cloneable nodrop">
                         <div class="card color-green text-center border-0">
                             <div class="card-header bg-transparent border-0">
                                 <h5 class="card-title">Anti-<br class="d-none d-md-inline">doping</h5>
@@ -69,7 +69,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3 cloneable">
+                    <div class="col-sm-6 col-lg-3 cloneable nodrop">
                         <div class="card color-green text-center border-0">
                             <a href="#" class="card-body-link">
                                 <div class="card-header bg-transparent border-0">

@@ -19,7 +19,7 @@ position: 2
             <p class="lead-text">Some text about advantages of joining the Sporta club</p>
         </div>
         <div class="wrap-cards">
-            <div class="wrap-card__item cloneable">
+            <div class="wrap-card__item cloneable nodrop">
                 <div class="card border-0 color-red">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -37,7 +37,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="wrap-card__item cloneable">
+            <div class="wrap-card__item cloneable nodrop">
                 <div class="card border-0 color-green">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -55,7 +55,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="wrap-card__item cloneable">
+            <div class="wrap-card__item cloneable nodrop">
                 <div class="card border-0 color-yellow">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">
@@ -73,7 +73,7 @@ position: 2
                     </div>
                 </div>
             </div>
-            <div class="wrap-card__item cloneable">
+            <div class="wrap-card__item cloneable nodrop">
                 <div class="card border-0 color-red">
                     <div class="card-header bg-transparent border-0">
                         <h5 class="card-title m-0 h-100">

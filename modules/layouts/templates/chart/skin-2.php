@@ -23,7 +23,7 @@ position: 2
             <div class="col-lg-9 mx-lg-auto">
                 <div class="st-table">
                     <div class="st-table-header">
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-header-cell st-table-cell--option">
                                 <h4>OPTIE</h4>
                             </div>
@@ -33,7 +33,7 @@ position: 2
                         </div>
                     </div>
                     <div class="st-table-body">
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Dagverzekering niet-leden: </h4>
@@ -46,7 +46,7 @@ position: 2
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Reisbijstand: </h4>
@@ -59,7 +59,7 @@ position: 2
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Contractuele aansprakelijkheid: </h4>
@@ -72,7 +72,7 @@ position: 2
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Brandverzekering: </h4>
@@ -85,7 +85,7 @@ position: 2
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Bbestuurdersaansprakelijkheid: </h4>
@@ -98,7 +98,7 @@ position: 2
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Kamp- of eventverzekering: </h4>
@@ -111,7 +111,7 @@ position: 2
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Lessenreeks: </h4>
@@ -124,7 +124,7 @@ position: 2
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Alle risico’s: </h4>
@@ -137,7 +137,7 @@ position: 2
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable">
+                        <div class="st-table-row cloneable nodrop">
                             <div class="st-table-cell st-table-cell--option">
                                 <div class="st-table-cell__content cell-option-content" data-title="OPTIE">
                                     <h4>Wervingsactiviteit: </h4>

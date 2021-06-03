@@ -13,6 +13,11 @@ description: Opens video Inline
         })
     });
 </script>
+<style>
+    .mwembed{
+        height: 100% !important;
+    }
+</style>
 <template id="video-dialog-template-<?php echo $params['id']; ?>" style="display: none"><?php echo $code; ?></template>
 <div class="poster-video">
     <img src="<?php print isset($thumb) ? $thumb : '#'; ?>" />

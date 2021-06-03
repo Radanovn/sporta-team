@@ -24,9 +24,9 @@ description: Default
         display: none;
     }
 </style>
-<template id="video-dialog-template-<?php echo $params['id']; ?>" style="display: none"><?php echo $code; ?></template>
+<template id="video-dialog-template-<?php echo $params['id']; ?>" style="display: none"><?php    echo $code; ?></template>
 <div class="poster-video" id="poster-video-<?php echo $params['id']; ?>">
-    <img src="<?php print isset($thumb) ? $thumb : '#'; ?>" />
+    <img src="<?php print isset($thumb) ? $thumb : pixum(300, 200); ?>" />
     <div class="btn-play btn-play--green js-video-play" id="video-dialog-button-<?php echo $params['id']; ?>"></div>
 </div>
 

@@ -16,7 +16,7 @@ position: 10
         <div class="row">
             <div class="col-lg-11 mx-auto">
                 <div class="row wrap-cards">
-                    <div class="col-lg-6 cloneable">
+                    <div class="col-lg-6 cloneable nodrop">
                         <div class="card color-green text-center border-0 h-100 mx-sm-auto ml-lg-0">
                             <img src="<?php print template_url(); ?>images/other-elements-img-1.jpg"
                                  class="card-img-top" alt="">
@@ -32,7 +32,7 @@ position: 10
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 cloneable">
+                    <div class="col-lg-6 cloneable nodrop">
                         <div class="card color-red text-center mx-sm-auto mr-lg-0 border-0 h-100">
                             <img src="<?php print template_url(); ?>images/other-elements-img-2.jpg"
                                  class="card-img-top" alt="">

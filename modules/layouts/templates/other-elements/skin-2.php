@@ -25,7 +25,7 @@ position: 2
         <div class="row">
             <div class="col-md-11 col-lg-10 mx-auto">
                 <div class="row wrapper-cards">
-                    <div class="col-md-6 col-lg-4 cloneable">
+                    <div class="col-md-6 col-lg-4 cloneable nodrop">
                         <div class="card color-red border-0 text-center">
                             <div class="card-header bg-transparent border-0">
                                 <h4 class="card-title">Prijs-kwaliteit verzekering</h4>
@@ -35,7 +35,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 cloneable">
+                    <div class="col-md-6 col-lg-4 cloneable nodrop">
                         <div class="card color-yellow border-0 text-center">
                             <div class="card-header bg-transparent border-0">
                                 <h4 class="card-title">Administratie-ve ondersteu</h4>
@@ -45,7 +45,7 @@ position: 2
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 cloneable">
+                    <div class="col-md-6 col-lg-4 cloneable nodrop">
                         <div class="card color-green border-0 text-center">
                             <div class="card-header bg-transparent border-0">
                                 <h4 class="card-title">Clubvoordelen</h4>

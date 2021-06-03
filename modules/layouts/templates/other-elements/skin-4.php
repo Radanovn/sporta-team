@@ -26,8 +26,8 @@ position: 4
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 order-0 order-lg-1">
-                <div class="about-card__img about-card__img--ml">
+            <div class="col-lg-6 order-0 order-lg-1 noelement">
+                <div class="about-card__img about-card__img--ml noelement">
                     <div class="circles circles--top-right d-none d-lg-block">
                         <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-1.svg">
                     </div>

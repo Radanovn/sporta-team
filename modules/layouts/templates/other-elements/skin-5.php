@@ -13,11 +13,11 @@ position: 5
 ?>
 <section class="section section-about section-about-other edit safe-mode allow-drop" field="layout-other-elements-skin-5-<?php print $params['id'] ?>" rel="content">
     <div class="container">
-        <div class="row no-gutters about-card">
-            <div class="col-lg-6">
+        <div class="row no-gutters about-card noelement">
+            <div class="col-lg-6 noelement">
                 <div class="about-card__img noelement">
-                    <div class="rect rect--top-left rect--green d-none d-lg-block"></div>
-                    <div class="circles circles--bottom-left d-none d-lg-block">
+                    <div class="rect rect--top-left rect--green d-none d-lg-block noelement"></div>
+                    <div class="circles circles--bottom-left d-none d-lg-block noelement">
                         <img src="<?php print template_url(); ?>modules/layouts/svg/other-elements/skin-2.svg">
                     </div>
                     <figure class="wrapper-video-content mb-0 noelement nodrop">

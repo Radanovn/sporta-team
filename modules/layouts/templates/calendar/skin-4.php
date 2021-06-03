@@ -32,7 +32,7 @@ position: 4
         <div class="row no-gutters">
             <div class="col-lg-9 mx-lg-auto">
                 <div class="wrap-column">
-                    <div class="column cloneable">
+                    <div class="column cloneable nodrop">
                         <h4>What should you do:</h4>
                         <ul class="list-unstyled list-custom list-custom-bullet list-custom-bullet--green">
                             <li>Vraagt minstens 3 maanden voor de gewenste datum de bijscholing aan via bovenstaande
@@ -42,7 +42,7 @@ position: 4
                             <li>Maakt in je eigen netwerk promotie voor jouw gekozen bijscholing.</li>
                         </ul>
                     </div>
-                    <div class="column cloneable">
+                    <div class="column cloneable nodrop">
                         <h4>What does sporta team do?</h4>
                         <ul class="list-unstyled list-custom list-custom-bullet list-custom-bullet--green">
                             <li>Vraagt minstens 3 maanden voor de gewenste datum de bijscholing aan via bovenstaande

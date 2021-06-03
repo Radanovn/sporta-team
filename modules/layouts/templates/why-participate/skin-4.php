@@ -23,7 +23,7 @@ position: 4
                 </div>
             </div>
         </div>
-        <div class="row section-video-tool__row">
+        <div class="row section-video-tool__row noelement">
             <div class="col-md-4 col-lg-5 order-1">
                 <div class="section-video-tool__content">
                     <h4 class="section-video-tool__content-title"><span class="text-green">Demo video</span> of the tool</h4>
@@ -40,7 +40,7 @@ position: 4
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 offset-md-1 offset-lg-0 order-0 order-md-1">
+            <div class="col-md-7 offset-md-1 offset-lg-0 order-0 order-md- noelement">
                 <figure class="wrapper-poster-video noelement">
                     <!--<div class="poster-video background-image-holder">
                         <div class="btn-play btn-play--back btn-play--green position-absolute d-none d-md-block">
@@ -56,7 +56,7 @@ position: 4
             </div>
         </div>
     </div>
-    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal fade noelement" id="videoModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content bg-transparent rounded-0 border-0">
                 <div class="modal-header border-0 rounded-0 p-0">

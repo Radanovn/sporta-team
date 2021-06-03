@@ -5,7 +5,7 @@
     <div class="circles circles--left-center d-none d-lg-block">
         <img src="<?php print template_url(); ?>modules/layouts/svg/news_inner/skin-10.svg">
     </div>
-    <div class="col-lg-8 col-xl-6 mx-auto">
+    <div class="col-lg-8 col-xl-6 mx-auto noelement">
         <!--<figure class="wrapper-video-content">
             <div class="embed-responsive embed-responsive-16by9 video-wrap">
                 <div class="poster-video">

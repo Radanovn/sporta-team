@@ -1,8 +1,8 @@
 <?php
 /*
 type: layout
-name: Button dialog
-description: Opens video in a popup
+name: Demo video (with circles)
+description: Demo video
 */
 ?>
 
@@ -31,14 +31,17 @@ description: Opens video in a popup
         font-size: 0;
         font-fa
     }
-    #video-dialog-button-<?php echo $params['id']; ?>:after{
-        content: "\F040C";
-        font-family: "Material Design Icons";
-        font-size: 60px;
-        color: #2b2b2b;
-    }
+
 </style>
-
 <template id="video-dialog-template-<?php echo $params['id']; ?>" style="display: none"><?php echo $code; ?></template>
-<span id="video-dialog-button-<?php echo $params['id']; ?>">Play</span>
 
+
+<div class="poster-video background-image-holder">
+    <div class="btn-play btn-play--back btn-play--green position-absolute d-none d-md-block">
+        <div class="btn-play__circle btn-play__circle--1"></div>
+        <div class="btn-play__circle btn-play__circle--2"></div>
+        <div class="btn-play__circle btn-play__circle--3"></div>
+    </div>
+    <img src="<?php print isset($thumb) ? $thumb : '#'; ?>" class="img-cover" alt="">
+    <div class="btn-play btn-play--green position-absolute js-video-modal-play" id="video-dialog-button-<?php echo $params['id']; ?>"></div>
+</div>

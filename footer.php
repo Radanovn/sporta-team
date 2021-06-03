@@ -19,12 +19,12 @@
                     <div class="collaboration-block text-center text-md-left">
                         <p class="collaboration-block__title">In collaboration with</p>
                         <div>
-                            <div class="collaboration-block__logo cloneable">
+                            <div class="collaboration-block__logo cloneable nodrop">
                                 <a href="#">
                                     <img src="<?php print template_url(); ?>images/logo_ethias.png" class="d-inline-block align-top" alt="">
                                 </a>
                             </div>
-                            <div class="collaboration-block__logo cloneable">
+                            <div class="collaboration-block__logo cloneable nodrop">
                                 <a href="#">
                                     <img src="<?php print template_url(); ?>images/logo_sport.png" class="d-inline-block align-top" alt="">
                                 </a>

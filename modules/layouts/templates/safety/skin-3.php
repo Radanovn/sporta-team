@@ -26,7 +26,7 @@ position: 3
             <div class="col-lg-11 mx-auto">
 
                 <div class="row wrap-cards">
-                    <div class="col-sm-6 col-lg-4 cloneable">
+                    <div class="col-sm-6 col-lg-4 cloneable nodrop">
                         <div class="card color-red text-center mx-auto border-0">
                             <div class="card-body">
                                 <h5 class="card-title">Step 1</h5>
@@ -34,7 +34,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 cloneable">
+                    <div class="col-sm-6 col-lg-4 cloneable nodrop">
                         <div class="card color-green text-center mx-auto border-0">
                             <div class="card-body">
                                 <h5 class="card-title">Step 2</h5>
@@ -42,7 +42,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 cloneable">
+                    <div class="col-sm-6 col-lg-4 cloneable nodrop">
                         <div class="card color-yellow text-center mx-auto border-0">
                             <div class="card-body">
                                 <h5 class="card-title">Step 3</h5>
@@ -50,7 +50,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 cloneable">
+                    <div class="col-sm-6 col-lg-4 cloneable nodrop">
                         <div class="card color-yellow text-center mx-auto border-0">
                             <div class="card-body">
                                 <h5 class="card-title">Step 4</h5>
@@ -58,7 +58,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 cloneable">
+                    <div class="col-sm-6 col-lg-4 cloneable nodrop">
                         <div class="card color-red text-center mx-auto border-0">
                             <div class="card-body">
                                 <h5 class="card-title">Step 5</h5>
@@ -66,7 +66,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 cloneable">
+                    <div class="col-sm-6 col-lg-4 cloneable nodrop">
                         <div class="card color-green text-center mx-auto border-0">
                             <a href="#" class="card-body card-body-link">
                                 <h5 class="card-title">More tips?</h5>

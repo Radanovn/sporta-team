@@ -30,3 +30,14 @@
 .section-video-tool .poster-video:before{
     pointer-events: none;
 }
+.embed-responsive > .module-video[template="sporta-team"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main > .edit{
+    min-height: 100px;
+}

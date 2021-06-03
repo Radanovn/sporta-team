@@ -41,16 +41,17 @@ position: 4
                 </div>
             </div>
             <div class="col-md-7 offset-md-1 offset-lg-0 order-0 order-md-1">
-                <figure class="wrapper-poster-video">
-                    <div class="poster-video background-image-holder">
+                <figure class="wrapper-poster-video noelement">
+                    <!--<div class="poster-video background-image-holder">
                         <div class="btn-play btn-play--back btn-play--green position-absolute d-none d-md-block">
                             <div class="btn-play__circle btn-play__circle--1"></div>
                             <div class="btn-play__circle btn-play__circle--2"></div>
                             <div class="btn-play__circle btn-play__circle--3"></div>
                         </div>
-                        <img src="<?php print template_url(); ?>images/why-participate-img-4.jpg" class="img-cover" alt="">
+                        <img src="<?php /*print template_url(); */?>images/why-participate-img-4.jpg" class="img-cover" alt="">
                         <div class="btn-play btn-play--green position-absolute js-video-modal-play" data-toggle="modal" data-target="#videoModal"></div>
-                    </div>
+                    </div>-->
+                    <module type="video" template="circles" upload_thumb="<?php print template_url(); ?>images/why-participate-img-4.jpg" />
                 </figure>
             </div>
         </div>

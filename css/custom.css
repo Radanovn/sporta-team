@@ -41,3 +41,17 @@
 main > .edit{
     min-height: 100px;
 }
+
+.block-information-package__left-side picture:after{
+    pointer-events: none;
+}
+.block-information-package__left-side picture{
+    z-index: 0;
+}
+.block-information-package__left-side > .element,
+.block-information-package__left-side > .module,
+.block-information-package__left-side .block-information-package__top,
+.block-information-package__left-side .block-information-package__bottom{
+    position: relative;
+    z-index: 1;
+}

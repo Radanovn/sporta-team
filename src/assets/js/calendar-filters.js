@@ -1,8 +1,6 @@
-alert('booboot');
+alert('xxx');
 
 $(document).ready(function() {
-
-    alert('booboot');
 
     let filtersSelected = $('.filters-selected');
 

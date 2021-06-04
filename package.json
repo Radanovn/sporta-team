@@ -6,6 +6,7 @@
   "scripts": {
     "build": "del-cli dist && webpack --mode=production",
     "dev": "del-cli dist && webpack --mode=development",
+    "dev-watch": "del-cli dist && webpack --mode=development --watch",
     "serve": "webpack-dev-server --mode=development --open",
     "clear": "del-cli dist"
   },

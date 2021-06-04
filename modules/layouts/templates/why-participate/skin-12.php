@@ -16,8 +16,8 @@ position: 12
         <div class="block-information-package">
             <div class="block-information-package__left-side">
                 <picture>
-                    <source srcset="<?php print template_url(); ?>images/why-participate-img-5-mobile.jpg" media="(max-width: 479px)">
-                    <source srcset="<?php print template_url(); ?>images/why-participate-img-5-tablet.jpg" media="(min-width: 480px) and (max-width: 991px)">
+<!--                    <source srcset="--><?php //print template_url(); ?><!--images/why-participate-img-5-mobile.jpg" media="(max-width: 479px)">-->
+<!--                    <source srcset="--><?php //print template_url(); ?><!--images/why-participate-img-5-tablet.jpg" media="(min-width: 480px) and (max-width: 991px)">-->
                     <img src="<?php print template_url(); ?>images/why-participate-img-5.jpg" alt="" class="img-cover">
                 </picture>
                 <div class="block-information-package__top">
@@ -33,7 +33,7 @@ position: 12
                     <h5 class="block-information-package__title">Request your free information package</h5>
                     <p class="block-information-package__text">Enter your email below and we’ll send it to you</p>
                 </div>
-                <div class="block-information-package__bottom">
+                <div class="block-information-package__bottom nodrop">
                     <module type="contact_form" template="why-participate-newsletter">
                 </div>
             </div>

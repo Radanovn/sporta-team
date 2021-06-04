@@ -55,3 +55,11 @@ main > .edit{
     position: relative;
     z-index: 1;
 }
+
+.form-group:after{
+    content: '.';
+    font-size: 0;
+    clear: both;
+    display: block;
+    height: 1px;
+}

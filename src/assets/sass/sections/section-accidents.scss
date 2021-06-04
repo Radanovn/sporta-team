@@ -1,0 +1,59 @@
+.section-accidents {
+  padding: 50px 0;
+
+  .section__block-title {
+    margin-bottom: 29px;
+
+    @include min-w(480px) {
+      margin-bottom: 50px;
+    }
+
+    @include min-w(992px) {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+
+      @include min-w(992px) {
+        margin-bottom: 14px;
+        line-height: 1.4;
+        text-transform: capitalize;
+      }
+    }
+
+    &--mb {
+      margin-bottom: 20px;
+
+      @include min-w(480px) {
+        margin-bottom: 50px;
+      }
+
+      @include min-w(992px) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .circles {
+    &--top-right {
+      top: -34px;
+      right: 38px;
+    }
+
+    &--left {
+      top: 55%;
+      left: 40px;
+    }
+
+    &--right-top {
+      top: -15px;
+      right: 38px;
+    }
+
+    &--left-center {
+      top: 47%;
+      left: 40px;
+    }
+  }
+}

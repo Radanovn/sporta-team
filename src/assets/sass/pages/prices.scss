@@ -1,0 +1,101 @@
+.prices-hero {
+  padding: 51px 0 15px;
+
+  @include min-w(576px) {
+    padding: 52px 0 15px;
+  }
+
+  @include min-w(992px) {
+    padding: 105px 0 50px;
+  }
+
+  &__title {
+    line-height: 1.6;
+    text-transform: uppercase;
+
+    @include min-w(992px) {
+      line-height: 1.282;
+      letter-spacing: -1px;
+    }
+  }
+
+  .circles {
+    &--top-right {
+      top: -27px;
+      right: 36px;
+    }
+  }
+}
+
+.section-prices {
+  &-insurance {
+    padding: 0 0 34px;
+
+    @include min-w(992px) {
+      padding: 51px 0 84px;
+    }
+  }
+
+  &-table {
+    padding-top: 48px;
+    padding-bottom: 0;
+
+    @include min-w(576px) {
+      padding-top: 34px;
+      padding-bottom: 50px;
+    }
+
+    @include min-w(992px) {
+      padding-top: 70px;
+      padding-bottom: 100px;
+    }
+
+    .circles {
+      &--right {
+        top: 56.7%;
+        right: -35px;
+      }
+    }
+  }
+
+  &-info {
+    padding: 0;
+    min-height: auto;
+
+    @include min-w(576px) {
+      padding: 40px 0;
+    }
+
+    .card-info {
+      @include min-w(992px) {
+        padding: 40px 20px;
+      }
+
+      &__title {
+        margin-bottom: 25px;
+        font-size: 26px;
+        line-height: 60px;
+
+        @include min-w(992px) {
+          margin-bottom: 20px;
+          font-size: 40px;
+          line-height: 1.5;
+        }
+      }
+
+      .btn {
+        background-color: $white;
+        color: $red;
+
+        @include min-w(576px) {
+          background: linear-gradient(324.98deg, #db1035 -17.72%, #e81741 95.75%);
+          color: $white;
+
+          &:hover {
+            background: linear-gradient(324.98deg, #fd3156 -17.72%, #fd3156 95.75%);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+.hero-section {
+  position: relative;
+
+  @include min-w(768px) {
+    padding-bottom: calcFluidSize(26px, 100px, 768px, 1439px);
+  }
+
+  @include min-w(1440px) {
+    padding-bottom: 100px;
+  }
+
+  .row {
+    @include min-w(768px) {
+      min-height: calcFluidSize(297px, 555px, 768px, 1439px);
+    }
+
+    @include min-w(1440px) {
+      min-height: 555px;
+    }
+  }
+
+  .circles {
+    &--bottom-right {
+      right: 5.4%;
+      bottom: 40px;
+    }
+  }
+
+  .hero__content {
+    padding: 31px 20px 56px;
+
+    @include min-w(576px) {
+      padding: 19px 40px 48px;
+    }
+
+    @include min-w(768px) {
+      padding-top: calcFluidSize(40px, 80px, 768px, 1439px);
+      padding-bottom: calcFluidSize(40px, 80px, 768px, 1439px);
+      padding-left: calcFluidSize(40px, 80px, 768px, 1439px);
+      padding-right: calcFluidSize(25px, 80px, 768px, 1439px);
+    }
+
+    @include min-w(1440px) {
+      padding: 80px;
+    }
+  }
+}
+
+.hero {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 800;
+    margin-bottom: 0;
+    text-shadow: 0 0 15px rgba(0, 0, 0, .09);
+
+    @include min-w(768px) {
+      @include fluid-font(30px, 50px, 768px, 1440px);
+    }
+
+    @include min-w(992px) {
+      line-height: 1.4;
+    }
+  }
+
+  &__text {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+
+    @include min-w(768px) {
+      margin-top: calcFluidSize(10px, 36px, 768px, 1439px);
+      @include fluid-font(16px, 20px, 768px, 1440px);
+    }
+
+    @include min-w(1440px) {
+      margin-top: 36px;
+    }
+  }
+
+  &__wrap-btn {
+    margin-top: 40px;
+  }
+
+  &__img {
+    position: relative;
+    height: calcFluidSize(280px, 350px, 320px, 374px);
+    overflow: hidden;
+
+    @include min-w(375px) {
+      height: 350px;
+    }
+
+    @include min-w(768px) {
+      height: auto;
+    }
+
+    &-decor-left {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 50%;
+      height: 100%;
+      opacity: .5;
+    }
+
+    &-decor-right {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 50%;
+      height: 13.514%;
+      background-color: $white;
+    }
+  }
+}

@@ -1,0 +1,214 @@
+.btn {
+  min-width: 240px;
+  padding: 19px 40px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: $white;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $white;
+  }
+
+  &__icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 1.25em;
+    margin-right: 5px;
+    vertical-align: top;
+  }
+
+  &-animate {
+    &:hover {
+      @include min-w(1024px) {
+        animation: pulse 1s;
+      }
+    }
+  }
+
+  &-red {
+    background: linear-gradient(324.98deg, #db1035 -17.72%, #e81741 95.75%);
+
+    &:hover {
+      background: linear-gradient(324.98deg, #fd3156 -17.72%, #fd3156 95.75%);
+    }
+  }
+
+  &-green {
+    background: linear-gradient(274.3deg, #219D73 1.61%, #52B392 103.52%);
+
+    &:hover {
+      background: linear-gradient(274.3deg, #41bc89 1.61%, #41bc89 103.52%);
+    }
+  }
+
+  &-play {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../icons/play.svg');
+    background-repeat: no-repeat;
+    background-position: 53% 51%;
+    background-size: 16px 16px;
+    cursor: pointer;
+
+    @include min-w(768px) {
+      width: 92px;
+      height: 92px;
+      background-size: 24px 31px;
+    }
+
+    &--yellow {
+      background-color: $yellow;
+
+      .btn-play__circle {
+        border: 2px solid $yellow;
+      }
+    }
+
+    &--green {
+      background-color: $green;
+
+      .btn-play__circle {
+        border: 1px solid $green;
+      }
+    }
+
+    &--back {
+      z-index: -1;
+    }
+
+    &__circle {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: auto;
+      width: auto;
+      display: block;
+      border-radius: 50%;
+      z-index: -1;
+
+      &--1 {
+        @include min-w(768px) {
+          animation: pulse-border-1 2s linear infinite;
+        }
+      }
+
+      &--2 {
+        @include min-w(768px) {
+          animation: pulse-border-2 2s linear infinite;
+        }
+      }
+
+      &--3 {
+        @include min-w(768px) {
+          animation: pulse-border-3 2s linear infinite;
+        }
+      }
+    }
+  }
+}
+
+.btn-filter {
+  display: inline-flex;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(225, 225, 225, 0.5);
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  &__icon {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__text {
+
+  }
+}
+
+@keyframes pulse-border-1 {
+  0% {
+    transform: scale(.8);
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-border-2 {
+  0% {
+    transform: scale(.8);
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .5;
+  }
+
+  90% {
+    opacity: .5;
+  }
+
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-border-3 {
+  0% {
+    transform: scale(.8);
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .2;
+  }
+
+  90% {
+    opacity: .2;
+  }
+
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

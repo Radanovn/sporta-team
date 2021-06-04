@@ -7701,24 +7701,19 @@ module.exports = g;
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
-  $('.js-filters-show-more').on('click', function () {
+  $('body').on('click', '.js-filters-show-more', function () {
     $(this).parents('.filters__item').find('.block-collapsed').toggleClass('show');
     $(this).toggleClass('hide');
-  });
-}); // open filters in mobile
+  }); // open filters in mobile
 
-$(document).ready(function () {
-  $('.js-filters-open').on('click', function () {
+  $('body').on('click', '.js-filters-open', function () {
     $('.calendar-sidebar').addClass('active');
-  });
-}); // close filters in mobile
+  }); // close filters in mobile
 
-$(document).ready(function () {
-  $('.js-filters-close').on('click', function () {
+  $('body').on('click', '.js-filters-close', function () {
     $('.calendar-sidebar').removeClass('active');
   });
-});
-$(document).ready(function () {
+
   if (window.innerWidth >= 992) {
     if ($('.calendar-sidebar').hasClass('active')) {
       $('.calendar-sidebar').removeClass('active');

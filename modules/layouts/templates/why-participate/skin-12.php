@@ -33,7 +33,7 @@ position: 12
                     <h5 class="block-information-package__title">Request your free information package</h5>
                     <p class="block-information-package__text">Enter your email below and we’ll send it to you</p>
                 </div>
-                <div class="block-information-package__bottom">
+                <div class="block-information-package__bottom nodrop">
                     <module type="contact_form" template="why-participate-newsletter">
                 </div>
             </div>

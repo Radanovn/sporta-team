@@ -1,0 +1,123 @@
+.datepicker {
+  width: calc(100% + 8px);
+  margin: 0 -4px;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+
+  @include min-w(992px) {
+    margin: 16px -4px 0;
+  }
+
+  &--nav {
+    min-height: auto;
+    padding: 0;
+    border: none;
+
+    &-title {
+      font-size: 18px;
+      line-height: 29px;
+    }
+
+    &-action {
+      padding: 0 8px;
+
+      &[data-action="prev"] {
+        justify-content: flex-start;
+      }
+
+      &[data-action="next"] {
+        justify-content: flex-end;
+      }
+
+      svg {
+        width: 11px;
+        height: 18px;
+      }
+    }
+  }
+
+  &--content {
+    padding: 0;
+  }
+
+  &--days-names {
+    margin: 16px 0 13px;
+  }
+
+  &--day-name {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    color: $text-color;
+  }
+
+  &--cell {
+    position: relative;
+    height: 34px;
+    margin: 5px 0;
+    background-color: transparent !important;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: block;
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+    }
+
+    &.-selected-,
+    &.-focus- {
+      color: $white;
+
+      &::after {
+        background-color: $green;
+      }
+
+      &.-current- {
+        color: $white;
+
+        &::after {
+          background-color: $green;
+        }
+      }
+    }
+
+    &.-current- {
+      color: $text-color;
+
+      &::after {
+        background-color: #e1e1e1;
+      }
+    }
+
+    &.-in-range- {
+      &::after {
+        background-color: #e1e1e1;
+      }
+
+      &.-current- {
+        &::after {
+          background-color: #e1e1e1;
+        }
+      }
+    }
+
+    &.-range-from-,
+    &.-range-to- {
+      border: none;
+    }
+
+    &-day {
+      &.-other-month- {
+        color: $text-color;
+      }
+    }
+  }
+}

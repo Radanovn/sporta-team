@@ -1,0 +1,201 @@
+.hero-healthy-sports {
+  .hero {
+    &__text {
+      margin-top: 15px;
+
+      @include min-w(768px) {
+        margin-top: calcFluidSize(15px, 36px, 768px, 1439px);
+      }
+
+      @include min-w(1440px) {
+        margin-top: 36px;
+      }
+    }
+  }
+}
+
+.section-healthy-sports {
+  &-exercise {
+    padding-top: 43px;
+    padding-bottom: 26px;
+
+    @include min-w(768px) {
+      padding-top: 100px;
+      padding-bottom: 7px;
+    }
+
+    @include min-w(992px) {
+      padding-top: 90px;
+      padding-bottom: 57px;
+    }
+
+    .section__block-title {
+      margin-bottom: 52px;
+
+      @include min-w(480px) {
+        margin-bottom: 50px;
+      }
+
+      @include min-w(992px) {
+        margin-bottom: 60px;
+      }
+
+      h2 {
+        margin-bottom: 15px;
+
+        @include min-w(992px) {
+          margin-bottom: 20px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.82;
+
+        @include min-w(576px) {
+          font-size: 18px;
+          line-height: 1.63;
+        }
+      }
+    }
+
+    .circles {
+      &--top-right {
+        top: -34px;
+        right: 41px;
+      }
+    }
+
+    .wrap-card__item {
+      margin-bottom: 47px;
+
+      @include min-w(480px) {
+        margin-bottom: 41px;
+      }
+    }
+
+    .card {
+      &-title {
+        font-size: 24px;
+
+        @include min-w(992px) {
+          @include fluid-font(19px, 24px, 992px, 1439px);
+        }
+      }
+    }
+  }
+
+  &-ethical {
+    padding-top: 75px;
+    padding-bottom: 25px;
+
+    @include min-w(576px) {
+      padding-top: 51px;
+      padding-bottom: 46px;
+    }
+
+    @include min-w(992px) {
+      padding-top: 100px;
+      padding-bottom: 99px;
+    }
+
+    .section__block-title {
+      margin-bottom: 50px;
+
+      @include min-w(576px) {
+        margin-bottom: 58px;
+      }
+
+      @include min-w(992px) {
+        margin-bottom: 60px;
+      }
+
+      h2 {
+        margin-bottom: 15px;
+
+        @include min-w(992px) {
+          margin-bottom: 20px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.82;
+
+        @include min-w(576px) {
+          font-size: 18px;
+          line-height: 1.63;
+        }
+      }
+    }
+
+    .circles {
+      &--top-left {
+        top: -58px;
+        left: 40px;
+      }
+
+      &--bottom-right {
+        bottom: -42px;
+        right: 36px;
+      }
+    }
+
+    .wrapper-cards > [class*='col'] {
+      margin-bottom: 50px;
+
+      @include min-w(576px) {
+        margin-bottom: 53px;
+      }
+    }
+
+    .card {
+      max-width: 335px;
+      min-height: 325px;
+
+      @include min-w(576px) {
+        max-width: 270px;
+      }
+
+      &-header {
+        padding: 41px 22px 35px;
+
+        @include min-w(576px) {
+          padding: 31px 22px 13px;
+        }
+      }
+
+      &-body {
+        padding: 0 22px 30px;
+      }
+
+      &-footer {
+        padding: 15px 22px 40px;
+
+        @include min-w(576px) {
+          padding: 15px 22px 30px;
+        }
+      }
+
+      &-body-link {
+        height: 100%;
+      }
+
+      &-title {
+        font-size: 26px;
+
+        @include min-w(576px) {
+          min-height: 2.54em;
+        }
+
+        @include min-w(992px) {
+          font-size: 22px;
+        }
+
+        @include min-w(1140px) {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+}

@@ -18,7 +18,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Main page</title>
-    <link href="<?php print template_url(); ?>css/main.css" rel="stylesheet">
+    <link href="<?php print template_url(); ?>dist/main.css" rel="stylesheet">
     <link href="<?php print template_url(); ?>css/custom.css" rel="stylesheet">
     <script src="<?php print template_url(); ?>js/custom.js"></script>
 </head>

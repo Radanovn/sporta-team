@@ -1,0 +1,486 @@
+.section-calendar {
+  &-hero {
+    padding-bottom: 18px;
+
+    @include min-w(768px) {
+      padding-bottom: 53px;
+    }
+
+    @include min-w(992px) {
+      padding-bottom: 100px;
+    }
+
+    .hero__text {
+      margin-top: 15px;
+    }
+
+    .circles {
+      &--bottom-right {
+        right: 5.5%;
+        bottom: 51px;
+      }
+    }
+  }
+
+  &-club-operation {
+    padding-bottom: 100px;
+
+    @include min-w(768px) {
+      padding-top: 50px;
+    }
+
+    @include min-w(992px) {
+      padding-top: 101px;
+      padding-bottom: 103px;
+    }
+
+    .section__block-title {
+      margin-bottom: 49px;
+
+      @include min-w(992px) {
+        margin-bottom: 56px;
+      }
+
+      h2 {
+        margin-bottom: 16px;
+
+        @include min-w(992px) {
+          line-height: 1.4;
+          margin-bottom: 20px;
+        }
+      }
+
+      p {
+        line-height: 1.62;
+      }
+    }
+
+    .cards-wrap {
+      & > [class*="col-"] {
+        margin-bottom: 50px;
+
+        @include min-w(768px) {
+          margin-bottom: 51px;
+        }
+
+        @include min-w(992px) {
+          margin-bottom: 0;
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .card {
+      width: 100%;
+      max-width: 552px;
+      border-radius: 2px;
+      box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.05);
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 5px;
+      }
+
+      &.color-red {
+        &::before {
+          background-color: $red;
+        }
+      }
+
+      &.color-green {
+        &::before {
+          background-color: $green;
+        }
+      }
+
+      &.color-yellow {
+        &::before {
+          background-color: $yellow;
+        }
+      }
+
+      &-header,
+      &-body,
+      &-footer {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        @include min-w(375px) {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+
+        @include min-w(992px) {
+          padding-left: 33px;
+          padding-right: 33px;
+        }
+      }
+
+      &-header {
+        padding-top: 40px;
+        padding-bottom: 1px;
+
+        @include min-w(768px) {
+          padding-top: 43px;
+        }
+      }
+
+      &-body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      &-footer {
+        padding-top: 19px;
+        padding-bottom: 40px;
+
+        @include min-w(992px) {
+          padding-top: 18px;
+        }
+      }
+
+      &-icon {
+        margin-bottom: 30px;
+      }
+
+      &-title {
+        margin-bottom: 16px;
+        font-size: 20px;
+        line-height: 1.282;
+
+        @include min-w(768px) {
+          margin-bottom: 30px;
+          font-size: 26px;
+        }
+      }
+
+      &-text {
+        width: 100%;
+        max-width: 470px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .circles {
+      &--top-left {
+        top: 15%;
+        left: 16px;
+      }
+    }
+  }
+
+  &-fullwidth-img {
+    min-height: 250px;
+
+    @include min-w(480px) {
+      min-height: calcFluidSize(250px, 300px, 480px, 767px);
+    }
+
+    @include min-w(768px) {
+      min-height: calcFluidSize(300px, 437px, 768px, 991px);
+    }
+
+    @include min-w(992px) {
+      min-height: 438px;
+    }
+  }
+
+  &-individual-training {
+    padding-top: 30px;
+    padding-bottom: 75px;
+    background-color: $gray;
+
+    @include min-w(768px) {
+      padding-top: 51px;
+      padding-bottom: 50px;
+      background-color: $white;
+    }
+
+    @include min-w(992px) {
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+
+    .section__block-title {
+      margin-bottom: 50px;
+
+      @include min-w(992px) {
+        margin-bottom: 60px;
+      }
+
+      h2 {
+        margin-bottom: 16px;
+
+        @include min-w(992px) {
+          line-height: 1.4;
+          margin-bottom: 20px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 300;
+
+        @include min-w(768px) {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 1.62;
+        }
+      }
+    }
+
+    .wrap-column {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .column {
+      width: 100%;
+      margin-bottom: 45px;
+
+      @include min-w(768px) {
+        width: 46.5%;
+        margin-bottom: 0;
+      }
+
+      @include min-w(992px) {
+        width: 44%;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      h4 {
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 39px;
+        font-weight: 700;
+
+        @include min-w(992px) {
+          margin-bottom: 20px;
+          font-size: 26px;
+          line-height: 1.5;
+        }
+      }
+
+      & > *:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .section-wrapper-btn {
+      margin-top: 44px;
+
+      @include min-w(992px) {
+        margin-top: 60px;
+      }
+    }
+
+    .circles {
+      &--top-left {
+        top: 26%;
+        left: 40px;
+      }
+    }
+  }
+
+  &-trainings {
+    padding-top: 75px;
+    padding-bottom: 45px;
+
+    @include min-w(768px) {
+      padding-top: 50px;
+      padding-bottom: 71px;
+    }
+
+    @include min-w(992px) {
+      padding-top: 100px;
+      padding-bottom: 128px;
+    }
+
+    .section__block-title {
+      margin-bottom: 49px;
+
+      @include min-w(992px) {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        margin-bottom: 16px;
+
+        @include min-w(992px) {
+          margin-bottom: 20px;
+          line-height: 1.4;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+
+        @include min-w(768px) {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 1.62;
+        }
+      }
+    }
+
+    .circles {
+      &--top-right {
+        top: 3.9%;
+        right: 39px;
+      }
+
+      &--bottom-left {
+        bottom: 23.6%;
+        left: 37px;
+      }
+    }
+
+    .cards-wrap {
+      font-size: 0;
+      margin-left: -15px;
+      margin-right: -15px;
+
+      &::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+
+      & > [class*="col-"] {
+        display: inline-block;
+        font-size: 1rem;
+        margin: 20px 0 19px;
+
+        @include min-w(992px) {
+          margin: 20px 0;
+        }
+      }
+    }
+
+    .wrap-btn-filter {
+      padding: 0 15px;
+    }
+
+    .calendar-sidebar {
+      @include min-w(992px) {
+        float: left;
+      }
+    }
+
+    .card {
+      &-body {
+        padding: 5px 0 15px;
+      }
+
+      &-footer {
+        padding: 15px 0 10px;
+      }
+
+      &-img-top {
+        height: 198px;
+
+        @include min-w(992px) {
+          height: 225px;
+        }
+      }
+
+      .categories {
+        margin-bottom: 25px;
+
+        &__item {
+          margin: 5px 5px 5px 0;
+        }
+      }
+
+      &-date,
+      &-location {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+      }
+
+      &-date {
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      &-location {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+
+        &__icon {
+          margin-right: 10px;
+        }
+      }
+
+      &-hover-block {
+        padding: 60px 30px 30px;
+      }
+    }
+  }
+}
+
+.filters-selected {
+  width: 100%;
+  max-width: 784px;
+  margin: 0 auto;
+
+  &:not(:empty) {
+    @include min-w(992px) {
+      padding-top: 29px;
+    }
+  }
+}
+
+.filter-picked {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 9px;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: $white;
+  background-color: $red;
+  border-radius: 3px;
+  border: 2px solid $red;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    background-image: url('../icons/filter-picked-icon.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &.clear-all {
+    color: $text-color;
+    background-color: $white;
+
+    &::after {
+      background-image: url('../icons/filter-clear-all-icon.svg');
+    }
+  }
+}

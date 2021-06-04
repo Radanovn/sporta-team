@@ -1,0 +1,47 @@
+.pagination {
+  margin: 19px 0 15px;
+
+  @include min-w(992px) {
+    margin: 17px 0 15px;
+  }
+}
+
+.page-item {
+  &.active {
+    .page-link {
+      background-color: $green;
+      color: $white;
+    }
+  }
+
+  &:first-child {
+    margin-right: 5px;
+  }
+
+  &:last-child {
+    margin-left: 5px;
+  }
+}
+
+.page-link {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: $text-color;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:hover {
+    background-color: $gray;
+    color: $text-color;
+  }
+}

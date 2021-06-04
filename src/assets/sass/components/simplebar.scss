@@ -1,0 +1,15 @@
+.simplebar-track.simplebar-vertical {
+  width: 15px;
+}
+
+.simplebar-scrollbar:before {
+  right: auto;
+  left: 0;
+  width: 5px;
+  border-radius: 2px;
+  background: #c4c4c4;
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+  opacity: 1;
+}

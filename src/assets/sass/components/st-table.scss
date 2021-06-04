@@ -1,0 +1,354 @@
+.st-table {
+  width: calc(100% + 40px);
+  margin: 0 -20px;
+
+  @include min-w(576px) {
+    width: calc(100% + 80px);
+    margin: 0 -40px;
+  }
+
+  @include min-w(992px) {
+    width: 100%;
+    margin: 0;
+  }
+
+  &-header {
+    display: none;
+
+    @include min-w(576px) {
+      display: block;
+    }
+
+    @include min-w(992px) {
+      padding-bottom: 30px;
+    }
+
+    .st-table-row {
+      padding: 0 20px;
+
+      @include min-w(768px) {
+        padding: 0 40px;
+      }
+
+      @include min-w(992px) {
+        padding: 0;
+      }
+    }
+  }
+
+  &-body {
+    .st-table-row {
+      &:first-child {
+        border-top: 1px solid $border-color;
+
+        @include min-w(576px) {
+          border-top: none;
+        }
+      }
+    }
+  }
+
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 36px 20px 33px;
+    border-bottom: 1px solid $border-color;
+
+    @include min-w(576px) {
+      padding: 0;
+    }
+  }
+
+  &-header-cell {
+    padding: 15px 0 14px;
+  }
+
+  &-cell {
+    padding: 15px 0;
+
+    @include min-w(576px) {
+      padding: 21px 0 18px;
+    }
+  }
+
+  &-header-cell,
+  &-cell {
+    @include min-w(992px) {
+      padding: 30px 0 29px;
+    }
+  }
+
+  &-header-cell {
+    &.st-table-cell {
+      &--category,
+      &--branch,
+      &--price {
+        width: 100%;
+
+        @include min-w(576px) {
+          width: 33.333%;
+        }
+      }
+
+      &--category {
+        @include min-w(992px) {
+          width: 25%;
+        }
+      }
+
+      &--branch {
+        text-align: center;
+
+        @include min-w(992px) {
+          width: 50%;
+          text-align: left;
+        }
+      }
+
+      &--price {
+        @include min-w(992px) {
+          width: 25%;
+        }
+      }
+
+      &--option {
+        @include min-w(576px) {
+          width: 66.666%;
+          padding-left: 0;
+        }
+
+        @include min-w(992px) {
+          width: 75%;
+        }
+      }
+    }
+
+    h4 {
+      margin-bottom: 0;
+      line-height: 39px;
+      color: #818181;
+
+      @include min-w(576px) {
+        font-size: 16px;
+      }
+
+      @include min-w(992px) {
+        font-size: 26px;
+      }
+    }
+  }
+
+  &-cell {
+    &--option {
+      padding: 15px 0 4px;
+
+      @include min-w(576px) {
+        width: 87%;
+        padding: 21px 0 18px;
+      }
+
+      @include min-w(992px) {
+        width: 75%;
+        padding: 30px 0 29px;
+      }
+
+      .cell-option-content {
+        &::before {
+          content: attr(data-title);
+          display: inline-block;
+          margin-right: 17px;
+          margin-bottom: 21px;
+          font-size: 16px;
+          line-height: 1.5;
+          font-weight: 600;
+          color: $text-muted;
+
+          @include min-w(576px) {
+            display: none;
+          }
+        }
+
+        h4 {
+          margin-bottom: 15px;
+          line-height: 1.282;
+
+          @include min-w(992px) {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    &--category {
+      width: 100%;
+
+      @include min-w(576px) {
+        width: 12.3%;
+      }
+
+      @include min-w(992px) {
+        width: 25%;
+      }
+
+      .cell-category-centered {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        @include min-w(576px) {
+          justify-content: center;
+        }
+
+        @include min-w(992px) {
+          max-width: 150px;
+        }
+
+        &::before {
+          content: attr(data-title);
+          margin-right: 17px;
+          font-size: 16px;
+          line-height: 1.5;
+          font-weight: 600;
+          color: $text-muted;
+
+          @include min-w(576px) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &--branch {
+      width: 100%;
+
+      @include min-w(576px) {
+        width: 71.3%;
+      }
+
+      @include min-w(992px) {
+        width: 50%;
+      }
+    }
+
+    &--price {
+      width: 100%;
+
+      @include min-w(576px) {
+        width: 16.4%;
+      }
+
+      @include min-w(992px) {
+        width: 25%;
+      }
+
+      .cell-price-centered {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        @include min-w(576px) {
+          padding: 0 5px;
+          justify-content: center;
+        }
+
+        @include min-w(992px) {
+          padding: 0;
+        }
+
+        &::before {
+          content: attr(data-title);
+          margin-right: 22px;
+          font-size: 16px;
+          line-height: 1.5;
+          font-weight: 600;
+          color: $text-muted;
+
+          @include min-w(576px) {
+            display: none;
+          }
+        }
+
+        h4 {
+          line-height: 1.282;
+        }
+      }
+
+      .cell-price-content {
+        display: flex;
+        align-items: center;
+
+        @include min-w(576px) {
+          justify-content: flex-end;
+        }
+
+        &::before {
+          content: attr(data-title);
+          margin-right: 22px;
+          font-size: 16px;
+          line-height: 1.5;
+          font-weight: 600;
+          color: $text-muted;
+
+          @include min-w(576px) {
+            display: none;
+          }
+        }
+
+        h4 {
+          line-height: 1.282;
+        }
+      }
+
+      .not-insured {
+        color: #818181;
+        line-height: 1.282;
+      }
+    }
+
+    h4 {
+      margin-bottom: 0;
+      font-size: 18px;
+      line-height: 1.5;
+
+      @include min-w(576px) {
+        line-height: 39px;
+      }
+
+      @include min-w(992px) {
+        font-size: 26px;
+        line-height: 1.282;
+      }
+    }
+
+    &__content {
+      width: 100%;
+      max-width: 638px;
+
+      &-centered {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100%;
+
+        &::before {
+          content: attr(data-title);
+          margin-bottom: 15px;
+          font-size: 16px;
+          line-height: 1.5;
+          font-weight: 600;
+          color: $text-muted;
+
+          @include min-w(576px) {
+            display: none;
+          }
+        }
+      }
+
+      & > *:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

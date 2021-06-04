@@ -1,0 +1,94 @@
+.section-reminders {
+  padding-top: 70px;
+  padding-bottom: 65px;
+
+  @include min-w(576px) {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  @include min-w(992px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .container {
+    max-width: 1345px;
+  }
+
+  .section__block-title {
+    margin-bottom: 34px;
+
+    @include min-w(992px) {
+      margin-bottom: 45px;
+    }
+
+    h2 {
+      @include min-w(992px) {
+        line-height: 1.4;
+        margin-bottom: 14px;
+      }
+    }
+
+    p {
+      line-height: 1.62;
+    }
+  }
+
+  .wrap-cards {
+    & > [class*="col"] {
+      margin-bottom: 19px;
+
+      @include min-w(576px) {
+        margin-bottom: 20px;
+      }
+
+      @include min-w(992px) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .card {
+    width: 100%;
+
+    @include min-w(480px) {
+      max-width: 257px;
+      margin: 0 auto;
+    }
+
+    &-header {
+      padding: 15px 3px 10px;
+    }
+
+    &-body {
+      padding: 10px 3px 15px;
+    }
+
+    &-header,
+    &-body {
+      @include min-w(480px) {
+        padding: 15px 5px;
+      }
+    }
+  }
+
+  .section-wrapper-btn {
+    margin-top: 15px;
+
+    @include min-w(576px) {
+      margin-top: 16px;
+    }
+
+    @include min-w(992px) {
+      margin-top: 45px;
+    }
+  }
+
+  .circles {
+    &--bottom-right {
+      bottom: -10px;
+      right: 31px;
+    }
+  }
+}

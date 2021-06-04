@@ -1,0 +1,150 @@
+.section-contact-person {
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+  @include min-w(576px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .section__block-title {
+    margin-bottom: 26px;
+
+    @include min-w(992px) {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 20px;
+      line-height: 1.95;
+
+      @include min-w(576px) {
+        @include fluid-font(25px, 30px, 576px, 767px);
+        line-height: 1.3;
+      }
+
+      @include min-w(768px) {
+        @include fluid-font(30px, 50px, 768px, 1440px);
+      }
+
+      @include min-w(992px) {
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .section-wrapper-btn {
+    margin-top: 25px;
+
+    @include min-w(480px) {
+      margin-top: 23px;
+    }
+
+    @include min-w(992px) {
+      margin-top: 29px;
+    }
+
+    .btn {
+      padding: 19px 17px;
+
+      @include min-w(375px) {
+        padding: 19px 33px;
+      }
+    }
+  }
+
+  .circles {
+    &--top-right {
+      right: 40px;
+      top: 70px;
+    }
+
+    &--bottom-left {
+      left: 43px;
+      bottom: -40px;
+    }
+  }
+}
+
+.contact-person {
+  &-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include min-w(768px) {
+      margin: 0 -18px;
+    }
+
+    @include min-w(992px) {
+      width: 100%;
+      max-width: 1204px;
+      margin: 0 auto;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 267px;
+    margin: 0 auto;
+    padding: 25px 0;
+
+    @include min-w(480px) {
+      display: block;
+      max-width: none;
+      margin: 0;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    @include min-w(576px) {
+      width: 50%;
+    }
+
+    @include min-w(768px) {
+      width: 33.333%;
+      padding: 25px 20px;
+    }
+
+    @include min-w(992px) {
+      width: 25%;
+      padding: 30px 20px;
+    }
+
+    @include min-w(1200px) {
+      width: 20%;
+    }
+
+    &-photo {
+      flex-shrink: 0;
+      width: 84px;
+      height: 84px;
+      margin-right: 20px;
+      border-radius: 50%;
+      overflow: hidden;
+
+      @include min-w(480px) {
+        width: 142px;
+        height: 142px;
+        margin: 0 auto 21px;
+      }
+    }
+
+    &-name {
+      font-size: 18px;
+      line-height: 2;
+      margin-bottom: 0;
+
+      @include min-w(480px) {
+        margin-bottom: 10px;
+        font-size: 24px;
+        line-height: 1.5;
+      }
+    }
+
+    &-position {
+      margin-bottom: 0;
+    }
+  }
+}

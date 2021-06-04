@@ -1,4 +1,9 @@
+alert('booboot');
+
 $(document).ready(function() {
+
+    alert('booboot');
+
     let filtersSelected = $('.filters-selected');
 
     $('#form-filters input[type="checkbox"].js-filter').on('click', function() {

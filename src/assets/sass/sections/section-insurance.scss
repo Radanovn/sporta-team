@@ -1,0 +1,91 @@
+.section-insurance {
+  padding-bottom: 70px;
+
+  @include min-w(576px) {
+    padding-bottom: 50px;
+  }
+
+  @include min-w(992px) {
+    padding-top: 90px;
+    padding-bottom: 25px;
+  }
+
+  .section__block-title {
+    margin-bottom: 74px;
+
+    @include min-w(768px) {
+      margin-bottom: 48px;
+    }
+
+    @include min-w(992px) {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      margin-bottom: 16px;
+
+      @include min-w(992px) {
+        line-height: 1.4;
+        margin-bottom: 14px;
+      }
+    }
+
+    p {
+      line-height: 1.62;
+    }
+  }
+
+  .about-card {
+    @include min-w(992px) {
+      padding: 69px 0;
+    }
+
+    &-content {
+      padding-top: 31px;
+      //
+      padding-right: 5px;
+      //
+
+      @include min-w(576px) {
+        padding-top: 30px;
+      }
+
+      @include min-w(992px) {
+        padding-top: 0;
+        padding-left: 14px;
+      }
+    }
+
+    &__title {
+      margin-bottom: 15px;
+      font-size: 20px;
+      line-height: 1.95;
+
+      @include min-w(576px) {
+        @include fluid-font(20px, 26px, 576px, 767px);
+        line-height: 1.5;
+      }
+
+      @include min-w(992px) {
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+    }
+
+    &__img {
+      .circles {
+        &--bottom-left {
+          top: calc(100% + 31px);
+        }
+      }
+    }
+
+    .list-custom {
+      margin-bottom: 17px;
+
+      @include min-w(992px) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

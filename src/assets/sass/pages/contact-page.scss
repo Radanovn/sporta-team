@@ -1,0 +1,173 @@
+.contact-page {
+  &.section-contact {
+    padding-top: 64px;
+    padding-bottom: 75px;
+    overflow: hidden;
+
+    @include min-w(576px) {
+      padding-top: 51px;
+      padding-bottom: 49px;
+    }
+
+    @include min-w(992px) {
+      padding-top: 41px;
+      padding-bottom: 60px;
+    }
+  }
+
+  .section__block-title {
+    max-width: none;
+
+    h1 {
+      margin-bottom: 10px;
+      line-height: 1.6;
+      font-weight: 800;
+      text-transform: uppercase;
+
+      @include min-w(992px) {
+        line-height: 1.4;
+        font-weight: 700;
+        text-transform: none;
+      }
+    }
+  }
+
+  &-form {
+    padding: 0 15px;
+
+    @include min-w(375px) {
+      padding: 0 25px;
+    }
+
+    @include min-w(576px) {
+      padding: 0;
+    }
+
+    textarea {
+      height: 80px;
+
+      @include min-w(576px) {
+        height: 130px;
+      }
+    }
+
+    .btn {
+      margin-top: 35px;
+
+      @include min-w(576px) {
+        margin-top: 16px;
+      }
+    }
+  }
+
+  .section-contact {
+    &__content {
+      @include min-w(992px) {
+        max-width: 601px;
+        padding-right: 15px;
+      }
+    }
+
+    &__wrap-img {
+      margin-left: 2.5%;
+      padding-top: 37px;
+      padding-right: 40px;
+
+      .circles {
+        &--top-right {
+          right: 0;
+          top: 37px;
+        }
+      }
+
+      .rect {
+        &--top-right {
+          top: -32.8%;
+          right: -18%;
+        }
+      }
+    }
+  }
+}
+
+.section-map {
+  position: relative;
+  min-height: 767px;
+  padding: 75px 0;
+
+  @include min-w(576px) {
+    min-height: 485px;
+    padding: 50px 0;
+  }
+
+  @include min-w(992px) {
+    min-height: 438px;
+    padding: 60px 0;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 290px;
+    padding: 25px;
+    margin: 0 auto;
+    font-weight: 400;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background-color: $white;
+
+    @include min-w(576px) {
+      max-width: 570px;
+      margin: 0;
+      padding: 27px 32px 30px;
+    }
+
+    &-col {
+      &-left {
+        width: 100%;
+
+        @include min-w(576px) {
+          width: 45%;
+        }
+      }
+      &-right {
+        width: 100%;
+        margin-top: 50px;
+        line-height: 1.283;
+
+        @include min-w(576px) {
+          width: 50.5%;
+          margin-top: 0;
+        }
+      }
+    }
+
+    a {
+      display: inline-block;
+    }
+
+    .link-email {
+      color: $red;
+      text-decoration: underline;
+    }
+
+    .link-phone {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+
+  .container {
+    position: relative;
+  }
+}
+
+#map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}

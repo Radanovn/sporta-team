@@ -1,0 +1,48 @@
+.table {
+  margin-bottom: 0;
+
+  thead {
+    th {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #818181;
+      border: none;
+
+      @include min-w(768px) {
+        font-size: 26px;
+      }
+    }
+  }
+
+  th {
+    padding: 0 11.5px 12px;
+
+    @include min-w(768px) {
+      padding: 0 15px 30px;
+    }
+
+  }
+
+  td {
+    font-size: 14px;
+    padding: 22px 11.5px 20px;
+
+    @include min-w(768px) {
+      padding: 31px 15px 28px;
+      font-size: 16px;
+    }
+
+    @include min-w(992px) {
+      padding: 31px 15px 28px;
+    }
+  }
+
+  tbody {
+    tr:last-child {
+      th,
+      td {
+        border-bottom: 1px solid $border-color;
+      }
+    }
+  }
+}

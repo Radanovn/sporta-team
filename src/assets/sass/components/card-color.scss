@@ -1,0 +1,157 @@
+.card {
+  &.color-red {
+    .card-hover-block {
+      background-color: $red;
+
+      .btn,
+      .btn:hover {
+        color: $red;
+      }
+    }
+
+    .card-header__icon {
+      svg {
+        & > circle {
+          fill: $red;
+        }
+      }
+    }
+
+    .card-link {
+      svg {
+        & > path {
+          fill: $red;
+        }
+      }
+    }
+
+    .btn {
+      background: linear-gradient(324.98deg, #db1035 -17.72%, #e81741 95.75%);
+
+      &:hover {
+        background: linear-gradient(324.98deg, #fd3156 -17.72%, #fd3156 95.75%);
+      }
+    }
+
+    .card-body-link {
+      display: block;
+      text-decoration: none;
+      background-color: $red;
+      color: $white;
+    }
+  }
+
+  &.color-green {
+    .card-hover-block {
+      background-color: $green;
+
+      .btn,
+      .btn:hover {
+        color: $green;
+      }
+    }
+
+    .card-header__icon {
+      svg {
+        & > circle {
+          fill: $green;
+        }
+      }
+    }
+
+    .card-link {
+      svg {
+        & > path {
+          fill: $green;
+        }
+      }
+    }
+
+    .btn {
+      background: linear-gradient(274.3deg, #219D73 1.61%, #52B392 103.52%);
+
+      &:hover {
+        background: linear-gradient(274.3deg, #41bc89 1.61%, #41bc89 103.52%);
+      }
+    }
+
+    .card-body-link {
+      display: block;
+      text-decoration: none;
+      background-color: $green;
+      color: $white;
+    }
+  }
+
+  &.color-yellow {
+    .card-hover-block {
+      background-color: $yellow;
+
+      .btn,
+      .btn:hover {
+        color: $yellow;
+      }
+    }
+
+    .card-header__icon {
+      svg {
+        & > circle {
+          fill: $yellow;
+        }
+      }
+    }
+
+    .card-link {
+      svg {
+        & > path {
+          fill: $yellow;
+        }
+      }
+    }
+
+    .card-body-link {
+      display: block;
+      text-decoration: none;
+      background-color: $yellow;
+      color: $white;
+    }
+  }
+
+  &.bg-red,
+  &.bg-green,
+  &.bg-yellow {
+    color: $white;
+
+    .card-link {
+      color: $white !important;
+
+      svg > path {
+        fill: $white;
+      }
+    }
+  }
+
+  &-footer {
+    .btn {
+      min-width: 178px;
+      padding: 14px 29px;
+    }
+  }
+
+  .card-hover-block {
+    color: $white;
+
+    .btn,
+    .btn:hover {
+      background: $white;
+    }
+
+    .card-link {
+      color: $white;
+
+      svg > path {
+        fill: $white;
+      }
+    }
+  }
+}

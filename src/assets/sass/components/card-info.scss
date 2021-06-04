@@ -1,0 +1,74 @@
+.card-info {
+  width: calc(100% + 40px);
+  margin: 0 -20px;
+  padding: 30px 40px;
+  background-color: $red;
+  color: $white;
+
+  @include min-w(576px) {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: $white;
+    color: $text-color;
+    border-radius: 3px;
+  }
+
+  @include min-w(992px) {
+    max-width: 324px;
+    margin: 0 0 0 auto;
+    padding: 32px 24px 30px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    margin-bottom: 10px;
+  }
+
+  &__for-only {
+    margin-bottom: 23px;
+
+    &-title {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    &-quantity {
+      margin-top: -5px;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.282;
+    }
+  }
+
+  &__wrap-btn {
+    margin-bottom: 20px;
+  }
+
+  &__link-contact {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: inherit;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+
+  h4 {
+    line-height: 1.283;
+  }
+
+  .btn-small {
+    min-width: auto;
+    padding: 14px 41px;
+  }
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}

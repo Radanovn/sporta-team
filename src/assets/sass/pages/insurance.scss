@@ -1,0 +1,7 @@
+.hero-insurance {
+  padding-bottom: 8px;
+
+  @include min-w(768px) {
+    padding-bottom: calcFluidSize(26px, 100px, 768px, 1439px);
+  }
+}

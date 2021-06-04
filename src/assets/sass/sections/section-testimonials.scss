@@ -1,0 +1,77 @@
+.section-testimonials {
+  padding-top: 65px;
+  padding-bottom: 52px;
+
+  @include min-w(768px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  @include min-w(992px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .section__block-title {
+    margin-bottom: 50px;
+
+    @include min-w(992px) {
+      margin-bottom: 54px;
+    }
+
+    h2 {
+      line-height: 30px;
+
+      @include min-w(576px) {
+        line-height: 1.3;
+      }
+
+      @include min-w(992px) {
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .wrap-cards {
+    & > [class*="col"] {
+      margin-bottom: 49px;
+
+      @include min-w(992px) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .card {
+    height: 100%;
+    width: 100%;
+    max-width: 392px;
+    box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+    background-image: url("../icons/quote-card-testimonials.svg");
+    background-repeat: no-repeat;
+    background-position: center 41%;
+
+    &-body {
+      padding: 30px 29px 27px;
+
+      @include min-w(992px) {
+        padding: 30px 37px 27px;
+      }
+    }
+
+    .author {
+      &__info {
+        margin-top: 27px;
+        margin-bottom: 20px;
+      }
+
+      &__location {
+        font-size: 12px;
+        line-height: 2;
+        text-transform: unset;
+        font-variant: small-caps;
+      }
+    }
+  }
+}

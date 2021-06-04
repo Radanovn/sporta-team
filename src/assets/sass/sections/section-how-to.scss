@@ -1,0 +1,279 @@
+.section-how-to {
+  padding-top: 49px;
+  padding-bottom: 49px;
+
+  @include min-w(768px) {
+    padding-top: 86px;
+    padding-bottom: 50px;
+  }
+
+  @include min-w(992px) {
+    padding-top: 100px;
+    padding-bottom: 34px;
+  }
+
+  @include min-w(1200px) {
+    padding-top: 153px;
+  }
+
+  .about-card {
+    position: relative;
+
+    &-content {
+      width: calc(100% + 4px);
+      margin: 0 -2px;
+
+      @include min-w(480px) {
+        width: 100%;
+        margin: 0;
+      }
+
+      @include min-w(768px) {
+        padding-top: 22px;
+        padding-left: calcFluidSize(21px, 70px, 768px, 991px);
+      }
+
+      @include min-w(992px) {
+        padding-top: 40px;
+        padding-left: 16%;
+      }
+
+      @include min-w(1200px) {
+        padding-left: 40px;
+      }
+    }
+
+    &__title {
+      margin-bottom: 20px;
+      font-size: 20px;
+
+      @include min-w(480px) {
+        font-size: 26px;
+        margin-bottom: 30px;
+      }
+
+      @include min-w(768px) {
+        @include fluid-font(26px, 50px, 768px, 1440px);
+      }
+
+      @include min-w(992px) {
+        margin-bottom: 32px;
+      }
+    }
+
+    &__text {
+      font-weight: 400;
+
+      @include min-w(768px) {
+        font-weight: 500;
+      }
+    }
+
+    &__img {
+      @include min-w(768px) {
+        padding-right: 29px;
+      }
+
+      @include min-w(992px) {
+        padding-right: 0;
+      }
+
+      picture {
+        img {
+          @include min-w(768px) {
+            width: 100%;
+            margin: 0;
+          }
+        }
+      }
+
+      .rect {
+        @include min-w(768px) {
+          height: 86%;
+        }
+
+        @include min-w(992px) {
+          height: 103%;
+        }
+
+        &--top-left {
+          top: -17.5%;
+          left: -15.5%;
+
+          @include min-w(992px) {
+            top: -21.5%;
+            left: -17.5%;
+          }
+        }
+      }
+    }
+
+    .circles {
+      &--top-right {
+        top: 0;
+        right: 0;
+        transform: translateY(-120%);
+      }
+    }
+  }
+
+  &-hero {
+    padding-bottom: 25px;
+
+    @include min-w(576px) {
+      padding-bottom: 50px;
+    }
+
+    @include min-w(992px) {
+      padding-bottom: 72px;
+    }
+
+    .about-card {
+
+      @include min-w(992px) {
+        padding-top: calcFluidSize(55px, 78px, 992px, 1339px);
+        padding-bottom: calcFluidSize(55px, 78px, 992px, 1339px);
+      }
+
+      @include min-w(1340px) {
+        padding: 78px 0;
+      }
+
+      &-content {
+
+        padding-top: 31px;
+
+        @include min-w(480px) {
+          padding-top: 30px;
+        }
+
+        @include min-w(992px) {
+          padding-top: 29px;
+        }
+      }
+
+      &__title {
+        margin-bottom: 10px;
+        font-weight: 800;
+        line-height: 1.6;
+
+        @include min-w(480px) {
+          margin-bottom: 15px;
+        }
+
+        @include min-w(992px) {
+          margin-bottom: 20px;
+          line-height: 1.282;
+        }
+      }
+
+      &__img {
+        .rect {
+          &--top-right {
+            top: -24%;
+          }
+        }
+      }
+    }
+  }
+
+  &-help {
+    padding-top: 50px;
+    padding-bottom: 39px;
+    overflow: hidden;
+
+    @include min-w(768px) {
+      padding-bottom: 92px;
+    }
+
+    @include min-w(992px) {
+      padding-top: 100px;
+      padding-bottom: 122px;
+    }
+
+    .guidance-card {
+      &__content {
+        @include min-w(768px) {
+          padding-top: 9px;
+        }
+
+        @include min-w(992px) {
+          padding-left: 5px;
+          padding-top: 39px;
+        }
+      }
+
+      &__title {
+        margin-bottom: 15px;
+        font-weight: 600;
+
+        @include min-w(992px) {
+          margin-bottom: 20px;
+          font-weight: 700;
+        }
+      }
+
+      &__wrap-img {
+
+        @include min-w(992px) {
+          padding-left: 4.7%;
+        }
+
+        picture {
+          img {
+            @include min-w(768px) {
+              width: 102%;
+              margin: 0 0 0 -15px;
+            }
+
+            @include min-w(992px) {
+              width: auto;
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      &__wrap-btn {
+        margin-top: 39px;
+
+        @include min-w(992px) {
+          margin-top: 58px;
+        }
+
+
+        .btn {
+          min-width: 240px;
+        }
+      }
+    }
+
+    .circles {
+      &--top-left {
+        top: 16.5%;
+        left: 0;
+      }
+
+      &--bottom-right {
+        top: calc(100% + 26px);
+        right: 31.5%;
+
+        @include min-w(1440px) {
+          right: 23.5%;
+        }
+      }
+    }
+
+    .rect {
+      &--bottom-right {
+        top: 31%;
+        right: -29.5%;
+
+        @include min-w(992px) {
+          top: 33%;
+          right: -43.5%;
+        }
+      }
+    }
+  }
+}

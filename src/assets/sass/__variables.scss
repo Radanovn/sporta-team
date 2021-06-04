@@ -1,0 +1,42 @@
+/* Change theme-colors */
+$red: #ca2f4e;
+$yellow: #f6d278;
+$green: #52b392;
+$gray: #f7f8fa;
+
+$text-muted: #818181;
+
+$border-color: #e1e1e1;
+
+//  Цвет
+
+$body-bg: #fff;
+$text-color: #1d2128;
+
+// Цвет ссылки
+
+$link-color: #55b3f3;
+$link-color--hover: darken($link-color, 20%);
+
+//  Типографика
+
+$font-family: 'Montserrat', sans-serif;
+//$font-family: 'Roboto', Helvetica, Arial, sans-serif;
+// $font-family--helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$font-size: 16px;
+$font-weight: 300; // Light
+$line-height: 1.5;
+
+// Ширина контейнера
+
+$container-padding: 15px;
+$container-width: 1170px + $container-padding * 2;
+
+//  Адаптивность и соответствующие ширины контейнера
+
+$screen-xs: 0;
+$screen-sm: 480px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;

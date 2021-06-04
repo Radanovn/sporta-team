@@ -1,0 +1,75 @@
+.link {
+  text-decoration: none;
+
+  &__arrow {
+    display: inline-block;
+    margin-left: 6px;
+    transform: translateX(0);
+    transition: all .25s;
+  }
+
+  &:hover {
+    .link__arrow {
+      @include min-w(1024px) {
+        transform: translateX(5px);
+      }
+    }
+  }
+
+  &.color-red {
+    .link__arrow {
+      svg {
+        & > path {
+          fill: $red;
+        }
+      }
+    }
+  }
+
+  &.color-green {
+    .link__arrow {
+      svg {
+        & > path {
+          fill: $green;
+        }
+      }
+    }
+  }
+
+  &.color-yellow {
+    .link__arrow {
+      svg {
+        & > path {
+          fill: $yellow;
+        }
+      }
+    }
+  }
+}
+
+.link-download {
+  text-decoration: none !important;
+
+  &__text {
+    &--decoration {
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: $red;
+      }
+    }
+  }
+
+  &__icon {
+    & > svg {
+      vertical-align: text-bottom;
+    }
+  }
+}

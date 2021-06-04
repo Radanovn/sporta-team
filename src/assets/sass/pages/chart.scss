@@ -1,0 +1,266 @@
+.section-chart {
+  &-hero {
+    padding: 0 0 30px;
+
+    @include min-w(576px) {
+      padding: 0 0 36px;
+    }
+
+    @include min-w(992px) {
+      padding: 12px 0;
+    }
+
+    .about-card {
+      &-content {
+        padding-top: 65px;
+        padding-bottom: 49px;
+
+        @include min-w(576px) {
+          width: 100%;
+          max-width: 515px;
+          margin: 0 auto;
+          padding-top: 52px;
+          padding-bottom: 52px;
+          text-align: center;
+        }
+
+        @include min-w(992px) {
+          max-width: none;
+          padding-top: 29px;
+          padding-left: 39px;
+          padding-bottom: 0;
+          text-align: left;
+        }
+      }
+
+      &__title {
+        margin-bottom: 15px;
+        line-height: 1.6;
+        font-weight: 800;
+
+        @include min-w(992px) {
+          margin-bottom: 36px;
+          line-height: 1.282;
+        }
+      }
+
+      &__text {
+        width: 100%;
+
+        @include min-w(576px) {
+          max-width: 475px;
+          margin: 0 auto;
+        }
+
+        @include min-w(992px) {
+          max-width: 512px;
+          margin: 0;
+        }
+      }
+
+      &__img {
+        @include min-w(992px) {
+          padding: 27px 0;
+        }
+
+        &--ml {
+          @include min-w(992px) {
+            margin-left: 13%;
+          }
+        }
+
+        picture {
+          img {
+            width: auto;
+            margin: 0 auto;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+
+    .circles {
+      &--top-right {
+        top: 66px;
+        right: 0;
+      }
+    }
+  }
+
+  &-table {
+    padding: 43px 0 0;
+
+    @include min-w(768px) {
+      padding: 43px 0 49px;
+    }
+
+    @include min-w(992px) {
+      padding: 43px 0;
+    }
+
+    .circles {
+      &--left {
+        top: 19.2%;
+        left: 2px;
+      }
+
+      &--right {
+        top: 44.2%;
+        right: 0;
+      }
+    }
+
+    .st-table-header-cell {
+      @include min-w(576px) {
+        padding: 21px 0 18px;
+      }
+
+      @include min-w(992px) {
+        padding: 30px 0 29px;
+      }
+
+      h4 {
+        font-size: 18px;
+
+        @include min-w(992px) {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .st-table-header {
+      .st-table-row {
+        @include min-w(576px) {
+          padding: 0 40px;
+        }
+
+        @include min-w(992px) {
+          padding: 0;
+        }
+      }
+    }
+
+    .st-table-body {
+      .st-table-row {
+        @include min-w(576px) {
+          padding: 0 40px;
+        }
+
+        @include min-w(992px) {
+          padding: 0;
+        }
+
+        &:last-child {
+          border-bottom: none;
+
+          @include min-w(576px) {
+            border-bottom: 1px solid $border-color;
+          }
+        }
+      }
+
+      .st-table-cell--price {
+        @include min-w(576px) {
+          width: 13%;
+        }
+
+        @include min-w(992px) {
+          width: 25%;
+        }
+      }
+    }
+  }
+
+  &-help {
+    padding: 51px 0 75px;
+
+    @include min-w(768px) {
+      padding: 51px 0 92px;
+    }
+
+    @include min-w(992px) {
+      padding: 110px 0 83px;
+    }
+
+    .about-card {
+      &__img {
+        @include min-w(768px) {
+          padding-right: 2%;
+        }
+
+        @include min-w(992px) {
+          padding-right: 0;
+        }
+
+        picture {
+          img {
+            @include min-w(768px) {
+              width: auto;
+              max-width: 100%;
+              margin: 0;
+            }
+          }
+        }
+
+        .rect {
+          &--top-left {
+            top: 33%;
+            left: 59%;
+            height: 86%;
+
+            @include min-w(992px) {
+              top: -21.5%;
+              left: -17.5%;
+              height: 103%;
+            }
+          }
+        }
+      }
+
+      &-content {
+        padding-top: 30px;
+
+        @include min-w(768px) {
+          padding-top: 10px;
+          padding-right: 20px;
+        }
+
+        @include min-w(992px) {
+          padding-top: 28px;
+          padding-right: 0;
+        }
+      }
+
+      &__title {
+        margin-bottom: 15px;
+        font-size: 26px;
+        line-height: 1.5;
+        @include fluid-font(26px, 50px, 768px, 1439px);
+
+        @include min-w(992px) {
+          margin-bottom: 20px;
+          line-height: 1.282;
+        }
+      }
+
+      &__wrap-btn {
+        margin-top: 40px;
+
+        @include min-w(768px) {
+          margin-top: 39px;
+        }
+
+        @include min-w(992px) {
+          margin-top: 60px;
+        }
+      }
+    }
+
+    .circles {
+      &--top-right {
+        top: -95px;
+        right: -3px;
+      }
+    }
+  }
+}

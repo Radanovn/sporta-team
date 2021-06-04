@@ -1,0 +1,238 @@
+.section-filter {
+  padding-top: 51px;
+  padding-bottom: 60px;
+
+  @include min-w(768px) {
+    padding-bottom: 35px;
+  }
+
+  @include min-w(992px) {
+    padding-bottom: 85px;
+  }
+
+  .section__block-title {
+    margin-bottom: 17px;
+
+    @include min-w(992px) {
+      margin-bottom: 29px;
+    }
+
+    h1 {
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 30px;
+
+      @include fluid-font(30px, 50px, 768px, 1440px);
+
+      @include min-w(992px) {
+        margin-bottom: 14px;
+        line-height: 1.4;
+        text-transform: none;
+        font-weight: 700;
+      }
+    }
+
+    p {
+      line-height: 1.62;
+    }
+  }
+
+  .cards-wrap {
+    @include min-w(1200px) {
+      width: 100%;
+      max-width: 1250px;
+    }
+
+    & > [class*="col-"] {
+      margin: 19px 0 26px;
+
+      @include min-w(992px) {
+        margin: 27px 0 38px;
+      }
+    }
+  }
+
+  .card {
+    position: relative;
+    height: 100%;
+    padding-top: 5px;
+    border-radius: 0;
+
+    @include min-w(480px) {
+      width: 100%;
+      max-width: 367px;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      height: 5px;
+      width: calc(100% + 40px);
+      margin: 0 -20px;
+
+      @include min-w(480px) {
+        width: 100%;
+        margin: 0;
+      }
+    }
+
+    &.color {
+      &-red {
+        &::before {
+          background-color: $red;
+        }
+      }
+
+      &-green {
+        &::before {
+          background-color: $green;
+        }
+      }
+
+      &-yellow {
+        &::before {
+          background-color: $yellow;
+        }
+      }
+    }
+
+    &:hover {
+      .card-hover-block {
+        @include min-w(1024px) {
+          transform: translateY(0);
+        }
+      }
+    }
+
+    &-hover-block {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding: 50px 25px 25px;
+      transform: translateY(-100%);
+      transition: transform .25s ease-in-out;
+
+      &__body {
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding-bottom: 15px;
+      }
+
+      &__title {
+        padding: 0 20px;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    &-body {
+      padding: 13px 0 10px;
+
+      @include min-w(480px) {
+        padding: 5px 0 10px;
+      }
+    }
+
+    &-img-top {
+      height: 225px;
+      width: calc(100% + 40px);
+      margin: 0 -20px;
+
+      @include min-w(480px) {
+        width: 100%;
+        margin: 0;
+      }
+    }
+
+    &-title {
+      margin-bottom: 14px;
+      color: $text-color;
+
+      @include min-w(480px) {
+        margin-bottom: 10px;
+      }
+
+      @include fluid-font(20px, 24px, 768px, 1440px);
+
+      a {
+        color: inherit;
+      }
+    }
+
+    &-text {
+      width: 100%;
+
+      @include min-w(480px) {
+        max-width: 345px;
+      }
+    }
+
+    &-footer {
+      padding: 10px 0 5px;
+      line-height: 1.282;
+    }
+
+    &-link {
+      font-weight: 500;
+      color: $text-color;
+    }
+  }
+}
+
+.filter {
+  &-wrap {
+    margin: 27px 0;
+  }
+
+  &__item {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 8px 17px;
+    line-height: 1.25;
+    border-radius: 100px;
+    border: 1.75px solid $border-color;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: border-color .25s ease-in-out;
+
+    @include min-w(480px) {
+      margin: 5px;
+    }
+
+    &--red {
+      &:hover {
+        border-color: $red;
+      }
+    }
+
+    &--green {
+      &:hover {
+        border-color: $green;
+      }
+    }
+
+    &--yellow {
+      &:hover {
+        border-color: $yellow;
+      }
+    }
+  }
+}

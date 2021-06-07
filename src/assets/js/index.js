@@ -19,6 +19,9 @@ $(document).ready(function() {
     });
 
     // youtube video play
+
+
+    /*
     $('.js-video-play').on('click', function() {
         $(this).parent().fadeOut(1000);
         let id_youtube = $(this).parents('.video-wrap').find('.js-video-player').attr('data-youtube-id'),
@@ -57,7 +60,7 @@ $(document).ready(function() {
         function onPlayerReady(event) {
             event.target.playVideo();
         }
-    });
+    }); */
 
     $('.modal').on('hidden.bs.modal', function () {
         if (playerActive !== '') {

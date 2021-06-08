@@ -24,7 +24,11 @@
 
             <div class="filters__btn-bar">
                 <span class="js-filter-picked js-filter-reset clear-all d-none d-md-inline-block d-lg-none">{{_e('Clear all')}}</span>
+
+                @if($showApplyFilterButton)
                 <button type="button" class="btn btn-animate btn-green btn-apply js-filter-apply">{{_e('Apply filters')}}</button>
+                @endif
+                
             </div>
         </form>
     </aside>

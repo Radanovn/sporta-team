@@ -18,7 +18,7 @@ description: Clean layout
 
 
 <div class="edit" rel="content" field="content">
-
+    <module type="layouts" template="clean"/>
 </div>
 
 <?php include template_dir() . "footer.php"; ?>

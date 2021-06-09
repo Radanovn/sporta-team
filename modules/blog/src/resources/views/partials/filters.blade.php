@@ -28,7 +28,7 @@
                 @if($showApplyFilterButton)
                 <button type="button" class="btn btn-animate btn-green btn-apply js-filter-apply">{{_e('Apply filters')}}</button>
                 @endif
-                
+
             </div>
         </form>
     </aside>

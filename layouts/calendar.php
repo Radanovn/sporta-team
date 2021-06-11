@@ -13,7 +13,7 @@ description: Calendar
 ?>
 <?php include template_dir() . "header.php"; ?>
 
-<div class="edit main-content" rel="content" field="sporta-calendar_content">
+<div class="main-content">
     <module type="layouts" template="calendar/skin-1"/>
     <module type="layouts" template="calendar/skin-2"/>
     <module type="layouts" template="calendar/skin-3"/>

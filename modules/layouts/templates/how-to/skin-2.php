@@ -12,7 +12,7 @@ position: 2
 
 ?>
 <section class="section section-accidents edit safe-mode allow-drop" field="layout-how-to-skin-2-<?php print $params['id'] ?>" rel="content">
-    <div class="container position-relative">
+    <div class="container position-relative cloneable">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/how-to/skin-2.svg">
         </div>

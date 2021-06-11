@@ -20,8 +20,8 @@ position: 3
         </picture>
     </div>
 
-    <div class="container position-relative">
-        <div class="card-info text-center">
+    <div class="container position-relative ">
+        <div class="card-info text-center cloneable">
             <h4 class="card-info__title">Are you a<br>multisport club?</h4>
             <p class="card-info__text">Secure your members and trainers</p>
             <div class="card-info__for-only">

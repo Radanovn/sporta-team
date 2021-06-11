@@ -22,7 +22,7 @@ position: 3
         <div class="row no-gutters">
             <div class="col-md-10 col-lg-12 col-xl-11 mx-auto">
                 <div class="row wrap-cards">
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 cloneable">
                         <div class="card h-100 border-0 color-yellow">
                             <div class="card-header bg-transparent border-0">
                                 <div class="card-header__icon">
@@ -35,7 +35,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 cloneable">
                         <div class="card h-100 border-0 color-red">
                             <div class="card-header bg-transparent border-0">
                                 <div class="card-header__icon">
@@ -47,7 +47,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 cloneable">
                         <div class="card h-100 border-0 color-green">
                             <div class="card-header bg-transparent border-0">
                                 <div class="card-header__icon">
@@ -59,7 +59,7 @@ position: 3
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 cloneable">
                         <div class="card h-100 border-0 color-green">
                             <div class="card-header bg-transparent border-0">
                                 <div class="card-header__icon">

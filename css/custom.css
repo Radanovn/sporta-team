@@ -43,6 +43,13 @@
     }
 }
 
+.section-insurance-cards .wrap-cards>[class*=col] {
+    margin-bottom: 50px;
+}
+
+.section-participate--top .cards-wrap>[class*=col] {
+    margin-bottom: 30px;
+}
 
 .dropdown-item__icon img{
     min-width: 20px;

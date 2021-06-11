@@ -37,6 +37,12 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .section-calendar-club-operation .cards-wrap>[class*=col-] {
+        margin-bottom: 51px;
+    }
+}
+
 
 .dropdown-item__icon img{
     min-width: 20px;

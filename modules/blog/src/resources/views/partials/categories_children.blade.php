@@ -5,7 +5,7 @@
     @endphp
     <div class="form-group">
         <div class="custom-control custom-checkbox">
-            <input class="custom-control-input js-filter-option-select" type="checkbox" id="{{$randIdForCheck}}" name="categories[]" value="{{$category->id}}">
+            <input class="custom-control-input js-filter-option-select" @if(in_array($category->id, $categoriesActiveIds)) checked="checked" @endif type="checkbox" id="{{$randIdForCheck}}" name="categories[]" value="{{$category->id}}">
             <label class="custom-control-label" for="{{$randIdForCheck}}">
                 {{$category->title}}
             </label>

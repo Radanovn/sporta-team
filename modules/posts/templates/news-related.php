@@ -14,7 +14,7 @@ description: news related posts
 <?php if (!empty($data)): ?>
 
         <div class="popular-posts-widget" itemscope itemtype="<?php print $schema_org_item_type_tag ?>">
-            <h3 class="mb-0">Most read</h3>
+            <h3 class="mb-0 edit" field="sporta-related-news" rel="global">Most read</h3>
             <div class="popular-posts-wrap">
     <?php foreach ($data as $key => $item): ?>
         <?php

@@ -33,7 +33,7 @@ position: 3
                         </div>
                     </div>
                     <div class="st-table-body">
-                        <div class="st-table-row cloneable nodrop">
+                        <div class="st-table-row cloneable">
                             <div class="st-table-cell st-table-cell--category">
                                 <div class="cell-category-centered" data-title="CATEGORIE">
                                     <h4 class="text-red">A</h4>
@@ -50,7 +50,7 @@ position: 3
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable nodrop">
+                        <div class="st-table-row cloneable">
                             <div class="st-table-cell st-table-cell--category">
                                 <div class="cell-category-centered" data-title="CATEGORIE">
                                     <h4 class="text-red">B</h4>
@@ -67,7 +67,7 @@ position: 3
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable nodrop">
+                        <div class="st-table-row cloneable">
                             <div class="st-table-cell st-table-cell--category">
                                 <div class="cell-category-centered" data-title="CATEGORIE">
                                     <h4 class="text-red">C</h4>
@@ -84,7 +84,7 @@ position: 3
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable nodrop">
+                        <div class="st-table-row cloneable">
                             <div class="st-table-cell st-table-cell--category">
                                 <div class="cell-category-centered" data-title="CATEGORIE">
                                     <h4 class="text-red">M</h4>
@@ -101,7 +101,7 @@ position: 3
                                 </div>
                             </div>
                         </div>
-                        <div class="st-table-row cloneable nodrop">
+                        <div class="st-table-row cloneable">
                             <div class="st-table-cell st-table-cell--category">
                                 <div class="cell-category-centered" data-title="CATEGORIE">
                                     <h4 class="text-red">Z</h4>

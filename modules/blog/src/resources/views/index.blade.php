@@ -152,7 +152,16 @@ $randId = uniqid();
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">
                         <div class="d-flex">
-                            <span class="card-date">{{$post->posted_at}}</span>
+                            <span class="card-date">
+                            @php
+                                $date = $post->getCustomFieldValueByName('Date')
+                            @endphp
+                                @if($date)
+                                    {{ $date }}
+                                @else
+
+                                @endif
+                            </span>
                             <span class="card-location">
                                 <span class="card-location__icon">
                                     <svg width="14" height="20" viewBox="0 0 14 20" fill="none"

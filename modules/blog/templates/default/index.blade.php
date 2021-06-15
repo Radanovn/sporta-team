@@ -29,7 +29,7 @@ $randId = uniqid();
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
                 <div class="section__block-title text-sm-center">
-                    <h2>Blog</h2>
+                    <h2>DEFAULT BLOG</h2>
                     <p class="lead-text">This is the simple blog</p>
                 </div>
             </div>

@@ -10,10 +10,21 @@ $config['standalone_module_skins'] = true;
 $config['framework'] = "bootstrap4";
 
 
-
 $config['data-fields-category'] = array();
 $config['data-fields-category'][] = array(
     'title' => 'Category color',
     'name' => 'category-color',
     'type' => 'text'
+);
+
+$config['data-fields-post'] = array();
+$config['data-fields-post'][] = array(
+    'title' => 'Info card label',
+    'name' => 'info_card_label',
+    'type' => 'text'
+);
+$config['data-fields-post'][] = array(
+    'title' => 'Info card description',
+    'name' => 'info_card_description',
+    'type' => 'textarea'
 );

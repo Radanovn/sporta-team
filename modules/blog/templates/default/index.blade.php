@@ -1,4 +1,18 @@
 <?php
+
+/*
+
+type: layout
+
+name: Default calendar skin
+
+description: Default calendar skin
+
+*/
+
+?>
+
+<?php
 $randId = uniqid();
 ?>
 

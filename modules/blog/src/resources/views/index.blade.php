@@ -110,7 +110,7 @@ $randId = uniqid();
                     <div class="card-hover-block d-none d-lg-flex">
                         <div class="card-hover-block__body">
                             <h6>{{$post->title}}</h6>
-                            <p>{{$post->shortDescription}}</p>
+                            <p>{{$post->shortDescription(200)}}</p>
                         </div>
                         <div class="card-hover-block__footer">
                             <a href="{{site_url($post->url)}}" class="card-link link">

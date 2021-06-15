@@ -21,7 +21,7 @@ description: news
                 <div class="card border-0 bg-transparent color-yellow rounded-0">
                     <a href="<?php print $item['link'] ?>" class="link-img card-img-top">
                         <?php if (!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
-                            <img src="<?php print $item['image']; ?>" class="img-cover" alt="">
+                            <img src="<?php print thumbnail($item['image'], 400,400); ?>" class="img-cover" alt="">
                         <?php endif; ?>
                     </a>
 

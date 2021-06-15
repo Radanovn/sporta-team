@@ -111,6 +111,10 @@ $randId = uniqid();
                         <div class="card-hover-block__body">
                             <h6>{{$post->title}}</h6>
                             <p>{{$post->shortDescription(200)}}</p>
+
+                           {{-- {{$post->getContentDataByFieldName('info_card_label')}}
+                            {{$post->getContentDataByFieldName('info_card_description')}}--}}
+
                         </div>
                         <div class="card-hover-block__footer">
                             <a href="{{site_url($post->url)}}" class="card-link link">

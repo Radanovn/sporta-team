@@ -24,7 +24,7 @@ description: news related posts
                 <div class="popular-post__item">
                     <a href="<?php print $item['link'] ?>" class="popular-post__item--link-img">
                         <?php if (!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
-                            <img src="<?php print $item['image']; ?>" class="img-cover" alt="">
+                            <img src="<?php print thumbnail($item['image'], 150,1500); ?>" class="img-cover" alt="">
                         <?php endif; ?>
                     </a>
                     <div class="popular-post__item--content">

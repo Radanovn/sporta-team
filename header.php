@@ -60,10 +60,10 @@
                                 </div>
                                 <div class="v-divider d-none d-lg-block order-lg-1"></div>
                                 <div class="order-lg-1">
-                                    <module type="btn" class="allow-drop"  template="sporta-login" button_style="btn-link" button_text="Login" />
+                                    <module type="btn" class="allow-drop"  template="sporta-login" id="header_default_menu_login_button" button_style="btn-link" button_text="Login" />
                                 </div>
                                 <div class="wrap-btn text-center order-lg-1">
-                                    <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Join sporta club"/>
+                                    <module type="btn" class="cloneable"  template="sporta-buttons" id="header_default_menu_default_button" button_style="btn btn-animate btn-red" button_text="Join sporta club"/>
                                 </div>
                             </div>
                         </div>

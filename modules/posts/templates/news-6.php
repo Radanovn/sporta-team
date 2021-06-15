@@ -20,7 +20,7 @@ description: news
             <div class="col-lg-6">
                 <div class="card color-green text-center border-0 h-100 mx-sm-auto ml-lg-0">
                         <?php if (!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
-                            <img src="<?php print $item['image']; ?>" class="img-cover" alt="">
+                            <img src="<?php print thumbnail($item['image'], 400,400); ?>" alt="">
                         <?php endif; ?>
 
                     <div class="card-body">

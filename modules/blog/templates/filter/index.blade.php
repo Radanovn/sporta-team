@@ -62,9 +62,17 @@ $randId = uniqid();
                     <div class="card border-0 bg-transparent {{$colorClass}} rounded-0">
                         <div class="card-hover-block d-none d-lg-flex">
                             <div class="card-hover-block__body">
-                                <h5 class="card-hover-block__title"></h5>
+                                <h5 class="card-hover-block__title">
+                                    {{$post->getContentDataByFieldName('info_card_label')}}
+                                </h5>
                                 <ul class="list-unstyled list-custom list-custom-check list-custom-check--white">
-                                    <li>x</li>
+                                    @php
+                                       $infoCardDescription = $post->getContentDataByFieldName('info_card_description');
+                                       $infoCardDescription = explode("\n", $infoCardDescription);
+                                    @endphp
+                                    @foreach ($infoCardDescription as $description)
+                                        <li>{{$description}}</li>
+                                    @endforeach
                                 </ul>
                             </div>
                             <div class="card-hover-block__footer">

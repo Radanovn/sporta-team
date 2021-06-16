@@ -11,4 +11,4 @@ position: 1
 */
 
 ?>
-<module type="blog" default-template="filter\index.blade.php" />
+<module type="blog" template="filter\index.blade.php" />

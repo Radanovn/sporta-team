@@ -5,8 +5,6 @@ $randomId = uniqid();
 <div class="row">
     <div class="col-md-10 col-lg-9 mx-auto">
         <div class="filter-wrap text-sm-center">
-
-
             @php
                 $i=0;
             @endphp

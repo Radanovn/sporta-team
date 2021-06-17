@@ -1,4 +1,18 @@
 <?php
+
+/*
+
+type: layout
+
+name: Default calendar skin
+
+description: Default calendar skin
+
+*/
+
+?>
+
+<?php
 $randId = uniqid();
 ?>
 
@@ -15,7 +29,7 @@ $randId = uniqid();
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
                 <div class="section__block-title text-sm-center">
-                    <h2>Blog</h2>
+                    <h2>DEFAULT BLOG</h2>
                     <p class="lead-text">This is the simple blog</p>
                 </div>
             </div>
@@ -110,6 +124,11 @@ $randId = uniqid();
                     <div class="card-hover-block d-none d-lg-flex">
                         <div class="card-hover-block__body">
                             <h6>{{$post->title}}</h6>
+                            <p>{{$post->shortDescription(200)}}</p>
+
+                           {{-- {{$post->getContentDataByFieldName('info_card_label')}}
+                            {{$post->getContentDataByFieldName('info_card_description')}}--}}
+
                         </div>
                         <div class="card-hover-block__footer">
                             <a href="{{site_url($post->url)}}" class="card-link link">
@@ -152,7 +171,16 @@ $randId = uniqid();
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">
                         <div class="d-flex">
-                            <span class="card-date">{{$post->posted_at}}</span>
+                            <span class="card-date">
+                            @php
+                                $date = $post->getCustomFieldValueByName('Date')
+                            @endphp
+                                @if($date)
+                                    {{ $date }}
+                                @else
+
+                                @endif
+                            </span>
                             <span class="card-location">
                                 <span class="card-location__icon">
                                     <svg width="14" height="20" viewBox="0 0 14 20" fill="none"

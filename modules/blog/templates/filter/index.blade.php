@@ -6,6 +6,7 @@ type: layout
 name: Filter
 description: Filter skin
 
+
 */
 ?>
 

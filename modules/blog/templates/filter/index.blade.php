@@ -40,8 +40,6 @@ $randId = uniqid();
 
         <div class="row cards-wrap mx-xl-auto">
 
-            {!! $posts->filtersActive() !!}
-
             @php
                 $i=0;
             @endphp

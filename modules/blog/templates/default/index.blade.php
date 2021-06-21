@@ -18,7 +18,7 @@ $randId = uniqid();
 
 {!! $posts->scripts() !!}
 
-<section class="section section-filter section-calendar-trainings safe-mode nodrop" field="layout-blog-{{$randId}}" rel="content">
+<section class="section section-filter section-calendar-trainings safe-mode nodrop" field="layout-blog" rel="content">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-6.svg">

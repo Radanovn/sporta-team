@@ -16,7 +16,7 @@ $randId = uniqid();
 
 {!! $posts->scripts() !!}
 
-<section class="section section-filter section-calendar-trainings safe-mode nodrop" field="layout-filter" rel="content">
+<section class="section section-filter section-calendar-trainings safe-mode nodrop">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-6.svg">
@@ -26,8 +26,8 @@ $randId = uniqid();
         </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
-                <div class="section__block-title text-sm-center">
-                    <h2>Sporta team will pamper you</h2>
+                <div class="section__block-title text-sm-center edit" field="layout-filter-block-title" rel="content">
+                    <h2>Sporta team will pamper you xxx</h2>
                     <p class="lead-text">There is more to a membership at Sporta than you think.
                         Our sports club&#8209;sized insurance may be our show-piece, but behind that little horse is a whole series of other club privileges.
                         Feel free to get the most out of it, this range of exclusive benefits is entirely under your command.

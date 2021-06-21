@@ -123,11 +123,11 @@ $randId = uniqid();
                 <div class="card border-0 bg-transparent {{$colorClass}} rounded-0">
                     <div class="card-hover-block d-none d-lg-flex">
                         <div class="card-hover-block__body">
-                            <h6>{{$post->title}}</h6>
-                            <p>{{$post->shortDescription(200)}}</p>
+                         {{--   <h6>{{$post->title}}</h6>
+                            <p>{{$post->shortDescription(200)}}</p>--}}
 
-                           {{-- {{$post->getContentDataByFieldName('info_card_label')}}
-                            {{$post->getContentDataByFieldName('info_card_description')}}--}}
+                            <h6>{{$post->getContentDataByFieldName('info_card_label')}}</h6>
+                            <p>{{$post->getContentDataByFieldName('info_card_description')}}</p>
 
                         </div>
                         <div class="card-hover-block__footer">

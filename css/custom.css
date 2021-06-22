@@ -91,3 +91,18 @@ main > .edit{
     display: block;
     height: 1px;
 }
+
+.main-menu-button-edit{
+    /* parent has disabled pointer events but text inside button must be editable */
+    pointer-events: all;
+    cursor: text;
+}
+.edit ol.list-custom li, .edit ol.list-custom li:before {
+    display: inline-block;
+    display: -webkit-box;
+}
+
+.section-accidents .section__block-title h2 {
+ 
+    text-transform: none;
+}

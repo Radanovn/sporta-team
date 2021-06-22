@@ -167,7 +167,9 @@ $randId = uniqid();
                             <a href="?tags={{$tag->slug}}" class="categories__item categories__item--{{$colorClass}}">{{$tag->name}}</a>
                             @endforeach
                         </div>
-                        <p class="card-text">{{$post->title}}</p>
+                        <p class="card-text">
+                            {{$post->shortDescription(78)}}
+                        </p>
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">
                         <div class="d-flex">
@@ -177,8 +179,6 @@ $randId = uniqid();
                             @endphp
                                 @if($date)
                                     {{ date('F j, Y', strtotime($date)) }}
-                                @else
-
                                 @endif
                             </span>
                             <span class="card-location">

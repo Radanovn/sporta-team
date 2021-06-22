@@ -27,7 +27,7 @@ $randId = uniqid();
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
                 <div class="section__block-title text-sm-center edit" field="layout-filter-block-title" rel="content">
-                    <h2>Sporta team will pamper you</h2>  
+                    <h2>Sporta team will pamper you</h2>
                     <p class="lead-text">There is more to a membership at Sporta than you think.
                         Our sports club&#8209;sized insurance may be our show-piece, but behind that little horse is a whole series of other club privileges.
                         Feel free to get the most out of it, this range of exclusive benefits is entirely under your command.
@@ -72,7 +72,7 @@ $randId = uniqid();
                                 </ul>
                             </div>
                             <div class="card-hover-block__footer">
-                                <a href="{{site_url($post->url)}}" class="btn btn-animate">{{ _e('More info') }}</a>
+                                <a href="{{site_url($post->url)}}" class="btn btn-animate">{{ _e('Meer info') }}</a>
                             </div>
                         </div>
                         <a href="{{site_url($post->url)}}" class="d-block card-img-top rounded-0">

@@ -132,7 +132,7 @@ $randId = uniqid();
                         </div>
                         <div class="card-hover-block__footer">
                             <a href="{{site_url($post->url)}}" class="card-link link">
-                                {{ _e('More info') }}
+                                {{ _e('Meer info') }}
                                 <span class="link__arrow">
                                 <svg width="6" height="11" viewBox="0 0 6 11" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -176,7 +176,7 @@ $randId = uniqid();
                                 $date = $post->getCustomFieldValueByName('Date')
                             @endphp
                                 @if($date)
-                                    {{ $date }}
+                                    {{ date('F j, Y', strtotime($date)) }}
                                 @else
 
                                 @endif

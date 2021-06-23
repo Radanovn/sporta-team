@@ -178,7 +178,7 @@ $randId = uniqid();
                                 $date = $post->getCustomFieldValueByName('Date')
                             @endphp
                                 @if($date)
-                                    {{ date('F j, Y', strtotime($date)) }}
+                                    {{ date('d/m/Y', strtotime($date)) }}
                                 @endif
                             </span>
                             <span class="card-location">

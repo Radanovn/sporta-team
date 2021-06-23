@@ -168,7 +168,7 @@ $randId = uniqid();
                             @endforeach
                         </div>
                         <p class="card-text">
-                            {{$post->shortDescription(78)}}
+                            {{$post->getContentDataByFieldName('card_text')}}
                         </p>
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">

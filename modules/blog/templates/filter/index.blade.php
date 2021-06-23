@@ -98,10 +98,12 @@ $randId = uniqid();
                                 @endforeach
                             </div>
                             <h5 class="card-title">
-                                <a href="{{site_url($post->url)}}">{{$post->title}}</a>
+                                <a href="{{site_url($post->url)}}">
+                                    {{$post->getContentDataByFieldName('card_title')}}
+                                </a>
                             </h5>
                             <p class="card-text">
-                                {{$post->shortDescription(180)}}
+                                {{$post->getContentDataByFieldName('card_text')}}
                             </p>
                         </div>
                         <div class="card-footer border-0 bg-transparent rounded-0">

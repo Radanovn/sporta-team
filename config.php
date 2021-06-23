@@ -28,7 +28,7 @@ $config['data-fields-post'][] = array(
 $config['data-fields-post'][] = array(
     'title' => 'Card text',
     'name' => 'card_text',
-    'type' => 'textarea'
+    'type' => 'mw_editor'
 );
 
 $config['data-fields-post'][] = array(
@@ -39,5 +39,5 @@ $config['data-fields-post'][] = array(
 $config['data-fields-post'][] = array(
     'title' => 'Info card description',
     'name' => 'info_card_description',
-    'type' => 'textarea'
+    'type' => 'mw_editor'
 );

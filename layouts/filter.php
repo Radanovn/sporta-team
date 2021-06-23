@@ -13,8 +13,11 @@ description: Filter
 ?>
 <?php include template_dir() . "header.php"; ?>
 
-<div class="edit main-content" rel="content" field="sporta-team_filter">
-    <module type="layouts" template="filter/skin-1" />
+<div class="edit main-content" rel="content-x" field="sporta-team_filter-x">
+
+
+    <module type="blog" template="filter\index.blade.php" />
+
 </div>
 
 <?php include template_dir() . "footer.php"; ?>

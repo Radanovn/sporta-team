@@ -18,7 +18,7 @@ $randId = uniqid();
 
 {!! $posts->scripts() !!}
 
-<section class="section section-filter section-calendar-trainings safe-mode nodrop" field="layout-blog-{{$randId}}" rel="content">
+<section class="section section-filter section-calendar-trainings safe-mode nodrop">
     <div class="container position-relative">
         <div class="circles circles--top-right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-6.svg">
@@ -28,7 +28,7 @@ $randId = uniqid();
         </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
-                <div class="section__block-title text-sm-center">
+                <div class="section__block-title text-sm-center edit" field="layout-blog-block-title" rel="content">
                     <h2>DEFAULT BLOG</h2>
                     <p class="lead-text">This is the simple blog</p>
                 </div>
@@ -123,16 +123,16 @@ $randId = uniqid();
                 <div class="card border-0 bg-transparent {{$colorClass}} rounded-0">
                     <div class="card-hover-block d-none d-lg-flex">
                         <div class="card-hover-block__body">
-                            <h6>{{$post->title}}</h6>
-                            <p>{{$post->shortDescription(200)}}</p>
+                         {{--   <h6>{{$post->title}}</h6>
+                            <p>{{$post->shortDescription(200)}}</p>--}}
 
-                           {{-- {{$post->getContentDataByFieldName('info_card_label')}}
-                            {{$post->getContentDataByFieldName('info_card_description')}}--}}
+                            <h6>{{$post->getContentDataByFieldName('info_card_label')}}</h6>
+                            <p>{{$post->getContentDataByFieldName('info_card_description')}}</p>
 
                         </div>
                         <div class="card-hover-block__footer">
                             <a href="{{site_url($post->url)}}" class="card-link link">
-                                {{ _e('More info') }}
+                                {{ _e('Meer info') }}
                                 <span class="link__arrow">
                                 <svg width="6" height="11" viewBox="0 0 6 11" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -167,7 +167,9 @@ $randId = uniqid();
                             <a href="?tags={{$tag->slug}}" class="categories__item categories__item--{{$colorClass}}">{{$tag->name}}</a>
                             @endforeach
                         </div>
-                        <p class="card-text">{{$post->title}}</p>
+                        <p class="card-text">
+                            {{$post->getContentDataByFieldName('card_text')}}
+                        </p>
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">
                         <div class="d-flex">
@@ -176,9 +178,7 @@ $randId = uniqid();
                                 $date = $post->getCustomFieldValueByName('Date')
                             @endphp
                                 @if($date)
-                                    {{ $date }}
-                                @else
-
+                                    {{ date('d/m/Y', strtotime($date)) }}
                                 @endif
                             </span>
                             <span class="card-location">

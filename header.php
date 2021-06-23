@@ -17,7 +17,6 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Main page</title>
     <link href="<?php print template_url(); ?>dist/main.css" rel="stylesheet">
     <link href="<?php print template_url(); ?>css/custom.css" rel="stylesheet">
     <script src="<?php print template_url(); ?>js/custom.js"></script>
@@ -75,7 +74,9 @@
                     <div class="collapse navbar-collapse" id="navbarBottom">
                         <ul class="navbar-nav nav-justified w-100">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Join Sporta Club</a>
+                                <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="edit plain-text nodrop main-menu-button-edit" rel="global" field="header-main-menu-join-button">Join Sporta Club</span>
+                                </a>
                                 <div class="dropdown-menu">
                                     <div class="row flex-column align-items-xl-center">
                                         <module type="menu" template="header-main"  id="join-sporta-club-menu" menu-name="join-sporta-club" is-mega="false" />
@@ -83,7 +84,9 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown has-megamenu">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">For clubs</a>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="edit plain-text nodrop main-menu-button-edit" rel="global" field="header-main-menu-clubs-button">For clubs</span>
+                                </a>
                                 <div class="dropdown-menu w-100 megamenu">
                                     <div class="row justify-content-between flex-xl-nowrap">
                                         <module type="menu" class="megamenu__column" template="header-main"  id="for-clubs-menu-1" menu-name="For clubs - 1st column" is-mega="true" />
@@ -94,7 +97,9 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Sporta Team</a>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="edit plain-text nodrop main-menu-button-edit" rel="global" field="header-main-menu-about-button">About Sporta Team</span>
+                                </a>
                                 <div class="dropdown-menu w-100">
                                     <module type="menu" class="row row-cols-xl-2" template="header-main" id="about-sporta-team-menu" menu-name="About sporta team" is-mega="false" />
                                 </div>

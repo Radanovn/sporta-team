@@ -127,7 +127,7 @@ $randId = uniqid();
                             <p>{{$post->shortDescription(200)}}</p>--}}
 
                             <h6>{{$post->getContentDataByFieldName('info_card_label')}}</h6>
-                            <p>{{$post->getContentDataByFieldName('info_card_description')}}</p>
+                            <p>{!! $post->getContentDataByFieldName('info_card_description') !!}</p>
 
                         </div>
                         <div class="card-hover-block__footer">
@@ -168,7 +168,7 @@ $randId = uniqid();
                             @endforeach
                         </div>
                         <p class="card-text">
-                            {{$post->getContentDataByFieldName('card_text')}}
+                            {!! $post->getContentDataByFieldName('card_text') !!}
                         </p>
                     </div>
                     <div class="card-footer border-0 bg-transparent rounded-0">

@@ -61,15 +61,7 @@ $randId = uniqid();
                                 <h5 class="card-hover-block__title">
                                     {{$post->getContentDataByFieldName('info_card_label')}}
                                 </h5>
-                                <ul class="list-unstyled list-custom list-custom-check list-custom-check--white">
-                                    @php
-                                       $infoCardDescription = $post->getContentDataByFieldName('info_card_description');
-                                       $infoCardDescription = explode("\n", $infoCardDescription);
-                                    @endphp
-                                    @foreach ($infoCardDescription as $description)
-                                        <li>{{$description}}</li>
-                                    @endforeach
-                                </ul>
+                                {!! $post->getContentDataByFieldName('info_card_description') !!}
                             </div>
                             <div class="card-hover-block__footer">
                                 <a href="{{site_url($post->url)}}" class="btn btn-animate">{{ _e('Meer info') }}</a>
@@ -103,7 +95,7 @@ $randId = uniqid();
                                 </a>
                             </h5>
                             <p class="card-text">
-                                {{$post->getContentDataByFieldName('card_text')}}
+                                {!! $post->getContentDataByFieldName('card_text') !!}
                             </p>
                         </div>
                         <div class="card-footer border-0 bg-transparent rounded-0">

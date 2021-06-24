@@ -181,6 +181,12 @@ $randId = uniqid();
                                     {{ date('d/m/Y', strtotime($date)) }}
                                 @endif
                             </span>
+
+
+                            @php
+                                $location = $post->getCustomFieldValueByName('Location')
+                            @endphp
+                            @if($location)
                             <span class="card-location">
                                 <span class="card-location__icon">
                                     <svg width="14" height="20" viewBox="0 0 14 20" fill="none"
@@ -195,18 +201,10 @@ $randId = uniqid();
                                             stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </span>
-
-                                @php
-                                    $location = $post->getCustomFieldValueByName('Location')
-                                @endphp
-
-                                @if($location)
                                 {{ $location }}
-                                @else
-                                    {{ _e('Unknown') }}
-                                @endif
-
                             </span>
+                            @endif
+
                         </div>
                     </div>
                 </div>

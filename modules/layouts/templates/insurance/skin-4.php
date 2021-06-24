@@ -20,7 +20,7 @@ position: 4
             <div class="col-lg-11 mx-auto">
                 <div class="row wrap-cards">
                     <div class="col-md-6 col-lg-4 mx-auto cloneable">
-                        <div class="card color-red text-center mx-auto border-0 h-100">
+                        <div class="card  text-center mx-auto border-0 h-100">
                             <div class="card-header bg-transparent border-0">
                                 <span class="card-header__icon">
                                     <img src="<?php print template_url(); ?>modules/layouts/svg/insurance/skin-8.svg">
@@ -31,12 +31,12 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Download"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="Download"/>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mx-auto cloneable">
-                        <div class="card color-green text-center mx-auto border-0 h-100">
+                        <div class="card text-center mx-auto border-0 h-100">
                             <div class="card-header bg-transparent border-0">
                                 <span class="card-header__icon">
                                     <img src="<?php print template_url(); ?>modules/layouts/svg/insurance/skin-9.svg">
@@ -47,12 +47,12 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mx-auto cloneable">
-                        <div class="card color-green text-center mx-auto border-0 h-100">
+                        <div class="card text-center mx-auto border-0 h-100">
                             <div class="card-header bg-transparent border-0">
                                 <span class="card-header__icon">
                                     <img src="<?php print template_url(); ?>modules/layouts/svg/insurance/skin-10.svg">
@@ -63,7 +63,7 @@ position: 4
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                             </div>
                             <div class="card-footer card-footer bg-transparent border-0">
-                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                                <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate btn-green" button_text="Meer info"/>
                             </div>
                         </div>
                     </div>

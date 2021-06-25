@@ -75,7 +75,7 @@ description: Sporta table template
         el.className = 'table text-center';
     }
 
-    mw.moduleJS('<?php print module_url(); ?>js/table.js');
+    mw.moduleJS('<?php print modules_url(); ?>table/js/table.js');
 
     $(document).ready(function () {
         var foundData = false;

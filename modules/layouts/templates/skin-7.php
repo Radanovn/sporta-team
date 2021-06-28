@@ -4,7 +4,7 @@
 
 type: layout
 
-name: skin-7
+name: News
 
 position: 7
 
@@ -30,7 +30,7 @@ position: 7
                         <h2>Request <span class="d-none d-lg-inline"><br></span>a free price-offer</h2>
                         <p class="lead-text">Nog niet overtuigd? Of heb je nog hulp nodig? Sed do eiusmod tempor incididunt u tempor incididun. Sed do eiusmod tempor.</p>
                     </div>
-                    <module type="contact_form" template="sporta-newsletter-form"/>
+                    <module type="contact_form" template="sporta-newsletter-form-2"/>
                 </div>
             </div>
         </div>

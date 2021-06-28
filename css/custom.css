@@ -106,3 +106,7 @@ main > .edit{
  
     text-transform: none;
 }
+
+.img-cover {
+    height: 100%!important;
+}

@@ -10,7 +10,7 @@ description: Grid Columns
 
 */
 ?>
-<div class="container section-news news-page">
+<div class="container section section-news news-page">
     <div class="card-deck justify-content-between">
         <?php if (!empty($data)): ?>
             <?php foreach ($data as $key => $item): ?>

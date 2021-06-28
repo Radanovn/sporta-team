@@ -10,7 +10,7 @@ description: news
 
 */
 ?>
-<div class="container section-news news-page">
+<div class="container section section-news news-page">
     <div class="row wrap-cards">
         <?php if (!empty($data)): ?>
             <?php foreach ($data as $key => $item): ?>

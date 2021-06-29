@@ -48,7 +48,7 @@ description: news
         <?php endif; ?>
 
         <div class="col-lg-4 d-none d-lg-block">
-            <module type="posts" related="true" limit="3" template="news-related"/>
+            <module type="posts" limit="3" recently_viewed="1" template="news-most-viewed" />
         </div>
     </div>
 </div>

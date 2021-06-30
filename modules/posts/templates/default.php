@@ -39,7 +39,7 @@ description: Grid Columns
                         <?php endif; ?>
                     </div>
                     <div class="card-footer border-0 bg-transparent">
-                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Read more"/>
+                        <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="<?php echo $read_more_text;?>"/>
                     </div>
                 </div>
             <?php endforeach; ?>

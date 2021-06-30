@@ -8,7 +8,7 @@ $randomId = uniqid();
             <span class="filters__item-title-text js-filters-item-title"
                   role="button" data-toggle="collapse" data-target="#filters-item-{{$randomId}}"
                   aria-expanded="false" aria-controls="filters-item-{{$randomId}}">
-                {{$filter->name}}
+                {{$filter->controlName}}
                 <span class="filters__item-title-icon"></span>
             </span>
             @if($filter->isFirst)</h3>@else</h4>@endif

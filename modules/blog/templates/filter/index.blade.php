@@ -18,12 +18,6 @@ $randId = uniqid();
 
 <section class="section section-filter section-calendar-trainings safe-mode nodrop">
     <div class="container position-relative">
-        <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-6.svg">
-        </div>
-        <div class="circles circles--bottom-left d-none d-xl-block">
-            <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-7.svg">
-        </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
                 <div class="section__block-title text-sm-center edit" field="layout-filter-block-title" rel="content">

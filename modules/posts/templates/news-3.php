@@ -13,8 +13,11 @@ description: news
 <div class="container section section-news news-page">
     <div class="row row-news-card">
         <?php if (!empty($data)): ?>
-            <?php foreach ($data as $key => $item): ?>
+            <?php
+            $postIds = [];
+            foreach ($data as $key => $item): ?>
                 <?php
+                $postIds[] = $item['id'];
                 $itemData = content_data($item['id']);
                 $itemTags = content_tags($item['id']);
                 ?>
@@ -48,7 +51,7 @@ description: news
         <?php endif; ?>
 
         <div class="col-lg-4 d-none d-lg-block">
-            <module type="posts" limit="3" recently_viewed="1" template="news-most-viewed" />
+            <module type="posts" limit="3" exclude_ids="<?php echo implode(",", $postIds);?>" recently_viewed="1" template="news-most-viewed" />
         </div>
     </div>
 </div>

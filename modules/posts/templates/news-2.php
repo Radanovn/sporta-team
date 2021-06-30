@@ -50,7 +50,7 @@ description: news
         <?php endif; ?>
 
         <div class="col-lg-4 d-none d-lg-block">
-            <module type="posts" most_viewed="true" exclude_ids="<?php echo implode(",", $postIds);?>" limit="3" template="news-most-viewed"/>
+            <module type="posts" exclude_ids="<?php echo implode(",", $postIds);?>" limit="3" template="news-most-viewed"/>
         </div>
     </div>
 

@@ -9,11 +9,9 @@ name: Search results 1
 position: 1
 
 */
-
-$q = isset($_GET['q']) ? $_GET['q'] : '';
-
+$keyword = isset($_GET['q']) ? $_GET['q'] : '';
 ?>
-<section class="section section-search-results edit safe-mode allow-drop" field="layout-search-results-skin-1-<?php print $params['id'] ?>" rel="content">
+<section class="section section-search-results safe-mode allow-drop">
     <div class="container position-relative">
         <div class="circles circles--top-left d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/search-results/skin-1.svg">
@@ -26,7 +24,7 @@ $q = isset($_GET['q']) ? $_GET['q'] : '';
 <!--        </div>-->
         <div class="row no-gutters">
             <div class="col-lg-9 mx-auto">
-                <module type="posts" keyword="<?php print $q; ?>" template="search-results">
+                <module type="posts" keyword="<?php print $keyword; ?>" template="search-results">
             </div>
         </div>
     </div>

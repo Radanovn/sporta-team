@@ -13,8 +13,11 @@ description: news
 <div class="container section section-news news-page">
     <div class="row row-news-card">
         <?php if (!empty($data)): ?>
-            <?php foreach ($data as $key => $item): ?>
+            <?php
+            $postIds = [];
+            foreach ($data as $key => $item): ?>
                 <?php
+                $postIds[] = $item['id'];
                 $itemData = content_data($item['id']);
                 $itemTags = content_tags($item['id']);
                 ?>
@@ -39,7 +42,7 @@ description: news
                             <?php endif; ?>
                         </div>
                         <div class="card-footer border-0 bg-transparent">
-                            <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="Read more"/>
+                            <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="<?php echo $read_more_text;?>"/>
                         </div>
                     </div>
                 </div>
@@ -47,7 +50,7 @@ description: news
         <?php endif; ?>
 
         <div class="col-lg-4 d-none d-lg-block">
-            <module type="posts" most_viewed="true" limit="3" template="news-most-viewed"/>
+            <module type="posts" exclude_ids="<?php echo implode(",", $postIds);?>" limit="3" template="news-most-viewed"/>
         </div>
     </div>
 

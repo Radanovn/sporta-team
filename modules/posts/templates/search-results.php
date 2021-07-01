@@ -16,7 +16,7 @@ description: Search results
 <?php if (!empty($data)): ?>
     <div itemscope itemtype="<?php print $schema_org_item_type_tag ?>">
         <?php foreach ($data as $key => $item): ?>
-            <article class="search-results__item">
+            <article class="search-results__item"> 
                 <?php
                     $itemData = content_data($item['id']);
                     $itemTags = content_tags($item['id']);

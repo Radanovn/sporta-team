@@ -21,9 +21,9 @@ $q = isset($_GET['q']) ? $_GET['q'] : '';
         <div class="circles circles--right d-none d-lg-block">
             <img src="<?php print template_url(); ?>modules/layouts/svg/search-results/skin-2.svg">
         </div>
-        <div class="circles circles--bottom-left d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/svg/search-results/skin-3.svg">
-        </div>
+<!--        <div class="circles circles--bottom-left d-none d-lg-block">-->
+<!--            <img src="--><?php //print template_url(); ?><!--modules/layouts/svg/search-results/skin-3.svg">-->
+<!--        </div>-->
         <div class="row no-gutters">
             <div class="col-lg-9 mx-auto">
                 <module type="posts" keyword="<?php print $q; ?>" template="search-results">

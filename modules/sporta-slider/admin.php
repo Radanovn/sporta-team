@@ -110,6 +110,13 @@ if (isset($params["live_edit"]) and $params["live_edit"]) {
                             types: 'images',
                             multiple: false
                         },
+                        {
+                            interface: 'file',
+                            id: 'image2',
+                            label: 'Mobile Image',
+                            types: 'images',
+                            multiple: false
+                        },
 
                         {
                             interface: 'hidden',

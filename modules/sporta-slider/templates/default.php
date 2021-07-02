@@ -66,6 +66,7 @@ if (isset($json) == false or count($json) == 0) {
             $title = isset($slide['title']) ? $slide['title'] : '';
             $lastword = isset($slide['lastword']) ? $slide['lastword'] : '';
             $image = (isset($slide['image']) and isset($slide['image'][0])) ? $slide['image'][0] : '#';
+            $image2 = (isset($slide['image2']) and isset($slide['image2'][0])) ? $slide['image2'][0] : '#';
         ?>
         <div class="carousel-item <?php print $count === 0 ? 'active' : ''; ?>">
             <div class="row no-gutters">
@@ -73,7 +74,10 @@ if (isset($json) == false or count($json) == 0) {
                     <h1 class="slide__text-title"><?php print $title; ?> <span class="text-<?php print $lastWordColor; ?>"><?php print $lastword; ?></span></h1>
                 </div>
                 <div class="col-12 col-md-8 order-0 order-md-1 slide__img">
-                     <img src="<?php print $image; ?>" alt="" class="img-cover">
+                     <picture>
+                        <source srcset="<?php print $image2; ?>" media="(max-width: 767px)">
+                        <img src="<?php print $image; ?>" alt="" class="img-cover">
+                    </picture>
                     <div class="slide__img-decor-left bg-<?php print $bgcolor; ?> d-none d-md-block"></div>
                     <div class="slide__img-decor-right d-none d-md-block"></div>
                 </div>

@@ -17,6 +17,14 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <script>
+        mw.settings.imageResponsiveEdit = [
+            {title: 'Phone - up to 479px', media: '(max-width: 479px)', name: 'media-phone'},
+            {title: 'Tablet - up to 767px', media: '(max-width: 767px)', name: 'media-tablet'},
+            {title: 'Tablet 2 - up to 991px', media: '(max-width: 991px)', name: 'media-tablet2'},
+        ]
+    </script>
     <link href="<?php print template_url(); ?>dist/main.css" rel="stylesheet">
     <link href="<?php print template_url(); ?>css/custom.css" rel="stylesheet">
     <script src="<?php print template_url(); ?>js/custom.js"></script>

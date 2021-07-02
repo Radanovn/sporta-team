@@ -8,7 +8,6 @@ if ($module_template != false) {
     $template_file = module_templates($config['module'], 'default');
 }
 
-
 $settings = get_module_option('settings', $params['id']);
 
 $json = array();
@@ -22,8 +21,6 @@ if ($settings == false) {
             'title' => 'Title 1',
             'id' => 'accordion-' .  $params['id']. '-1',
         );
-
-
     }
 } else {
     $json = json_decode($settings, true);

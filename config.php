@@ -18,6 +18,19 @@ $config['data-fields-category'][] = array(
 );
 
 $config['data-fields-post'] = array();
+
+$config['data-fields-post'][] = array(
+    'title' => 'Card title',
+    'name' => 'card_title',
+    'type' => 'text'
+);
+
+$config['data-fields-post'][] = array(
+    'title' => 'Card text',
+    'name' => 'card_text',
+    'type' => 'mw_editor'
+);
+
 $config['data-fields-post'][] = array(
     'title' => 'Info card label',
     'name' => 'info_card_label',
@@ -26,5 +39,5 @@ $config['data-fields-post'][] = array(
 $config['data-fields-post'][] = array(
     'title' => 'Info card description',
     'name' => 'info_card_description',
-    'type' => 'textarea'
+    'type' => 'mw_editor'
 );

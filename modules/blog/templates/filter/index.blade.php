@@ -18,12 +18,6 @@ $randId = uniqid();
 
 <section class="section section-filter section-calendar-trainings safe-mode nodrop">
     <div class="container position-relative">
-        <div class="circles circles--top-right d-none d-lg-block">
-            <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-6.svg">
-        </div>
-        <div class="circles circles--bottom-left d-none d-xl-block">
-            <img src="<?php print template_url(); ?>modules/layouts/svg/calendar/skin-7.svg">
-        </div>
         <div class="row">
             <div class="col-lg-9 mx-lg-auto">
                 <div class="section__block-title text-sm-center edit" field="layout-filter-block-title" rel="content">
@@ -61,15 +55,7 @@ $randId = uniqid();
                                 <h5 class="card-hover-block__title">
                                     {{$post->getContentDataByFieldName('info_card_label')}}
                                 </h5>
-                                <ul class="list-unstyled list-custom list-custom-check list-custom-check--white">
-                                    @php
-                                       $infoCardDescription = $post->getContentDataByFieldName('info_card_description');
-                                       $infoCardDescription = explode("\n", $infoCardDescription);
-                                    @endphp
-                                    @foreach ($infoCardDescription as $description)
-                                        <li>{{$description}}</li>
-                                    @endforeach
-                                </ul>
+                                {!! $post->getContentDataByFieldName('info_card_description') !!}
                             </div>
                             <div class="card-hover-block__footer">
                                 <a href="{{site_url($post->url)}}" class="btn btn-animate">{{ _e('Meer info') }}</a>
@@ -98,10 +84,12 @@ $randId = uniqid();
                                 @endforeach
                             </div>
                             <h5 class="card-title">
-                                <a href="{{site_url($post->url)}}">{{$post->title}}</a>
+                                <a href="{{site_url($post->url)}}">
+                                    {{$post->getContentDataByFieldName('card_title')}}
+                                </a>
                             </h5>
                             <p class="card-text">
-                                {{$post->shortDescription(180)}}
+                                {!! $post->getContentDataByFieldName('card_text') !!}
                             </p>
                         </div>
                         <div class="card-footer border-0 bg-transparent rounded-0">

@@ -1,7 +1,7 @@
 <?php include template_dir() . "header.php"; ?>
 
 
-<section class="section section-error-404">
+<section class="section section-error-404 edit" field="404" rel="global">
     <div class="container">
         <div class="text-center">
             <img src="<?php print template_url(); ?>images/404-img.svg" alt="">

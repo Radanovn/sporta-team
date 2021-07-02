@@ -106,3 +106,76 @@ main > .edit{
 
     text-transform: none;
 }
+
+.img-cover {
+    height: 100%!important;
+}
+
+.st-table-cell--category .cell-category-centered:before {
+    display: none;
+}
+
+.st-table-cell__content-centered:before {
+    display: none;
+}
+
+.st-table-cell--price .cell-price-centered:before {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .sporta-prices-table-paragraph {
+        padding-right: 17px;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: #818181;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .sporta-prices-table-paragraph {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .sporta-prices-table-title {
+        padding-bottom: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: #818181;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .sporta-prices-table-title {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .sporta-prices-table-price {
+        padding-right: 22px;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: #818181;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .sporta-prices-table-price {
+        display: none;
+    }
+}
+

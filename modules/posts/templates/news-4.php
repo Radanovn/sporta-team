@@ -40,7 +40,10 @@ description: news
                             <?php endif; ?>
                         </div>
                         <div class="card-footer border-0 bg-transparent">
-                            <module type="btn" class="allow-drop"  template="sporta-card-links-with-icons" button_style="yellow" button_text="<?php echo $read_more_text;?>"/>
+                            <a class="card-link link color-red" href="<?php print $item['link'] ?>" ><?php echo $read_more_text;?></a>
+                            <span class="link__arrow">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/news/skin-2.svg">
+                            </span>
                         </div>
                     </div>
                 </div>

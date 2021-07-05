@@ -11,7 +11,7 @@ position: 3
 */
 
 ?>
-<section class="section section-prices-table edit safe-mode allow-drop" field="layout-prices-skin-3-<?php print $params['id'] ?>" rel="content">
+<section class="section section-prices-table edit allow-drop" field="layout-prices-skin-3-1-<?php print $params['id'] ?>" rel="content">
     <div class="container">
         <div class="row no-gutters position-relative">
             <div class="circles circles--right d-none d-lg-block">

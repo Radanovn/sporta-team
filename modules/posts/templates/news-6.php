@@ -36,8 +36,11 @@ description: news
                                 <p class="card-text"><?php print $item['description'] ?></p>
                             <?php endif; ?>
                         </div>
-                        <div class="card-footer card-footer bg-transparent border-0">
-                            <module type="btn" class="cloneable"  template="sporta-buttons" button_style="btn btn-animate" button_text="Meer info"/>
+                        <div class="card-footer border-0 bg-transparent">
+                            <a class="card-link link color-red" href="<?php print $item['link'] ?>" ><?php echo $read_more_text;?></a>
+                            <span class="link__arrow">
+                                <img src="<?php print template_url(); ?>modules/layouts/svg/news/skin-2.svg">
+                            </span>
                         </div>
                     </div>
                 </div>

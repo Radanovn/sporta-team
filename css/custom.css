@@ -112,15 +112,15 @@ main > .edit{
 }
 
 .st-table-cell--category .cell-category-centered:before {
-    display: none;
+    content: none;
 }
 
 .st-table-cell__content-centered:before {
-    display: none;
+    content: none;
 }
 
 .st-table-cell--price .cell-price-centered:before {
-    display: none;
+    content: none;
 }
 
 

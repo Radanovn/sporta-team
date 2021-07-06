@@ -12,12 +12,25 @@ description: news
 ?>
 <div class="container section section-news news-page">
     <div class="row row-news-card">
+
         <?php if (!empty($data)): ?>
             <?php
+            $i = 0;
+
             $postIds = [];
             foreach ($data as $key => $item): ?>
                 <?php
                 $postIds[] = $item['id'];
+                $i++;
+
+                $colorClass = 'color-red';
+                if (($i % 3) == 0) {
+                    $colorClass = 'color-green';
+                }
+                if (($i % 2) == 0) {
+                    $colorClass = 'color-yellow';
+                }
+
                 $itemData = content_data($item['id']);
                 $itemTags = content_tags($item['id']);
                 ?>

@@ -16,7 +16,6 @@ description: news
             <?php
             $i = 0;
 
-
             foreach ($data as $key => $item): ?>
                 <?php
                 $i++;
@@ -61,9 +60,6 @@ description: news
                                 </span>
                             </a>
                         </div>
-
-
-                        
                     </div>
                 </div>
             <?php endforeach; ?>

@@ -13,8 +13,21 @@ description: Grid Columns
 <div class="container section section-news news-page">
     <div class="card-deck justify-content-between">
         <?php if (!empty($data)): ?>
-            <?php foreach ($data as $key => $item): ?>
+            <?php
+            $i = 0;
+
+
+            foreach ($data as $key => $item): ?>
                 <?php
+                $i++;
+
+                $colorClass = 'color-red';
+                if (($i % 3) == 0) {
+                    $colorClass = 'color-green';
+                }
+                if (($i % 2) == 0) {
+                    $colorClass = 'color-yellow';
+                }
                 $itemData = content_data($item['id']);
                 $itemTags = content_tags($item['id']);
                 ?>

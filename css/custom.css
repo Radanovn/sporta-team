@@ -37,11 +37,11 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .section-calendar-club-operation .cards-wrap>[class*=col-] {
-        margin-bottom: 51px;
-    }
+
+.section-calendar-club-operation .cards-wrap {
+    margin-bottom: 51px;
 }
+
 
 .section-insurance-cards .wrap-cards>[class*=col] {
     margin-bottom: 50px;

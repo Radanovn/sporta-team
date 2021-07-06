@@ -16,6 +16,7 @@ description: news
             <?php
             $i = 0;
 
+
             foreach ($data as $key => $item): ?>
                 <?php
                 $i++;

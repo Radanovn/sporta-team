@@ -44,8 +44,15 @@ description: Default
         <button type="submit" class="button-8" id="<?php print $btn_id ?>"><span><?php print $text; ?></span></button>
     <?php elseif ($style == '9'): ?>
         <button type="submit" class="button-8 button-red" id="<?php print $btn_id ?>"><span><?php print $text; ?></span></button>
+   <?php else  : ?>
+        <button type="submit" id="<?php print $btn_id ?>" class="btn btn-primary">
+            <?php print $text; ?>
+        </button>
     <?php endif; ?>
-<?php else: ?>
+
+
+ <?php else: ?>
+
     <?php if (!isset($style) OR $style == '' OR $style == 'btn-default'): ?>
         <a id="<?php print $btn_id ?>" href="<?php print $url; ?>" <?php if ($blank) {
             print ' target="_blank" ';
@@ -97,4 +104,9 @@ description: Default
             print ' target="_blank" ';
         } ?> class="button-8 button-red" id="<?php print $btn_id ?>"><span><?php print $text; ?></span></a>
     <?php endif; ?>
+
+
+
 <?php endif; ?>
+
+

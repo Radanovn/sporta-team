@@ -179,3 +179,24 @@ main > .edit{
     }
 }
 
+body.mw-live-edit .section-filter .card-hover-block:before{
+    position: absolute;
+    color: #fff;
+    background-color: #00000047;
+    padding: 3px 7px;
+    content: 'Hover container!';
+    margin: -23px;
+    top: 25px;
+    pointer-events: none;
+    border-radius: 33px;
+
+}
+body.mw-live-edit .section-multimove-advantages .card,
+body.mw-live-edit .section-filter .section-filter .card{
+    height: auto !important;
+}
+body.mw-live-edit .section-filter .card-hover-block{
+    position: static;
+    transform: none;
+}
+

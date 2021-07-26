@@ -45,8 +45,8 @@ position: 3
                     </a>
                     <div class="card-body">
                         <div class="categories">
-                            <a href="#" class="categories__item categories__item--red">financieel</a>
-                            <a href="#" class="categories__item categories__item--green">promotioneel</a>
+                            <a href="#" data-handle-offset="25" class="cloneable categories__item categories__item--red">financieel</a>
+                            <a href="#" data-handle-offset="25" class="cloneable categories__item categories__item--green">promotioneel</a>
                         </div>
                         <h5 class="card-title">
                             <a href="#">Srefund ‘day of the trainer’</a>
@@ -78,8 +78,8 @@ position: 3
                     </a>
                     <div class="card-body">
                         <div class="categories">
-                            <a href="#" class="categories__item categories__item--red">financieel</a>
-                            <a href="#" class="categories__item categories__item--green">promotioneel</a>
+                            <a href="#" data-handle-offset="25" class="cloneable categories__item categories__item--red">financieel</a>
+                            <a href="#" data-handle-offset="25" class="cloneable categories__item categories__item--green">promotioneel</a>
                         </div>
                         <h5 class="card-title">
                             <a href="#">Srefund ‘day of the trainer’</a>
@@ -110,8 +110,8 @@ position: 3
                     </a>
                     <div class="card-body">
                         <div class="categories">
-                            <a href="#" class="categories__item categories__item--green">sociaal</a>
-                            <a href="#" class="categories__item categories__item--red">management</a>
+                            <a href="#" data-handle-offset="25" class="cloneable categories__item categories__item--red">financieel</a>
+                            <a href="#" data-handle-offset="25" class="cloneable categories__item categories__item--green">promotioneel</a>
                         </div>
                         <h5 class="card-title">
                             <a href="#">Srefund ‘day of the trainer’</a>

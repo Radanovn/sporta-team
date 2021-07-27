@@ -15,6 +15,12 @@
     <module type="custom_fields" template="bootstrap4" default-fields="Your.email@domain.com[type=email,field_size=12,show_placeholder=true]"/>
 
     <module type="btn" button_action="submit" class="cloneable nodrop" template="sporta-buttons" button_style="btn btn-animate btn-red" button_text="GET">
+
+
+        <div style="display: none" class="message-sent" id="msg<?php print $form_id ?>">
+            <span class="message-sent-icon message-sent-icon-orange"></span>
+            <p><?php _e("Your Email was sent successfully"); ?> </p>
+        </div>
 </form>
 
 

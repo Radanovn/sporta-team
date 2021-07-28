@@ -200,3 +200,85 @@ body.mw-live-edit .section-filter .card-hover-block{
     transform: none;
 }
 
+/* Contact Form Styles */
+
+/*.message-sent {*/
+    /*position: absolute;*/
+    /*left: 325px;*/
+/*}*/
+
+
+.message-sent-icon{
+    display: block;
+    position: absolute;
+    right: 200px;
+    bottom: 5px;
+    width: 52px;
+    height: 52px;
+    background: url(../img/message-sent.png) no-repeat;
+    margin: 0px 10px 0px;
+}
+
+
+[class*='contact-form-template-'] .message-sent {
+    display:none;
+}
+
+.message-sent-icon-orange{background-position: 0 -104px;}
+.message-sent-icon-green{background-position: 0 -52px;}
+
+[class*='contact-form-template-'] input,
+[class*='contact-form-template-'] textarea,
+[class*='contact-form-template-'] select{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+}
+[class*='contact-form-template-'] .mw-custom-field-upload{
+    width: 100%;
+}
+[class*='contact-form-template-'] input[type='submit']{
+    float: right;
+}
+
+
+
+[class*='contact-form-template-'] textarea{
+    resize: vertical;
+}
+
+.datepicker{
+    display: none;
+    position: absolute;
+    z-index: 12;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+}
+
+[class*='contact-form-template-'] label{
+    display: block;
+    clear: both;
+    padding-bottom: 4px;
+    padding-top: 12px;
+}
+
+[class*='contact-form-template-'] label.inline{
+    display: inline-block;
+    float: left;
+    clear: both;
+    margin-right: 12px;
+}
+
+[class*='contact-form-template-'] .captcha-holder{
+    background: white;
+    border-radius: 2px;
+}
+
+
+
+[class*='contact-form-template-'] .mw-custom-field-price .mw-custom-field-form-controls{
+    color: #6C6C6C;
+    font-size: 150%;
+}

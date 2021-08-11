@@ -248,8 +248,7 @@ body.mw-live-edit .section-filter .card-hover-block{
     resize: vertical;
 }
 
-.datepicker{
-    display: none;
+.datepicker {
     position: absolute;
     z-index: 12;
     background: white;
